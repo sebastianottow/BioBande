@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A7AECC27541FE141615EE /* Pods_FoodMe.framework */; };
 		563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418129BF3E18002059F7 /* AppDelegate.swift */; };
 		563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418329BF3E18002059F7 /* SceneDelegate.swift */; };
-		563B418629BF3E18002059F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418529BF3E18002059F7 /* ViewController.swift */; };
-		563B418929BF3E18002059F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563B418729BF3E18002059F7 /* Main.storyboard */; };
 		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
-		563B418E29BF3E19002059F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563B418C29BF3E19002059F7 /* LaunchScreen.storyboard */; };
+		563B419729C10945002059F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419629C10945002059F7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070A7AECC27541FE141615EE /* Pods_FoodMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.release.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.release.xcconfig"; sourceTree = "<group>"; };
 		563B417E29BF3E18002059F7 /* FoodMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		563B418529BF3E18002059F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		563B418829BF3E18002059F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		563B418A29BF3E19002059F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		563B418D29BF3E19002059F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563B418F29BF3E19002059F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563B419629C10945002059F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.debug.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +43,8 @@
 			children = (
 				563B418029BF3E18002059F7 /* FoodMe */,
 				563B417F29BF3E18002059F7 /* Products */,
+				D63AFE316AF2BB9536B3B434 /* Pods */,
+				B95F1AD82EF880117D84F755 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +59,38 @@
 		563B418029BF3E18002059F7 /* FoodMe */ = {
 			isa = PBXGroup;
 			children = (
+				563B419529C1091F002059F7 /* ViewController */,
 				563B418129BF3E18002059F7 /* AppDelegate.swift */,
 				563B418329BF3E18002059F7 /* SceneDelegate.swift */,
-				563B418529BF3E18002059F7 /* ViewController.swift */,
-				563B418729BF3E18002059F7 /* Main.storyboard */,
 				563B418A29BF3E19002059F7 /* Assets.xcassets */,
-				563B418C29BF3E19002059F7 /* LaunchScreen.storyboard */,
 				563B418F29BF3E19002059F7 /* Info.plist */,
 			);
 			path = FoodMe;
+			sourceTree = "<group>";
+		};
+		563B419529C1091F002059F7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				563B419629C10945002059F7 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B95F1AD82EF880117D84F755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070A7AECC27541FE141615EE /* Pods_FoodMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63AFE316AF2BB9536B3B434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */,
+				4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMe" */;
 			buildPhases = (
+				0B097EC2AF6B246C81EE8EEC /* [CP] Check Pods Manifest.lock */,
 				563B417A29BF3E18002059F7 /* Sources */,
 				563B417B29BF3E18002059F7 /* Frameworks */,
 				563B417C29BF3E18002059F7 /* Resources */,
+				DD0198F2CD9FAD9D939B1472 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +153,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563B418E29BF3E19002059F7 /* LaunchScreen.storyboard in Resources */,
 				563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */,
-				563B418929BF3E18002059F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B097EC2AF6B246C81EE8EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0198F2CD9FAD9D939B1472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		563B417A29BF3E18002059F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563B418629BF3E18002059F7 /* ViewController.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
+				563B419729C10945002059F7 /* ViewController.swift in Sources */,
 				563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		563B418729BF3E18002059F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				563B418829BF3E18002059F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		563B418C29BF3E19002059F7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				563B418D29BF3E19002059F7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		563B419029BF3E19002059F7 /* Debug */ = {
@@ -282,6 +331,7 @@
 		};
 		563B419329BF3E19002059F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,9 +340,10 @@
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +361,7 @@
 		};
 		563B419429BF3E19002059F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +370,10 @@
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
