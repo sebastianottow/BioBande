@@ -1,10 +1,10 @@
 PODS:
   - IQKeyboardManager (6.5.11)
-  - Realm (10.36.0):
-    - Realm/Headers (= 10.36.0)
-  - Realm/Headers (10.36.0)
-  - RealmSwift (10.36.0):
-    - Realm (= 10.36.0)
+  - Realm (10.37.0):
+    - Realm/Headers (= 10.37.0)
+  - Realm/Headers (10.37.0)
+  - RealmSwift (10.37.0):
+    - Realm (= 10.37.0)
   - TinyConstraints (4.0.2)
 
 DEPENDENCIES:
@@ -21,8 +21,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
-  Realm: 3fd136cb4c83a927482a7f1612496d37beed3cf5
-  RealmSwift: 513d4dcbf5bfc4d573454088b592685fc48dd716
+  Realm: 9c5fc6f8f5cb70b299f2e3064d2b9f6cb0f1523d
+  RealmSwift: 7be7bb45911c16400dd1bfce3a01764ecb4cae7a
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
 PODFILE CHECKSUM: 220cb1ea4715c0ee79506c60511a1501d36731b7
