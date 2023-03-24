@@ -11,16 +11,18 @@ import MapKit
 import CoreLocation
 
 
-class MapViewController: UIViewController, MKMapViewDelegate {
+class MapViewController: UIViewController {
     
     let mapView = MKMapView()
     
-    private var longitude = CLLocationCoordinate2D().longitude
-    private var latitude = CLLocationCoordinate2D().latitude
+    private var _longitude = CLLocationCoordinate2D().longitude
+    private var _latitude = CLLocationCoordinate2D().latitude
     
     let address = "1 Infinite Loop, Cupertino, CA 95014"
 
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
+    
+    private let _openMapDetailViewControllerButton = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +45,33 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     private func setupUI() {
         view.addSubview(mapView)
         mapView.frame = view.bounds
+        
+        view.addSubview(_openMapDetailViewControllerButton)
+        configureOpenMapDetailViewControllerButton()
+        _openMapDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 40, right: 40))
+    }
+    
+    private func configureOpenMapDetailViewControllerButton() {
+        _openMapDetailViewControllerButton.configuration = .filled()
+        _openMapDetailViewControllerButton.configuration?.buttonSize = .large
+        _openMapDetailViewControllerButton.configuration?.baseForegroundColor = .systemGreen
+        _openMapDetailViewControllerButton.configuration?.baseBackgroundColor = .systemIndigo
+        _openMapDetailViewControllerButton.configuration?.image = UIImage(
+            systemName: "slider.horizontal.3",
+            withConfiguration: UIImage.SymbolConfiguration(
+                pointSize: 20,
+                weight: .bold
+            )
+        )
+        _openMapDetailViewControllerButton.configuration?.cornerStyle = .capsule
+
+        _openMapDetailViewControllerButton.isEnabled = true
+
+        _openMapDetailViewControllerButton.addTarget(
+            self,
+            action: #selector(presentMapDetailViewController),
+            for: .touchUpInside
+        )
     }
     
     private func checkLocationAuthorization() {
@@ -76,12 +105,12 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 }
                 
                 if let location = location {
-                    self.longitude = location.coordinate.longitude
-                    self.latitude = location.coordinate.latitude
+                    self._longitude = location.coordinate.longitude
+                    self._latitude = location.coordinate.latitude
                     
-                    print("\nlat: \(self.latitude), long: \(self.longitude)")
+                    print("\nlat: \(self._latitude), long: \(self._longitude)")
                     
-                    self.addCustomPin(latCoord: self.latitude, longCoord: self.longitude)
+                    self.addCustomPin(latCoord: self._latitude, longCoord: self._longitude)
                 }
                 else
                 {
@@ -101,6 +130,59 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             mapView.addAnnotation(customPin)
     }
     
+    @objc func presentMapDetailViewController() {
+        let mapDetailViewController = MapDetailViewController()
+        let nav = UINavigationController(rootViewController: mapDetailViewController)
+        
+        //1
+        nav.modalPresentationStyle = .pageSheet
+        
+        //2
+        if let sheet = nav.sheetPresentationController {
+            
+            //3
+            sheet.detents = [.medium(), .large()]
+        }
+        
+        //4
+        present(nav, animated: true, completion: nil)
+    }
+}
+
+private extension MKMapView {
+  func centerToLocation(
+    _ location: CLLocation,
+    regionRadius: CLLocationDistance = 1000
+  ) {
+    let coordinateRegion = MKCoordinateRegion(
+      center: location.coordinate,
+      latitudinalMeters: regionRadius,
+      longitudinalMeters: regionRadius)
+    setRegion(coordinateRegion, animated: true)
+  }
+}
+
+
+extension MapViewController: CLLocationManagerDelegate {
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        checkLocationAuthorization()
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.first {
+            let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+                let region = MKCoordinateRegion(center: location.coordinate, span: span)
+                mapView.setRegion(region, animated: true)
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("error:: (error)")
+    }
+}
+
+
+extension MapViewController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         guard !(annotation is MKUserLocation) else {
             return nil
@@ -123,37 +205,5 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotationView?.image = UIImage(systemName: "leaf.circle")
         
         return annotationView
-    }
-    
-}
-
-private extension MKMapView {
-  func centerToLocation(
-    _ location: CLLocation,
-    regionRadius: CLLocationDistance = 1000
-  ) {
-    let coordinateRegion = MKCoordinateRegion(
-      center: location.coordinate,
-      latitudinalMeters: regionRadius,
-      longitudinalMeters: regionRadius)
-    setRegion(coordinateRegion, animated: true)
-  }
-}
-
-extension MapViewController: CLLocationManagerDelegate {
-    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        checkLocationAuthorization()
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        if let location = locations.first {
-            let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-                let region = MKCoordinateRegion(center: location.coordinate, span: span)
-                mapView.setRegion(region, animated: true)
-        }
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("error:: (error)")
     }
 }

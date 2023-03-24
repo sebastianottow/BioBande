@@ -10,6 +10,7 @@
 		1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A7AECC27541FE141615EE /* Pods_FoodMe.framework */; };
 		562E2C5E29C85404005695A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5D29C85404005695A2 /* LoginViewController.swift */; };
 		562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */; };
+		562E2C6429CD930D005695A2 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6329CD930D005695A2 /* MapDetailViewController.swift */; };
 		563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418129BF3E18002059F7 /* AppDelegate.swift */; };
 		563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418329BF3E18002059F7 /* SceneDelegate.swift */; };
 		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.release.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.release.xcconfig"; sourceTree = "<group>"; };
 		562E2C5D29C85404005695A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoctionSearchTableViewController.swift; sourceTree = "<group>"; };
+		562E2C6329CD930D005695A2 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
 		563B417E29BF3E18002059F7 /* FoodMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				563B419B29C8462A002059F7 /* ViewController.swift */,
 				562E2C5D29C85404005695A2 /* LoginViewController.swift */,
 				562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */,
+				562E2C6329CD930D005695A2 /* MapDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				563B419729C10945002059F7 /* MapViewController.swift in Sources */,
 				562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */,
 				563B419C29C8462A002059F7 /* ViewController.swift in Sources */,
+				562E2C6429CD930D005695A2 /* MapDetailViewController.swift in Sources */,
 				562E2C5E29C85404005695A2 /* LoginViewController.swift in Sources */,
 				563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */,
 			);
