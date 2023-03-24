@@ -23,6 +23,7 @@ class MapViewController: UIViewController {
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
     
     private let _openMapDetailViewControllerButton = UIButton()
+    private let _addNewEntryDetailViewControllerButton = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +47,11 @@ class MapViewController: UIViewController {
         view.addSubview(mapView)
         mapView.frame = view.bounds
         
+        view.addSubview(_addNewEntryDetailViewControllerButton)
+        configureAddNewEntryDetailViewControllerButton()
+        _addNewEntryDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 100, right: 40))
+
+        
         view.addSubview(_openMapDetailViewControllerButton)
         configureOpenMapDetailViewControllerButton()
         _openMapDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 40, right: 40))
@@ -57,7 +63,7 @@ class MapViewController: UIViewController {
         _openMapDetailViewControllerButton.configuration?.baseForegroundColor = .systemGreen
         _openMapDetailViewControllerButton.configuration?.baseBackgroundColor = .systemIndigo
         _openMapDetailViewControllerButton.configuration?.image = UIImage(
-            systemName: "slider.horizontal.3",
+            systemName: "magnifyingglass",
             withConfiguration: UIImage.SymbolConfiguration(
                 pointSize: 20,
                 weight: .bold
@@ -68,6 +74,29 @@ class MapViewController: UIViewController {
         _openMapDetailViewControllerButton.isEnabled = true
 
         _openMapDetailViewControllerButton.addTarget(
+            self,
+            action: #selector(presentMapDetailViewController),
+            for: .touchUpInside
+        )
+    }
+    
+    private func configureAddNewEntryDetailViewControllerButton() {
+        _addNewEntryDetailViewControllerButton.configuration = .filled()
+        _addNewEntryDetailViewControllerButton.configuration?.buttonSize = .large
+        _addNewEntryDetailViewControllerButton.configuration?.baseForegroundColor = .systemGreen
+        _addNewEntryDetailViewControllerButton.configuration?.baseBackgroundColor = .systemIndigo
+        _addNewEntryDetailViewControllerButton.configuration?.image = UIImage(
+            systemName: "plus",
+            withConfiguration: UIImage.SymbolConfiguration(
+                pointSize: 20,
+                weight: .bold
+            )
+        )
+        _addNewEntryDetailViewControllerButton.configuration?.cornerStyle = .capsule
+
+        _addNewEntryDetailViewControllerButton.isEnabled = true
+
+        _addNewEntryDetailViewControllerButton.addTarget(
             self,
             action: #selector(presentMapDetailViewController),
             for: .touchUpInside
