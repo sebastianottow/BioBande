@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A7AECC27541FE141615EE /* Pods_FoodMe.framework */; };
 		562E2C5E29C85404005695A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5D29C85404005695A2 /* LoginViewController.swift */; };
 		562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */; };
 		562E2C6429CD930D005695A2 /* SearchAnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */; };
@@ -19,10 +18,14 @@
 		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
 		563B419729C10945002059F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419629C10945002059F7 /* MapViewController.swift */; };
 		563B419C29C8462A002059F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419B29C8462A002059F7 /* ViewController.swift */; };
+		641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADD1F29D1857800F6141E /* CustomTextField.swift */; };
+		B5C74BA911A48591106062AB /* Pods_FoodMeMVP_SO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		070A7AECC27541FE141615EE /* Pods_FoodMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMeMVP_SO.release.xcconfig"; path = "Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO.release.xcconfig"; sourceTree = "<group>"; };
+		3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMeMVP_SO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMeMVP_SO.debug.xcconfig"; path = "Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO.debug.xcconfig"; sourceTree = "<group>"; };
 		4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.release.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.release.xcconfig"; sourceTree = "<group>"; };
 		562E2C5D29C85404005695A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoctionSearchTableViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		563B418F29BF3E19002059F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563B419629C10945002059F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		563B419B29C8462A002059F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		641ADD1F29D1857800F6141E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.debug.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */,
+				B5C74BA911A48591106062AB /* Pods_FoodMeMVP_SO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,7 @@
 		563B418029BF3E18002059F7 /* FoodMe */ = {
 			isa = PBXGroup;
 			children = (
+				641ADD1E29D1856900F6141E /* Components */,
 				562E2C7429D08AFE005695A2 /* Model */,
 				562E2C6B29D084B0005695A2 /* ViewModel */,
 				563B419829C489EB002059F7 /* Views */,
@@ -121,10 +126,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		641ADD1E29D1856900F6141E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				641ADD1F29D1857800F6141E /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B95F1AD82EF880117D84F755 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				070A7AECC27541FE141615EE /* Pods_FoodMe.framework */,
+				3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +147,8 @@
 			children = (
 				D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */,
 				4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */,
+				3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */,
+				35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -220,7 +235,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FoodMe-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FoodMeMVP_SO-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -233,15 +248,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMe/Pods-FoodMe-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -252,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562E2C7329D08AE2005695A2 /* NewAnnotationEntryModel.swift in Sources */,
+				641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
 				562E2C6D29D084C4005695A2 /* NewAnnotationEntryViewModel.swift in Sources */,
 				563B419729C10945002059F7 /* MapViewController.swift in Sources */,
@@ -318,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -373,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +401,7 @@
 		};
 		563B419329BF3E19002059F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */;
+			baseConfigurationReference = 3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -415,7 +431,7 @@
 		};
 		563B419429BF3E19002059F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */;
+			baseConfigurationReference = 35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

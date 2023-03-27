@@ -8,21 +8,59 @@
 import UIKit
 
 class NewAnnotationEntryViewController: UIViewController {
-    
+
+    private enum Constants {
+        static let defaultIcon = UIImage(systemName: "square.and.pencil")
+    }
+
     let dismissButton = UIButton()
-//    let mapViewController = SearchAnnotationsViewController()
     
     private let _viewModel = NewEntryFormViewModel()
-    
-    
-    private let _streetNameTextField = UITextField()
-    private let _postalCodeTextField = UITextField()
-    private let _cityTextField = UITextField()
+
+    private let _streetNameTextField: CustomTextField = {
+        let textField = CustomTextField()
+
+        textField.layer.borderWidth = 1
+        textField.layer.borderColor = UIColor.lightGray.cgColor
+        textField.layer.cornerRadius = 5
+        textField.placeholder = "Straße & Hausnummer..."
+        
+        textField.setIcon(icon: Constants.defaultIcon, color: .lightGray)
+
+        return textField
+    }()
+
+    private let _postalCodeTextField: CustomTextField = {
+        let textField = CustomTextField()
+
+        textField.layer.borderWidth = 1
+        textField.layer.borderColor = UIColor.lightGray.cgColor
+        textField.layer.cornerRadius = 5
+        textField.placeholder = "Postleitzahl..."
+
+        textField.setIcon(icon: Constants.defaultIcon, color: .lightGray)
+        textField.isSelected = true
+
+        return textField
+    }()
+
+    private let _cityTextField: CustomTextField = {
+        let textField = CustomTextField()
+
+        textField.layer.borderWidth = 1
+        textField.layer.borderColor = UIColor.lightGray.cgColor
+        textField.layer.cornerRadius = 5
+        textField.placeholder = "Stadt..."
+
+        textField.setIcon(icon: Constants.defaultIcon, color: .lightGray)
+
+        return textField
+    }()
     
     private let _scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         
-        scrollView.showsVerticalScrollIndicator = false
+        scrollView.showsHorizontalScrollIndicator = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         
         return scrollView
@@ -32,9 +70,9 @@ class NewAnnotationEntryViewController: UIViewController {
         let stackView = UIStackView()
         
         stackView.axis = .vertical
-        stackView.distribution = .fillEqually
-        stackView.backgroundColor = .systemRed
+        stackView.distribution = .fill
         stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.spacing = 10
         
         return stackView
     }()
@@ -47,7 +85,7 @@ class NewAnnotationEntryViewController: UIViewController {
     
     private func setupUI() {
         view.backgroundColor = .white
-        
+
         navigationItem.title = "ADD NEW ENTRY"
         
         let navigationBar = navigationController?.navigationBar
@@ -63,14 +101,20 @@ class NewAnnotationEntryViewController: UIViewController {
         navigationItem.setRightBarButton(closeButton, animated: true)
         
         view.addSubview(_scrollView)
-        
-        _scrollView.addSubview(_formHolderStackView)
-        _formHolderStackView.top(to: view, offset: 20)
+        _scrollView.edgesToSuperview(excluding: [.top, .bottom], insets: .init(top: 0, left: 10, bottom: 0, right: 10))
+        _scrollView.bottomToSuperview(usingSafeArea: true)
+        _scrollView.topToSuperview(usingSafeArea: true)
 
+        _scrollView.addSubview(_formHolderStackView)
+        _formHolderStackView.edgesToSuperview(excluding: [.top, .bottom])
+        _formHolderStackView.width(to: _scrollView)
 
         _formHolderStackView.addArrangedSubview(_streetNameTextField)
+
         _formHolderStackView.addArrangedSubview(_postalCodeTextField)
         _formHolderStackView.addArrangedSubview(_cityTextField)
+
+        _scrollView.contentInset = .init(top: 10, left: 0, bottom: 20, right: 0)
     }
     
     private func addDismissButton() {
