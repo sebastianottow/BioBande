@@ -10,7 +10,10 @@
 		1E496C1769E7F59FDB254951 /* Pods_FoodMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A7AECC27541FE141615EE /* Pods_FoodMe.framework */; };
 		562E2C5E29C85404005695A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5D29C85404005695A2 /* LoginViewController.swift */; };
 		562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */; };
-		562E2C6429CD930D005695A2 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6329CD930D005695A2 /* MapDetailViewController.swift */; };
+		562E2C6429CD930D005695A2 /* SearchAnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */; };
+		562E2C6D29D084C4005695A2 /* NewAnnotationEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6C29D084C4005695A2 /* NewAnnotationEntryViewModel.swift */; };
+		562E2C6F29D0861F005695A2 /* NewAnnotationEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */; };
+		562E2C7329D08AE2005695A2 /* NewAnnotationEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C7229D08AE2005695A2 /* NewAnnotationEntryModel.swift */; };
 		563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418129BF3E18002059F7 /* AppDelegate.swift */; };
 		563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418329BF3E18002059F7 /* SceneDelegate.swift */; };
 		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
@@ -23,8 +26,11 @@
 		4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.release.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.release.xcconfig"; sourceTree = "<group>"; };
 		562E2C5D29C85404005695A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoctionSearchTableViewController.swift; sourceTree = "<group>"; };
-		562E2C6329CD930D005695A2 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
-		563B417E29BF3E18002059F7 /* FoodMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAnnotationsViewController.swift; sourceTree = "<group>"; };
+		562E2C6C29D084C4005695A2 /* NewAnnotationEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnotationEntryViewModel.swift; sourceTree = "<group>"; };
+		562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnotationEntryViewController.swift; sourceTree = "<group>"; };
+		562E2C7229D08AE2005695A2 /* NewAnnotationEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnotationEntryModel.swift; sourceTree = "<group>"; };
+		563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMeMVP_SO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		563B418A29BF3E19002059F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		562E2C6B29D084B0005695A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				562E2C6C29D084C4005695A2 /* NewAnnotationEntryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		562E2C7429D08AFE005695A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				562E2C7229D08AE2005695A2 /* NewAnnotationEntryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		563B417529BF3E18002059F7 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +81,7 @@
 		563B417F29BF3E18002059F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				563B417E29BF3E18002059F7 /* FoodMe.app */,
+				563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +89,8 @@
 		563B418029BF3E18002059F7 /* FoodMe */ = {
 			isa = PBXGroup;
 			children = (
+				562E2C7429D08AFE005695A2 /* Model */,
+				562E2C6B29D084B0005695A2 /* ViewModel */,
 				563B419829C489EB002059F7 /* Views */,
 				563B419529C1091F002059F7 /* ViewControllers */,
 				563B418129BF3E18002059F7 /* AppDelegate.swift */,
@@ -84,7 +108,8 @@
 				563B419B29C8462A002059F7 /* ViewController.swift */,
 				562E2C5D29C85404005695A2 /* LoginViewController.swift */,
 				562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */,
-				562E2C6329CD930D005695A2 /* MapDetailViewController.swift */,
+				562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */,
+				562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -116,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		563B417D29BF3E18002059F7 /* FoodMe */ = {
+		563B417D29BF3E18002059F7 /* FoodMeMVP_SO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMe" */;
+			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMeMVP_SO" */;
 			buildPhases = (
 				0B097EC2AF6B246C81EE8EEC /* [CP] Check Pods Manifest.lock */,
 				563B417A29BF3E18002059F7 /* Sources */,
@@ -130,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = FoodMe;
+			name = FoodMeMVP_SO;
 			productName = FoodMe;
-			productReference = 563B417E29BF3E18002059F7 /* FoodMe.app */;
+			productReference = 563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMe" */;
+			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMeMVP_SO" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563B417D29BF3E18002059F7 /* FoodMe */,
+				563B417D29BF3E18002059F7 /* FoodMeMVP_SO */,
 			);
 		};
 /* End PBXProject section */
@@ -226,13 +251,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562E2C7329D08AE2005695A2 /* NewAnnotationEntryModel.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
+				562E2C6D29D084C4005695A2 /* NewAnnotationEntryViewModel.swift in Sources */,
 				563B419729C10945002059F7 /* MapViewController.swift in Sources */,
 				562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */,
 				563B419C29C8462A002059F7 /* ViewController.swift in Sources */,
-				562E2C6429CD930D005695A2 /* MapDetailViewController.swift in Sources */,
+				562E2C6429CD930D005695A2 /* SearchAnnotationsViewController.swift in Sources */,
 				562E2C5E29C85404005695A2 /* LoginViewController.swift in Sources */,
 				563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */,
+				562E2C6F29D0861F005695A2 /* NewAnnotationEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -303,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -376,7 +406,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sebastianottow.com.ug.FoodMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGETNAME}";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,7 +436,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sebastianottow.com.ug.FoodMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGETNAME}";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMe" */ = {
+		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMeMVP_SO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419029BF3E19002059F7 /* Debug */,
@@ -425,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMe" */ = {
+		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMeMVP_SO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419329BF3E19002059F7 /* Debug */,

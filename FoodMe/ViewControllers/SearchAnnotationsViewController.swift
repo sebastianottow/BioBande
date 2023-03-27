@@ -7,9 +7,10 @@
 
 import UIKit
 
-class MapDetailViewController: UIViewController {
+class SearchAnnotationsViewController: UIViewController {
     
     let dismissButton = UIButton()
+//    let mapViewController = SearchAnnotationsViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()

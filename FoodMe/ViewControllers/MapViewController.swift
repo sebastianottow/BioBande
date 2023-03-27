@@ -18,13 +18,13 @@ class MapViewController: UIViewController {
     private var _longitude = CLLocationCoordinate2D().longitude
     private var _latitude = CLLocationCoordinate2D().latitude
     
-    let address = "1 Infinite Loop, Cupertino, CA 95014"
+    let address = "Grainwinkel 8a, 82057 Icking"
 
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
     
     private let _openMapDetailViewControllerButton = UIButton()
     private let _addNewEntryDetailViewControllerButton = UIButton()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -75,7 +75,7 @@ class MapViewController: UIViewController {
 
         _openMapDetailViewControllerButton.addTarget(
             self,
-            action: #selector(presentMapDetailViewController),
+            action: #selector(presentSearchAnnotationsViewController),
             for: .touchUpInside
         )
     }
@@ -98,7 +98,7 @@ class MapViewController: UIViewController {
 
         _addNewEntryDetailViewControllerButton.addTarget(
             self,
-            action: #selector(presentMapDetailViewController),
+            action: #selector(presentNewAnnotationEntryViewController),
             for: .touchUpInside
         )
     }
@@ -159,9 +159,27 @@ class MapViewController: UIViewController {
             mapView.addAnnotation(customPin)
     }
     
-    @objc func presentMapDetailViewController() {
-        let mapDetailViewController = MapDetailViewController()
-        let nav = UINavigationController(rootViewController: mapDetailViewController)
+    @objc func presentNewAnnotationEntryViewController() {
+        let newAnnotationEntryViewController = NewAnnotationEntryViewController()
+        let nav = UINavigationController(rootViewController: newAnnotationEntryViewController)
+        
+        //1
+        nav.modalPresentationStyle = .pageSheet
+        
+        //2
+        if let sheet = nav.sheetPresentationController {
+            
+            //3
+            sheet.detents = [.medium(), .large()]
+        }
+        
+        //4
+        present(nav, animated: true, completion: nil)
+    }
+    
+    @objc func presentSearchAnnotationsViewController() {
+        let searchAnnotationsViewController = SearchAnnotationsViewController()
+        let nav = UINavigationController(rootViewController: searchAnnotationsViewController)
         
         //1
         nav.modalPresentationStyle = .pageSheet
