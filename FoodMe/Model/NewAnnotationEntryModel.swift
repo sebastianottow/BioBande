@@ -6,7 +6,13 @@
 //
 
 import UIKit
+import RealmSwift
 
-struct NewAnnotationEntryModel {
-    
+
+class NewAnnotationEntryModel: Object {
+    @objc dynamic var entryType: String?
+    @objc dynamic var street: String?
+    @objc dynamic var postalCode: String?
+    @objc dynamic var city: String?
+    @objc dynamic var id: String?
 }
