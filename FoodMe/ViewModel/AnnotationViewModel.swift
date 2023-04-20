@@ -1,5 +1,5 @@
 //
-//  NewEntryFormViewModel.swift
+//  AnnotationViewModel.swift
 //  FoodMeMVP_SO
 //
 //  Created by Sebastian Ottow on 26.03.23.
@@ -10,11 +10,11 @@ import UIKit
 import RealmSwift
 
 
-class NewAnnotationEntryFormViewModel: ObservableObject {
+class AnnotationViewModel: ObservableObject {
     
     let realm = try! Realm()
     
-    var entries = [NewAnnotationEntryModel]()
+    var entries = [AnnotationModel]()
     
     let entryTypes = ["Bitte wählen", "Obstbaum", "Gemüse", "Eier", "Fleisch", "Fisch"]
     
@@ -29,7 +29,7 @@ class NewAnnotationEntryFormViewModel: ObservableObject {
         city: String,
         id: String
     ) {
-        let entry = NewAnnotationEntryModel()
+        let entry = AnnotationModel()
         
         entry.entryType = entryType
         entry.street = street
@@ -45,7 +45,7 @@ class NewAnnotationEntryFormViewModel: ObservableObject {
     }
 }
 
-extension NewAnnotationEntryFormViewModel {
+extension AnnotationViewModel {
     
     var isValidStreetPublisher: AnyPublisher<Bool, Never> {
         $street
@@ -55,7 +55,7 @@ extension NewAnnotationEntryFormViewModel {
     
     var isValidPostalCodePublisher: AnyPublisher<Bool, Never> {
         $postalCode
-            .map { $0.count > 5 }
+            .map { $0.count == 5 }
             .eraseToAnyPublisher()
     }
     

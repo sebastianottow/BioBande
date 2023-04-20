@@ -5,20 +5,27 @@
 //  Created by Sebastian Ottow on 14.03.23.
 //
 
+import CoreLocation
+import MapKit
+import RealmSwift
 import TinyConstraints
 import UIKit
-import MapKit
-import CoreLocation
 
 
 class MapViewController: UIViewController {
+
+    private enum Constants {
+        static let fruitIcon = UIImage(systemName: "apple.logo")
+        static let veggieIcon = UIImage(systemName: "carrot.fill")
+        static let meatIcon = UIImage(systemName: "hare.fill")
+    }
     
     let mapView = MKMapView()
-    
+
     private var _longitude = CLLocationCoordinate2D().longitude
     private var _latitude = CLLocationCoordinate2D().latitude
     
-    let address = "Grainwinkel 8a, 82057 Icking"
+    private let _annotationList = try! Realm().objects(AnnotationModel.self)
 
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
     
@@ -40,7 +47,7 @@ class MapViewController: UIViewController {
         
         mapView.delegate = self
         
-        forwardGeocoding(address: address)
+        forwardGeocoding()
     }
 
     private func setupUI() {
@@ -56,7 +63,7 @@ class MapViewController: UIViewController {
         configureOpenMapDetailViewControllerButton()
         _openMapDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 40, right: 40))
     }
-    
+
     private func configureOpenMapDetailViewControllerButton() {
         _openMapDetailViewControllerButton.configuration = .filled()
         _openMapDetailViewControllerButton.configuration?.buttonSize = .large
@@ -119,27 +126,34 @@ class MapViewController: UIViewController {
         }
     }
     
-    func forwardGeocoding(address: String) {
+    func forwardGeocoding() {
+        let annotations = _annotationList
+
+        for annotation in annotations {
+            let annotationCoordinate = "\(annotation.street ?? "") \(annotation.postalCode ?? "") \(annotation.city ?? "")"
+
             let geocoder = CLGeocoder()
-            geocoder.geocodeAddressString(address, completionHandler: { (placemarks, error) in
+            geocoder.geocodeAddressString(annotationCoordinate, completionHandler: { (placemarks, error) in
                 if error != nil {
                     print("Failed to retrieve location")
                     return
                 }
-                
+
                 var location: CLLocation?
-                
+
                 if let placemarks = placemarks, placemarks.count > 0 {
                     location = placemarks.first?.location
                 }
-                
-                if let location = location {
+
+                if let location = location, let entryType = annotation.entryType {
                     self._longitude = location.coordinate.longitude
                     self._latitude = location.coordinate.latitude
-                    
-                    print("\nlat: \(self._latitude), long: \(self._longitude)")
-                    
-                    self.addCustomPin(latCoord: self._latitude, longCoord: self._longitude)
+
+                    self.addCustomPin(
+                        latCoord: self._latitude,
+                        longCoord: self._longitude,
+                        entryType: entryType
+                    )
                 }
                 else
                 {
@@ -147,15 +161,16 @@ class MapViewController: UIViewController {
                 }
             })
         }
+    }
     
     private func addCustomPin(
         latCoord: CLLocationDegrees,
-        longCoord: CLLocationDegrees
+        longCoord: CLLocationDegrees,
+        entryType: String
     ) {
             let customPin = MKPointAnnotation()
             customPin.coordinate = CLLocationCoordinate2D(latitude: latCoord, longitude: longCoord)
-            customPin.title = "BeispielBaum"
-            customPin.subtitle = "80% voll"
+            customPin.title = entryType
             mapView.addAnnotation(customPin)
     }
     
@@ -235,12 +250,12 @@ extension MapViewController: MKMapViewDelegate {
             return nil
         }
         
-        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "Custom")
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "CustomAnnotation")
         
         if annotationView == nil {
             annotationView = MKAnnotationView(
                 annotation: annotation,
-                reuseIdentifier: "Custom"
+                reuseIdentifier: "CustomAnnotation"
             )
             annotationView?.canShowCallout = true
             
@@ -249,8 +264,8 @@ extension MapViewController: MKMapViewDelegate {
             annotationView?.annotation = annotation
         }
         
-        annotationView?.image = UIImage(systemName: "leaf.circle")
-        
+        annotationView?.image = Constants.veggieIcon
+
         return annotationView
     }
 }

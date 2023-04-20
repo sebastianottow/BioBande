@@ -22,7 +22,7 @@ class NewAnnotationEntryViewController: UIViewController {
     
     let realm = try! Realm()
     
-    private let _viewModel = NewAnnotationEntryFormViewModel()
+    private let _viewModel = AnnotationViewModel()
     
     private var _cancellables: Set<AnyCancellable> = []
     
@@ -129,7 +129,7 @@ class NewAnnotationEntryViewController: UIViewController {
             .store(in: &_cancellables)
     }
     
-    private func bind(viewModel: NewAnnotationEntryFormViewModel) {
+    private func bind(viewModel: AnnotationViewModel) {
         
         viewModel.$street
             .receive(on: DispatchQueue.main)
@@ -242,8 +242,8 @@ class NewAnnotationEntryViewController: UIViewController {
         _viewModel.addNewEntry(
             entryType: _selectedEntryType ?? "",
             street: _viewModel.street,
-            postalCode: _postalCodeTextField.text ?? "",
-            city: _cityTextField.text ?? "",
+            postalCode: _viewModel.postalCode,
+            city: _viewModel.city,
             id: entryID
         )
         
