@@ -1,0 +1,1118 @@
+[
+  {
+    "Category": "fruit",
+    "Obstsorte": "Acerola",
+    "Inhaltsstoffe": "Vitamin C\nProvitamin A\nB-Vitamine\nFolsäure\nKalium\nMagnesium\nCalcium\nPhosphor\nNatrium",
+    "Beschreibung": "Die kleine rote, kugelrunde Steinfrucht (mit hauchdünner Haut) gehört zu den Obstsorten mit dem höchsten Vitamin C-Gehalt. Es sind weltweit nur zwei Früchte bekannt, die mehr Vitamin C haben: die australische Buschpflaume und die Camu-Camu aus dem Amazonas-Gebiet. Ursprünglich kommt die tropische Powerfrucht aus Mittelamerika (Jukatan in Mexiko) bzw. Südamerika und ist hierzulande u.a. auch als Kirsche der Antillen oder Ahorn- bzw. Barbadoskirsche bekannt. Übrigens: Die Acerola ist nicht mit den Kirschen verwandt. Sie stärkt das Immunsystem, senkt den Homocystein-Wert und schützt das Herz-Kreislauf-System. Außerdem hilft sie bei der Entgiftung des Körpers und hemmt die Zellalterung.",
+    "Brennwert": "32",
+    "Nährwerte": "Eiweiß: 0,4 g\n\nZucker: 3,6 g\n\nFett: 0,3 g\n\nBallast: 1,1 g\n\nWasser: +90 %",
+    "Saison": "Nur im Anbaugebiet",
+    "Familie": "Malpighiengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Ananas",
+    "Inhaltsstoffe": "Vitamin C\nEnzym Bromelain\nSpurenelemente\nMineralstoffe\nMangan\nAntioxidantien",
+    "Beschreibung": "Christoph Kolumbus brachte die „Königin der Früchte“ (wie sie aufgrund ihrer Blattkrone auch genannt wird) um 1500 aus Amerika nach Europa. Unter ihrer schuppig-stacheligen Schale offenbart sie ein saftig-süßes Fruchtfleisch mit leicht säuerlicher Note. Sie wirkt entzündungshemmend, immunstärkend und verbessert die Durchblutung. Hauptanbaugebiet ist traditionell Paraguay.",
+    "Brennwert": "51",
+    "Nährwerte": "Eiweiß: 0,9 g\n\nZucker: 0,9 g\n\nFett: 0,5 g\n\nBallast: 5 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Bromeliengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Apfel",
+    "Inhaltsstoffe": "Pektine\nProvitamin A\nVitamin B1\nVitamin B2\nVitamin C\nBioflavonoide\nKalium",
+    "Beschreibung": "Rund 19 Kilo Äpfel essen wir in Deutschland pro Jahr. Damit ist das Kernobst hierzulande mit Abstand die beliebteste Obstsorte. Über 4.500 Sorten gibt es weltweit, davon allein in Deutschland rund 1.500. Tendenz fallend. Man beachte: Im 18. und 19. Jahrhundert gab es zeitweise bis zu 20.000 Apfelsorten. Geschmacklich und farblich (von grün bis tiefrot) variiert der Apfel je nach Sorte. Granny Smith und Boskop schmecken z.B. säuerlich, während der Red Delicious oder Starking ein parfümartiges Aroma haben.",
+    "Brennwert": "61",
+    "Nährwerte": "Eiweiß: 0,3 g\n\nZucker: 13,2 g\n\nFett: 0,5 g\n\nBallast: 2 g",
+    "Saison": "Juli bis November (hängt von der Obstsorte ab)",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Aprikose (Marille, Malete)",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin B3\nVitamin B5\nVitamin C\nFolsäure",
+    "Beschreibung": "Das orangefarbene Steinobst kommt ursprünglich aus China, wächst heute aber überall, wo es schön warm ist, u.a. rund ums Mittelmeer. Sie schmeckt süß, aromatisch und leicht nacht Mandeln. Übrigens: In einigen Ländern macht man aus ihren Kernen Persipan, ein herb-bitter schmeckender Marzipanersatz.",
+    "Brennwert": "42",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 8,5 g\n\nFett:  0,1 g\n\nBallast: 1,5 g",
+    "Saison": "Juni bis September",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Aubergine (Melanzana)",
+    "Inhaltsstoffe": "B-Vitamine\nVitamin C\nKalium\nMagnesium\nKalzium",
+    "Beschreibung": "Die länglich-ovale ca. 6 bis 9 cm dicken Früchte mit dunkelvioletter Schale stammen vermutlich aus Asien, wo sie seit mehr als 4.000 Jahren angebaut werden. In einigen Regionen ist sie auch als Eierfrucht oder Melanzani bekannt. Die Aubergine besteht zu 90 % aus Wasser und reguliert so unseren Flüssigkeitshaushalt. Sie ist extrem kalorienarm, regt die Verdauung an und ist gut für das Herz-Kreislauf-System. Sie verzögert zudem die Zellalterung, senkt die Blutfette und wirkt vorbeugend gegen Rheuma. Doch Aufgepasst! Roh sind sie praktisch ungenießbar.",
+    "Brennwert": "17",
+    "Nährwerte": "Eiweiß: 1,2 g\n\nZucker: 1,5 g\n\nFett: 0,2 g\n\nBallast: 3 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Nachtschattengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Avocado",
+    "Inhaltsstoffe": "Pflanzliche Fette\nVitamin E\nVitamin B6\nVitamin K\nBeta-Carotin\nFolsäure\nCalcium\nKalium\nMagnesium\nEisen\nZink",
+    "Beschreibung": "Die grüne, birnenförmige Avocado (mit einem verhältnismäßig großen Kern) hat ihre Wurzeln in Mexiko, wo sie seit rund 1.000 Jahren angebaut und gegessen wird. Aus ihrem hellgrünen Fruchtfleisch wird oft ein beliebtes mexikanisches Gericht zubereitet: die Guacamole. Sie stärkt unsere Zellen und das Herz-Kreislauf-System. Heute kennt man rund 400 Arten von Avocados.",
+    "Brennwert": "221",
+    "Nährwerte": "Eiweiß: 1,9 g\n\nZucker: 1 g\n\nFett: 23,5 g\n\nBallast: 6,5 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Lorbeergewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Banane",
+    "Inhaltsstoffe": "Vitamin B6\nVitamin C\nKalium\nCalcium\nMagnesium\n23 % Kohlenhydrate\nBallaststoffe",
+    "Beschreibung": "Warum ist die Banane krumm? Weil die 6-19 Hände pro Büschel zwar von einer bis zu 8 m hohen Staude nach unten hängen, aber die einzelnen Bananen bzw. Finger (10 bis 20 Finger pro Hand) nach oben gen Sonne wachsen, entsteht die typische Krümmung. Lieblingsfrucht der Deutschen, die im Schnitt pro Jahr 11 Kilo essen.",
+    "Brennwert": "90",
+    "Nährwerte": "Eiweiß: 1,2 g\n\nZucker: 17 g\n\nFett: 0,2 g\n\nBallast: 2 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Bananengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Berberitze (Sauerdorn)",
+    "Inhaltsstoffe": "Vitamin C\nBallaststoffe\nNatürliche rote Farbstoffe",
+    "Beschreibung": "Die kleinen, dunkelroten, länglichen Beeren schmecken leicht säuerlich, daher nennt man sie in einigen Regionen auch Essigbeere. Die Pflanze wächst in Asien und Europa wild, in Deutschland oft in Gärten oder Parks.",
+    "Brennwert": "325",
+    "Nährwerte": null,
+    "Saison": "Herbst",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Birne",
+    "Inhaltsstoffe": "B-Vitamine\nBallaststoffe\nKalium\nCalcium\nMagnesium\nFolsäure",
+    "Beschreibung": "Das milde, süße Kernobst gab es schon vor ca. 3000 Jahren. Die Birne stammt ursprünglich aus Anatolien und dem Kaukasus. Heute ist jedoch China der Ernte-Weltmeister (mit fast 40 % der Welternte). Heute sind etwa 2.500 Obstsorten bekannt, darunter u.a. Williams Christ und Abate Fetel.",
+    "Brennwert": "55",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 10 g\n\nFett: 0,2 g\n\nBallast: 3,3 g",
+    "Saison": "Frühherbst",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Brombeere",
+    "Inhaltsstoffe": "Gesunde Pflanzenfarbstoffe\nBallaststoffe\nPektin\nVitamin C\nVitamin E\nBeta-Carotin\nkupferhaltige Enzyme",
+    "Beschreibung": "Botanisch betrachtet ist die Brombeere keine Beere, sondern eine Sammelsteinfrucht. Die süß-säuerlich schmeckenden, schwarzen bis dunkelroten Früchte wachsen an sehr dornigen, bis zu 2 m hohen Sträuchern – vorzugsweise in den Wäldern Nordamerikas und Europas.",
+    "Brennwert": "38",
+    "Nährwerte": "Eiweiß: 1,2 g\n\nZucker: 5 g\n\nFett: 0,8 g\n\nBallast: 4 g",
+    "Saison": "Juli bis Oktober",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Cranberries (Moosbeere)",
+    "Inhaltsstoffe": "Vitamin C\nProvitamin A\nBallaststoffe\nPflanzenstoffe Polyphenole und Anthocyane\nMineralstoffe",
+    "Beschreibung": "In den USA ist die typische Herbstbeere so beliebt wie bei uns der Apfel. Die dunkelroten, runden Beeren sind mit den kleineren Preiselbeeren verwandt. Ihren Namen Cranberry verdankt sie ihrer Blütenform, die an den Kopf eines Kranichs (Cran) erinnert.",
+    "Brennwert": "39",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 5 g\n\nFett: 1 g\n\nBallast: 3 g",
+    "Saison": "August bis Dezember",
+    "Familie": "Heidekrautgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Dattel",
+    "Inhaltsstoffe": "Frische Datteln\nProvitamin A\nEiweiß\nMineralstoffe\nB-Vitamine\nVitamin D\n\nGetrocknete Datteln:\n\nMagnesium\nPhosphor\nCalcium",
+    "Beschreibung": "Die honig-süßen etwa 8-10 cm langen Früchte mit rot-brauner Schale und weißem Fruchtfleisch wachsen an Dattelpalmen im subtropischen Klima (z.B. Afrika, Orient, Florida, Kalifornien). Sie könnten getrocknet ganzjährig konsumiert werden.",
+    "Brennwert": "277",
+    "Nährwerte": null,
+    "Saison": "Oktober bis Februar",
+    "Familie": "Palmengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Erdbeere",
+    "Inhaltsstoffe": "300 Aromastoffe wie Ferula- und Ellagsäure\nVitamin C\nVitamin K\nFolsäure\nBiotin\nPantothensäure\nPolyphenole und Anthocyane\nMagnesium\nKalium\nPhosphat\nKupfer\nZink\nMangan\nCatechine",
+    "Beschreibung": "Sie ist die „Königin der Beeren“ und seit Jahrzehnten die beliebteste Frucht aller Deutschen. Allein hierzulande zählt man um die 1.000 Sorten, die von dunkelrot bis hellrot in allen Rotvarianten erhältlich sind. Alle Sorten sind süß und bestehen zu ca. 90 % aus Wasser. Übrigens: 5-7 % aller Deutschen reagieren auf die Erdbeere allergisch. Und noch etwas Überraschendes: Die kleinen, gelben Kernchen, die in der roten Haut stecken, sind die eigentlichen Früchte. Und Achtung! Aus botanischer Sicht ist die Erdbeere keine Beere, sondern eine Sammelnussfrucht.",
+    "Brennwert": "32",
+    "Nährwerte": "Eiweiß: 0,8 g\n\nZucker: 5,5 g\n\nFett: 0,4 g\n\nBallast: 1,6 g",
+    "Saison": "Mai bis Juli",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Feigen",
+    "Inhaltsstoffe": "Ballaststoffe\nProvitamin A\nEisen\nMagnesium\nKohlenhydrahte\nAminosäuren\nverdauungsfördernde Enzyme",
+    "Beschreibung": "Frische Feigen kennt man  hierzulande erst seit etwa 20 Jahren. Zuvor kannte man nur die getrockneten Früchte. Botanisch betrachtet sind sie Scheinfrüchte, die unter einer blau-violetten Schale gelbe Kerne in rosa-rotem Fruchtfleisch verstecken. Frische Feigen schmecken nur leicht süßlich, getrocknete dagegen sehr süß. Die Feige ist eine der ältesten Nutzpflanzen der Welt.",
+    "Brennwert": "60",
+    "Nährwerte": "Eiweiß: 1,3 g\n\nZucker: 13 g\n\nFett: 0,4 g\n\nBallast: 2 g",
+    "Saison": "August bis Oktober",
+    "Familie": "Maulbeergewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Granatapfel (Punica)",
+    "Inhaltsstoffe": "Antioxidantien\nKalium\nCalcium\nEisen\nB-Vitamine\nVitamin C",
+    "Beschreibung": "Die „Speise der Götter“ sieht äußerlich aus wie ein roter Apfel und ist vermutlich schon über 5.000 Jahre alt. Er wurde sogar schon in der Bibel erwähnt und soll so viele (rote) Kerne haben, wie es Gesetze im Alten Testament gibt, nämlich 613. Auch in der römischen und griechischen Mythologie findet man die Götterspeise als Symbol für Liebe, Fruchtbarkeit, Jugend und Schönheit. Die leicht säuerlichen Kerne des Granatapfel löffelt man am besten aus den Fruchtkammern (Membranen) heraus. Sie senkt den Blutdruck und stärkt Gefäße, Herz, Leber und Darm. Ihr Pflanzenstoffe Punicalagin und Punicinsäure gelten als krebshemmend.",
+    "Brennwert": "68",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 14 g\n\nFett: 0 g\n\nBallast: 2 g",
+    "Saison": "September bis Weihnachten",
+    "Familie": "Weiderichgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Grapefruit (Paradiesapfel)",
+    "Inhaltsstoffe": "Pektin\nBitterstoff Lycopin\nVitamin C\nBetacarotin\nAminosäure\nFolsäure\nCalcium\nSelen\nBioflavonoide",
+    "Beschreibung": "Made in USA schmeckt diese gelbe, runde Zitruspflanze bitter-süß (rotes Fruchtfleisch). In Größe, Form und Farbe könnte man sie mit einer Pampelmuse verwechseln, was kein Zufall ist, da sie eine Kreuzung aus Orange und Pampelmuse ist (entstanden um 1750 auf der Insel Barbados). Sie regt den Zucker- und Fettstoffwechsel an und ist daher ein guter Diätbegleiter. Sie stärkt zudem die Immunabwehr und wirkt bei Erschöpfung und depressiven Verstimmungen. Die Grapefruit kommt heute aus den USA, Israel und Südafrika.",
+    "Brennwert": "38",
+    "Nährwerte": "Eiweiß: 0,6 g\n\nZucker: 7 g\n\nFett: 0,1 g\n\nBallast: 1,6 g",
+    "Saison": "Januar bis März. Und Oktober bis Dezember.",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Guave",
+    "Inhaltsstoffe": "Vitamin C\nB-Vitamine\nZink\nKalium\nCalcium\nPhosphor\nEisen\nProvitamin A\nPektin",
+    "Beschreibung": "Obwohl die exotische Beerenfrucht eine Birnen-Form hat, besteht keine botanische Verwandtschaft zur Birne. Je nach Obstsorte variiert ihr saftiges Fruchtfleisch von weiß-grünlich bis tiefrosa. Ihre Heimat ist das tropische Süd- und Mittelamerika, kommen heute aber auch aus Florida, Kalifornien, Südafrika, Indien und einigen Mittelmeerländern.",
+    "Brennwert": "35",
+    "Nährwerte": "Eiweiß: 0,9 g\n\nZucker: 6 g\n\nFett: 0,5 g\n\nBallast: 5 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Myrtengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Heidelbeere (Blaubeere)",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin C\nVitamin E\nTannin\nBioflavonoide",
+    "Beschreibung": "Die kleinen, schwarz-blauen Kugel-Beeren mit abgerundeten Enden schmecken sehr aromatisch und färben beim Verzehr Zähne und Zunge blau. Die wild wachsende „Echte Heidelbeere“ stammt aus Nord-Amerika. Hierzulande kennt man sie auch als Moll- oder Moosbeere.",
+    "Brennwert": "37",
+    "Nährwerte": "Eiweiß: 0,7 g\n\nZucker: 5 g\n\nFett: 0,6 g\n\nBallast: 5 g",
+    "Saison": "Sommer",
+    "Familie": "Heidekrautgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Himbeere",
+    "Inhaltsstoffe": "Provitamin A\nB-Vitamine\nVitamin C\nEisen\nCalcium\nKalium\nMagnesium\nPektin",
+    "Beschreibung": "Himbeeren sind botanisch betrachtet keine Beeren, sondern Sammelsteinfrüchte. Ihre rote Farbe, ihr verlockender Duft und die vielen Dornen verraten ihre Verwandtschaft zu Rosen (Rosengewächsen). Sie wachsen zwar wild, werden für den Massenverbrauch aber auch kultiviert angebaut.",
+    "Brennwert": "33",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 5 g\n\nFett: 0 g\n\nBallast: 5 g",
+    "Saison": "Juni bis August",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Holunderbeere\n(Fliederbeere)",
+    "Inhaltsstoffe": "Provitamin A\nB-Vitamine",
+    "Beschreibung": "Die schwarzblauen, glänzenden Beeren des Holunderstrauchs (früher: Baum des Lebens) haben einen herben, bitteren aber aromatischen Geschmack.",
+    "Brennwert": "48",
+    "Nährwerte": null,
+    "Saison": null,
+    "Familie": "Gänsefußgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Honigmelonen (Zuckermelonen)",
+    "Inhaltsstoffe": "Provitamin A\nKohlenhydrate\nVitamin C\nVitamin B9 + B6\nKalium\nMagnesium",
+    "Beschreibung": "Im Gegensatz zur Wassermelone hat die Honigmelone eine meist kleinere, ovale Form, einen höheren Zuckergehalt sowie ein orangefarbenes Fruchtfleisch mit weißen Kernen. Bekannt sind heute etwa 500 Arten von Honigmelonen, darunter u.a. die Cantaloup, Charentais, Galia und Ogen.",
+    "Brennwert": "54",
+    "Nährwerte": "Eiweiß: 0,5 g\n\nZucker: 8,1 g\n\nFett: 0,1 g\n\nBallast: 0,9 g\n\nWasser: 90 g",
+    "Saison": "Ganzjährig",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Johannisbeere (Ribisel)",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin B3\nVitamin B5\nVitamin C\nCalcium",
+    "Beschreibung": "Es gibt rote, schwarze und (seltene) weiße Johannisbeeren. Ihren Namen haben sie vom Johannistag am 24. Juni, der Tag an dem sie ihre ideale Reife erreichen. Je nach Farbe haben sie einen anderen Geschmack. Rote schmecken säuerlich, schwarze schmecken herber und bitterer, weiße sind etwas süßer. Dafür sind die schwarzen Beeren die gesündesten: Im Vergleich zu den roten haben sie 3 x so viel Vitamin C und 4 x so viel Vitamin A. In manchen Regionen und Ländern werden sie Ribiseln, Träuble oder Ahlbeeren genannt. In der Schweiz heißen sie Meertrübeli, in Frankreich nennt man die schwarzen Cassis.",
+    "Brennwert": "35 (rot), 39 (schwarz)",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 5 g\n\nFett: 0,5 g\n\nBallast: 2,7 g",
+    "Saison": "Juni bis August",
+    "Familie": "Stachelbeergewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Kaki",
+    "Inhaltsstoffe": "Glucose\nProvitamin A\nVitamin B\nVitamin E",
+    "Beschreibung": "Botanisch betrachtet zählt diese nahrhafte Obstsorte zu den Beerenfrüchten. Sie wachsen auf großen Plantagen in Spanien, Italien und anderen Mittelmeerländern. Unter ihrer orangefarbenen, leicht glänzenden Schale verbirgt sich ein süßes Fruchtfleisch (mit 8-10 Kernen), das an den Geschmack von Tomate und Aprikosen erinnert. Weil sie nur wenig Fettsäure enthält ist gut für sensible Mägen. Bitte in Maßen genießen, da sie einen hohen Zuckergehalt hat. In China, wo die Kaki seit über 2.000 Jahren bekannt ist, wird sie auch „Götterfrucht“ genannt.",
+    "Brennwert": "71",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 16 g\n\nFett: 0 g\n\nBallast: 3 g",
+    "Saison": "Oktober bis Januar",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Kirsche",
+    "Inhaltsstoffe": "Vitamin C\nBiotin\nZink\nBioflavonoide\nFolsäure\nCalcium\nKalium\nnatürliche Farbstoffe (Anthocyanen)",
+    "Beschreibung": "Ob Süßkirschen oder Sauerkirschen: es gibt auf beiden Seiten eine Vielzahl verschiedener Stein-Obstsorten, darunter u.a. Große Prinzessin (Süß), Große Spätkirsche (Süß), Hedelfinger Riesenkirsche (Süß) oder die Schattenmorellen (Sauer), Weichselkirschen (Sauer), Glaskirschen (Sauer) und Amarellen (Sauer). Übrigens: die Amarenakirsche ist eine in Mandellikör und Zuckersirup eingelegte, schwarze Süßkirsche.",
+    "Brennwert": "54 (sauer), 67 (süß)",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 13 g\n\nFett: 0,2 g\n\nBallast: 1,5 g",
+    "Saison": "Juni bis August",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Kiwi",
+    "Inhaltsstoffe": "Vitamin C\nB-Vitamine\nBallaststoffe\nMagnesium\nKalium\nPhosphor\nCalcium",
+    "Beschreibung": "Noch vor 50 Jahren kannte die Kiwi hierzulande kein Mensch. Erst seit 1952 werden sie von Neuseeland (wo sie seit ca. 100 Jahren angebaut wird) nach England verschifft. Zum Glück, denn heute ist sie aus unserem Obstkorb kaum noch wegzudenken. Ihr grünes Fruchtfleisch schmeckt süß-säuerlich und versteckt sich unter einer braunen, dünnen, haarigen Schale, die leicht abzuziehen ist. Früher nannte man die Kiwi auch Chinesische Stachelbeere. Sie schützt vor Stress und kräftigt das Immunsystem. Ihr Chinasäure wird im Körper zu Serotonin umgewandelt. Das hebt die Stimmung und fördert einen gesunden Schlaf.",
+    "Brennwert": "50",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 9 g\n\nFett: 0,6 g\n\nBallast: 2,1 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Strahlengriffel-gewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Kokosnuss",
+    "Inhaltsstoffe": "Pflanzliche Fette\nVitamin C\nBallaststoffe\nKalium\nCalcium\nMagnesium",
+    "Beschreibung": "Sie ist botanisch betrachtet keine echte Nuss, sondern eine Steinfrucht mit harter Schale und köstlichem Inhalt: das süßliche Kokoswasser und das schneeweiße Fruchtfleisch, das nussig schmeckt. Übrigens: In einer von rund 11.000 Kokusnüssen befindet sich eine Kokosperle.",
+    "Brennwert": "360",
+    "Nährwerte": "Eiweiß: 4 g\n\nZucker: 4,8 g\n\nFett: 36 g\n\nBallast: 9 g\n\nWasser: 45 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Palmengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Kumquats (Zwergorangen)",
+    "Inhaltsstoffe": "Vitamin C\nCalcium \nKalium\nPhosphor",
+    "Beschreibung": "Die orangefarbenen Zitrusfrüchte sind länglich-ovale Mini-Ausgaben von Orangen. Im Vergleich zur großen Schwester können sie sofort (ohne zu schälen) gegessen werden. Manche Sorten schmecken etwas bitterer und haben weniger Fruchtfleisch. Mancherorts werden sie auch Zwergpomeranzen genannt.",
+    "Brennwert": "64",
+    "Nährwerte": "Eiweiß: 0,6 g\n\nZucker: 14,6 g\n\nFett: 0,3 g\n\nBallast: 3,7 g",
+    "Saison": "Ganzjährig (und immer zur Weihnachtszeit)",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Limette (Limone)",
+    "Inhaltsstoffe": "Vitamin C \nÄtherische Öle\nMineralstoffe\nZink\nEisen\nFolsäure\nVitamin A\nVitamin E",
+    "Beschreibung": "Die kleine Schwester der Zitrone unterscheidet sich durch eine grüne Schale und einem saueren Geschmack. Sie ist auch etwas kleiner, hat weniger Kerne und schenkt uns fast doppelt so viel Saft wie ihre große Schwester. Vielleicht ist sie gerade deshalb im berühmten Cocktail Caipirinha so beliebt.",
+    "Brennwert": "30",
+    "Nährwerte": "Eiweiß: 0,7 g\n\nZucker: 1,6 g\n\nFett: 0,2 g\n\nBallast: 3 g",
+    "Saison": "Ganzjährig",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Litschi (Liebesfrucht)",
+    "Inhaltsstoffe": "Vitamin C\nB-Vitamine\nSpurenelemente\nKupfer\nMineralstoffe",
+    "Beschreibung": "Die Vitamin-C-reichen Früchtchen verbergen ihr schneeweißes (nach Rosen duftendes), süß-schmeckendes Fruchtfleisch unter einer roten, dünnen, noppigen Schale. Der Kern sieht aus wie eine kleine Kastanie, ist aber nicht genießbar. Ursprünglich kommt sie aus Süd-China und wird dort seit rund 4.000 Jahren gerne gegessen. Heute wachsen Litschibäume in fast allen subtropischen Regionen.",
+    "Brennwert": "76",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 17 g\n\nFett: 0,5 g\n\nBallast: 2 g",
+    "Saison": "November bis März",
+    "Familie": "Seifenbaumgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Mandarine",
+    "Inhaltsstoffe": "Vitamin C\nB-Vitamine\nProvitamin A\nKalium\nAminosäure\nBallaststoff Lignin",
+    "Beschreibung": "Vor allem in der Weihnachtszeit stehen Mandarinen ganz oben auf unserer Hitliste. Die süße Zitrusfrucht hat im Vergleich zur großen Schwester Orange zum Einen weniger Säure und ist zum Anderen leichter schäl- und essbar (gesunder Snack). Die Mandarine hat einige Unterarten wie z.B. die Satsuma (saftiger) und die Tangerine (süßer). Sie ist gut für die Verdauung und die Blutfettwerte. Die Mandarine kam 1805 aus Nord-Indien und Süd-China nach Europa. In China war sie dem Kaiser und hohen Beamten (den Mandarinen > daher ihr Name) vorbehalten.",
+    "Brennwert": "46",
+    "Nährwerte": "Eiweiß: 0,6 g\n\nZucker: 10 g\n\nFett: 0,2 g\n\nBallast: 2 g",
+    "Saison": "November bis März",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Mandeln",
+    "Inhaltsstoffe": "Vitamin E\nBeta-Karotin\nB-Vitamine\nCalcium\nEisen\nEiweiß\nBallaststoff\nhochwertigem Fett",
+    "Beschreibung": "Die eiweißhaltige Steinfrucht hat unter ihrer braunen Schale helle Kerne. Sie sind zwar reich an Mineral- und Ballaststoffen, aber nur schwer verdaulich. Achtung: Ihre Kerne enthalten giftige Blau- und Salicylsäure. Kinder sollten daher nicht zu viele Mandeln auf einmal essen.",
+    "Brennwert": "585",
+    "Nährwerte": null,
+    "Saison": "Ganzjährig",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Mango",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin B3\nVitamin B5\nVitamin B6\nVitamin C\nVitamin E\nFolsäure\nCalcium\nKupfer\nMagnesium\nMangan\nKalium\nZink",
+    "Beschreibung": "Die Mango war vor wenigen Jahren noch ein Exot an unseren Marktständen, heute gehört die Tropenfrucht zum alltäglichen Einkauf dazu. Die vitaminreiche Frucht stammt aus Indien, wird aber auch in anderen Tropenländern wie Indonesien, China und Thailand angebaut. Allein in Indien (wo sie eine Nationalfrucht ist) kennt man über 1.000 Mango-Obstsorten. Farbe (gelb bis rot), Größe (Pflaumen bis Kokosnuss), Gewicht (bis zu 3 kg), Form und Geschmack variieren je nach Sorte und Herkunft. Sie unterstützt die Immunabwehr und ist gut für die Darmflora und eine schöne Haut.",
+    "Brennwert": "60",
+    "Nährwerte": "Eiweiß: 2 g\n\nZucker: 12 g\n\nFett: 0,2 g\n\nBallast: 1,7 g",
+    "Saison": "Ganzjährig (je nach Herkunft)",
+    "Familie": "Sumachgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Maracuja (Passionsfrucht)",
+    "Inhaltsstoffe": "Magnesium\nPhosphor",
+    "Beschreibung": "Unter ihre runden, dunkel-braunen bis schwarzen Schale verbirgt sie ihr gelbes, gelee-artiges Fruchtfleisch mit bis zu 200 schwarzen Kernen. Ihr Geschmack ist einzigartig und nich vergleichbar mit anderen Obstsorten. Ihre Heimat sind die tropischen Regionen in Süd- und Mittelamerika (vor allem Brasilien). Heute wachsen sie auch in Neuseeland, Australien, Hawaii und einigen afrikanischen Ländern.",
+    "Brennwert": "64",
+    "Nährwerte": "Eiweiß: 2,4 g\n\nZucker: 10 g\n\nFett: 0 g\n\nBallast: 1,4 g",
+    "Saison": "Oktober bis Februar",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Mirabelle",
+    "Inhaltsstoffe": "Beta-Karotin\nVitamin C\nB-Vitamine\nKalium\nPektin",
+    "Beschreibung": "Die kleinen, kugelrunden „gelben Zwetschgen“ sind eine weitere (vor allem in Frankreich) beliebte Pflaumen-Art. Sie kam in der Neuzeit des 16. Jahrhunderts über Persien nach Europa, wo sie vor allem in Lothringen (80 % der weltweiten Ernte) ein neues Zuhause fand. Sie ist so groß wie ein Kirsche und grün-gelbes bis orange-gelbes Fruchtfleisch schmeckt süß bis süß-säuerlich.",
+    "Brennwert": "65",
+    "Nährwerte": "Eiweiß: 0,7 g\n\nZucker: 14 g\n\nFett: 0 g\n\nBallast: 1,4 g",
+    "Saison": "Juli bis September",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Mispel",
+    "Inhaltsstoffe": null,
+    "Beschreibung": "Die kleinen, gelben Früchte wachsen hierzulande zwar wild, werden aber im Mittelmeerraum kultiviert angebaut. In Spanien nennt man sie Nisperos. Ihre Blätter haben eine leicht behaarte Unterseite (daher wohl ihr ursprünglicher Name Wollmispel), an denen sich Schädlinge aller Art verfangen. So bleibt sie frei von Pestiziden und kann unbehandelt als Öko-Frucht mit Schale gegessen werden. Rund um Frankfurt am Main ist das „Mispelchen“ ein traditionelles Getränk: Der Apfelbranntwein Calvados wird mit einer Mispel serviert und nach dem Essen als Digestif getrunken.",
+    "Brennwert": "44",
+    "Nährwerte": null,
+    "Saison": "August bis Oktober",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Nektarine",
+    "Inhaltsstoffe": "Vitamin A\nEisen\nCalcium\nKalium\nB-Vitamine",
+    "Beschreibung": "Das super saftige, süße Steinobst ist eine Pfirsich-Mutation. Wie ihr Zweitname „Nackt- bzw. Glattpfirsich“ verrät, ist ihre Haut glatter als beim Pfirsich. Neu im Obstregal sind sog. Wild-Nektarinen, die etwas platter und weniger rundlich sind. Man unterscheidet etwa 40 Obstsorten, darunter u.a. Crimson Gold, Red June und Stark Sungloo.",
+    "Brennwert": "60",
+    "Nährwerte": "Eiweiß: 0,9 g\n\nZucker: 12,2 g\n\nFett: 0,1 g\n\nBallast: 2,2 g",
+    "Saison": "Juni bis Oktober",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Oliven",
+    "Inhaltsstoffe": "Natrium\nCalcium\nPhosphor\nEisen\nVitamin A\nFolsäure",
+    "Beschreibung": "Grüne Oliven sind die unreifen – und die Schwarze Oliven die voll ausgereiften Früchte des Ölbaums, der in der Bibel als Sinnbild des Friedens (Olivenzweig) eine große Rolle spielt. Oliven (und ihr bekömmliches Öl) kannte man im Mittelmeerraum aber schon vor rund 9.000 Jahren. Die größten Olivenöl-Lieferanten der Welt sind heute Spanien, Griechenland (Kalamata), Italien und die Türkei.",
+    "Brennwert": "185 (schwarze), 138 (grüne)",
+    "Nährwerte": "Eiweiß: 1,4 g\n\nZucker: 0 g\n\nFett: 14 g\n\nBallast: 2,4 g",
+    "Saison": "Ganzjährig, je nach Herkunftsland",
+    "Familie": "Ölbaumgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Orange\n(Apfelsine)",
+    "Inhaltsstoffe": "Vitamin C\nEisen\nPhosphor\nCarotine\nFolsäure\nCalcium\nSelen\nBioflavonoide\nAntioxidantien\nFlavonoide",
+    "Beschreibung": "Wir alle wissen, wie eine Orange aussieht und schmeckt. Sie stammt ursprünglich aus China (Apfelsine heißt im Lateinischen Chinesischer Apfel). Sie stärkt Knochen und Bindegewebe, schützt vor Erkältung und Grippe. Als „Radikalfänger“ bremst sie zudem die Zell-Alterung. Heute gehören Orangen zu den meist angebauten Obstsorten der Welt. Man unterscheidet die mehr als 400 Arten in Blond- und Blutorangen – mit hellem bis dunkelrotem Fruchtfleisch. Sie wirkt",
+    "Brennwert": "42",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 8,3 g\n\nFett: 0,2 g\n\nBallast: 1,5 g",
+    "Saison": "Oktober bis April",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Pampelmuse",
+    "Inhaltsstoffe": "Vitamin C",
+    "Beschreibung": "Sie ähnelt der Grapefruit (eine Kreuzung von Pampelmuse und Orange) und ist neben den Pomelos (birnenförmige Obstsorten) die größte Zitrusfrucht überhaupt. Es ist also kein Zufall, dass sie an den Bäumen namens „Citrus maxima“ wachsen, was so viel heißt wie: größte Zitrone. Unter ihrer dicken, gelblichen Schale verbergen sich 10-15 Spalten, gefüllt mit rosa bis tiefrotem, saftigem Fruchtfleisch. Die   Geschmacksnuancen reichen von süß-säuerlich bis leicht bitter.",
+    "Brennwert": "38",
+    "Nährwerte": null,
+    "Saison": "Selten aber ganzjährig",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Papaya (Baummelone)",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin C\nVitamin E\nB-Vitamine\nFolsäure\nLycopin\nEnzym Papain",
+    "Beschreibung": "Mit ihrer oval-runden Form und ihrem orangefarbenen, sehr saftigem Fruchtfleisch ähnelt sie der Honigmelone. Sind sie reif, kann man das milde, süßliche Fleisch butterweich genießen. Die ursprünglich aus Süd-Mexiko (von den Indios) stammende Melonenfrucht sollte beim Kauf gelbliche Streifen oder Flecken haben, damit sie nachreifen kann. Ihr Enzym Papain spaltet Eiweiße auf und fördert somit die Verdauung. Lycopin und Betacarotin sind sog. „Radikalfänger“, die Krankheiten vorbeugen und das Krebsrisiko senken.",
+    "Brennwert": "39",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 8 g\n\nFett: 0 g\n\nBallast: 1,5 g\n\nWasser: 87 %",
+    "Saison": "Ganzjährig",
+    "Familie": "Melonenbaumgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Pfirsich",
+    "Inhaltsstoffe": "Beta-Carotin\nVitamin B3\nEisen\nCalcium\nKalium\nMagnesium\nVitamin C",
+    "Beschreibung": "Das Kernobst hat eine mit feinem Flaum besetzte, samtige Haut und schmeckt sehr saftig und süß. Ursprünglich kommt er aus China, wächst heute aber weltweit. Die Kreuzung aus Pfirsich und Pflaume ist die Nektarine.",
+    "Brennwert": "48",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 9 g\n\nFett: 0,4 g\n\nBallast: 2,4 g",
+    "Saison": "Juli bis September",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Pflaume",
+    "Inhaltsstoffe": "Provitamin A\nAlle B-Vitamine\nVitamin C\nVitamin E\nVitamin K\nZink\nKupfer\nEisen\nCalcium\nBor",
+    "Beschreibung": "Dieser leckere Gesundmacher ist eine Steinfrucht mit vielen Unterarten, darunter u.a. Zwetschge, Mirabelle und Spilling und ist daher leicht zu verwechseln. Während z.B. Zwetschgen immer violett sind, haben Pflaumen eine Farbvarianz von rot, gelb, grün bis blau-violett. Besonderes Erkennungszeichen ist aber ihre „Naht“, die andere Obstsorten nicht haben. Insgesamt gibt es weltweit rund 2.000 Pflaumensorten.",
+    "Brennwert": "49",
+    "Nährwerte": "Eiweiß: 0,6 g\n\nZucker: 8 g\n\nFett: 0,2 g\n\nBallast: 1,6 g",
+    "Saison": "Juni bis Oktober",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Pistazie",
+    "Inhaltsstoffe": "Ungesättigte Fettsäure\nEiweiß\nB-Vitamine\nVitamin E\nProvitamin A\nKalium\nEisen\nBallaststoffe",
+    "Beschreibung": "Pistazien sind botanisch betrachtet keine Nüsse, sondern Steinfrüchte. Sie wachsen an Laubbäumen, die bis zu 300 Jahre alt werden können. Ihre Heimat ist der nahe Osten, heute kommen sie aus USA, Iran und Türkei. Die grüne „Nuss“ (es gilt: je grüner, desto höher die Qualität) versteckt sich unter einer harten, hellen Schale, die an einer Stelle aufspringt, weshalb die Iraner ihr auch den Namen lächelnde Pistazie geben.",
+    "Brennwert": "562",
+    "Nährwerte": null,
+    "Saison": "September bis Dezember",
+    "Familie": "Sumachgewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Pomeranze (Bitterorange)",
+    "Inhaltsstoffe": "Vitamin C\nFlavonoide wie Hesperidin\nSynephrin\nPektin (Schale)\nätherische Öle",
+    "Beschreibung": "Die Pomeranze ist eine chinesische Kreuzung aus Pampelmuse und Mandarine. Sie wird auch Bigarade oder\nBitterorange genannt und kam bereits im Mittelalter nach Europa. Aus ihrer Fruchtschale wird Orangeat und aus ihrer Frucht oft Orangenmarmelade hergestellt. Mit 68 g (in 100 g) enthält sie mehr Vitamin C als eine Orange. Synephrin ist zudem ein natürlicher Fetburner. Sie wirkt appetitanregend und hilft bei Depressionen, Migräne, Durchfall und Schlaflosigkeit. Eine Pomeranzen-Rarität ist die Deutsche Landsknechthose.",
+    "Brennwert": "64",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 8,3 g\n\nFett: 0,2 g\n\nBallast: 1,5 g",
+    "Saison": "Oktober bis April",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Quitte",
+    "Inhaltsstoffe": "Vitamin C\nPektin\nGerbstoffe\nBallaststoffe",
+    "Beschreibung": "Die steinharte Frucht hat von Natur aus ein hohen Pektin-Gehalt und eignet sich daher gut als Marmelade oder süßer Brotaufstrich. Unter ihrer harten, gelben Schale verbirgt sich auch ein hartes Fruchtfleisch (nur wenige Obstsorten sind wie ein Apfel essbar). Das bedeutet: Quitten müssen vor dem Verzehr gekocht werden, schmecken danach aber intensiv fruchtig nach Zitrone. Auch schön: Bei Husten und Halsschmerzen kann man ihre Kerne wie Bonbons lutschen.",
+    "Brennwert": "38",
+    "Nährwerte": "Eiweiß: 0,4 g\n\nZucker: 7,4 g\n\nFett: 0,5 g\n\nBallast: 6 g",
+    "Saison": "September bis November",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Reneklode (Reineclaude)",
+    "Inhaltsstoffe": "Eisen\nVitamine",
+    "Beschreibung": "Das Steinobst ist eine grüne Edel-Pflaume. Früher wurde sie auch Reineclaude genannt, ein französischer Name, den sie Königin Claudia, also „Reine Claude“ (Tochter von Ludwig XII) verdankt. Die Franzosen brennen aus ihr auch den berühmten Obstbrand „Prunelle“.",
+    "Brennwert": "67",
+    "Nährwerte": null,
+    "Saison": "Juli und August",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Rosinen",
+    "Inhaltsstoffe": "Ballaststoffe\nEisen\nKalium\nB-Vitamine",
+    "Beschreibung": "Rosinen sind getrocknete Weinbeeren. Sie sind sehr süß und enthalten wie auch ihre engsten Verwandten – die Sultaninen und Korinthen – sehr viele Ballaststoffe. Da sie aber kein Vitamin C enthalten, empfiehlt es sich, Rosinen mit Vitamin C haltigen Früchten zu essen.",
+    "Brennwert": "292",
+    "Nährwerte": "Eiweiß: 2,5 g\n\nZucker: 68 g\n\nFett: 0,3 g\n\nBallast: 5,2 g",
+    "Saison": "Ganzjährig",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Sanddorn",
+    "Inhaltsstoffe": "Vitamin C\nCalcium\nMagnesium\nProvitamin A \nVitamin E\nB-Vitamine",
+    "Beschreibung": "Die kleinen, orangegelben, ovalen Beeren mit weichem, saftigem Fleisch wachsen wild in Ufernähe auf sandigem Boden. Ursprünglich kommt der „Vitamin-C-Strauch“ (mit bis zur 1.300 mg Ascorbinsäure pro 100 g) aus Nepal. Heute findet man ihn aber in fast ganz Mittel- und Nordeuropa. In Deutschland steht er unter Naturschutz.",
+    "Brennwert": "89",
+    "Nährwerte": null,
+    "Saison": "Spätsommer und Herbst",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Satsuma",
+    "Inhaltsstoffe": "Vitamin C",
+    "Beschreibung": "Diese Zitrusfrucht ähnelt zwar der Mandarine in Form, Farbe und Geschmack, ist aber etwas größer. Sie kommt aus Süd-Japan und ist hierzulande noch weitgehend unbekannt. Dabei schlägt sie mit ihrem hohen Vitamin C-Gehalt sowohl die Mandarine als auch die Orange.",
+    "Brennwert": "46",
+    "Nährwerte": null,
+    "Saison": "Herbst und Winter",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Schlehen (Schlehdorn)",
+    "Inhaltsstoffe": "Vitamin B1\nVitamin C\nBallaststoffe",
+    "Beschreibung": "Die kleinen, blauen, rundlichen Wildfrüchte wachsen am lang-dornigen Schwarzdorn und sind entfernt verwandt mit den Pflaumen. Ihr grünes Fruchtfleisch schmeckt herb und sauer. Oft wird aus ihnen auch Schnaps gebrannt.",
+    "Brennwert": "70",
+    "Nährwerte": "Eiweiß: 0,7 g\n\nZucker: 11,6 g\n\nFett: 1 g\n\nBallast: 9 g",
+    "Saison": "September bis November",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Stachelbeere",
+    "Inhaltsstoffe": "Vitamin C\nPektin\nWein-, Apfel- und Zitronensäure\nKalium\nCalcium\nPhosphor",
+    "Beschreibung": "Haben Stachelbeeren Stacheln? Zum Glück nicht. An ihrer dicken, meist gelblich-grünen (seltener auch roten) Haut wächst nur ein feiner Flaum. Je nach Herkunft kennt man die rund 500 Sorten unter Heckenbeeren, Kraus- oder Klosterbeeren. In Österreich heißen sie Agrasel. Größtes Anbaugebiet ist aber Großbritannien, wo man sie Gooseberry nennt.",
+    "Brennwert": "44",
+    "Nährwerte": "Eiweiß: 0,8 g\n\nZucker: 7,1 g\n\nFett: 0,2 g\n\nBallast: 3 g",
+    "Saison": "Juni bis August",
+    "Familie": "Stachelbeergewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Sternfrucht (Karambole)",
+    "Inhaltsstoffe": "Phosphor\nEisen\nMagnesium\nVitamin C",
+    "Beschreibung": "Wenn Sie die längliche, stark gerippte, gelblich-grüne Schale aufschneiden, liegen plötzlich sternförmige Früchte vor Ihnen. Kein Wunder also, dass wir sie im deutschsprachigen Raum Sternfrucht nennen und gerne zur Weihnachtszeit kaufen und dekorieren (an Cocktails oder Eisbecher). Ihr Geschmack erinnert an die Stachelbeere (süß mit säuerlicher Note). Sie kommt hauptsächlich aus Malaysia (daher ganzjährig) in unsere Supermärkte.",
+    "Brennwert": "31",
+    "Nährwerte": null,
+    "Saison": "Ganzjährig",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Tamarillo",
+    "Inhaltsstoffe": "Provitamin A\nVitamin C",
+    "Beschreibung": "Botanisch betrachtet ist die Beere zwar eine Baumtomate (Nachtschattengewächs), man zählt sie aber dennoch zu den Obstsorten. In ihrer roten Farbe und mit ihrem (von kleinen Kernen besetzten) Fruchtfleisch ähnelt sie ihrer größeren Schwester Tomate. Nur ihre ovale Form und ihre Größe (bis 10 mm) unterscheidet sie von ihr. Ihre ursprüngliche Heimat sind die Anden in Peru, ihr Name stammt aber aus Neuseeland, die vor einigen Jahren ein gelbliche Züchtung (Inca Gold) auf den Markt brachten.",
+    "Brennwert": "59",
+    "Nährwerte": null,
+    "Saison": null,
+    "Familie": "Nachtschattengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Tangerine",
+    "Inhaltsstoffe": "Vitamin C\nFolsäure\nBeta-Carotin\nVitamin B1, B2, B3\nKalium\nCalcium\nMagnesium",
+    "Beschreibung": "Diese Zitrusfrucht ist die kleine Schwester der Mandarine. Während die Mandarine aus China stammt, ist ihre Herkunft auf die marokkanische Hafenstadt Tanger zurückführen, wo sie erstmals im 18. Jahrhundert erwähnt wurde. Von dort aus fanden sie den Weg in die USA (Florida) und nach Mitteleuropa wirkt sie stimulierend und stimmungsaufhellend.",
+    "Brennwert": "53",
+    "Nährwerte": "Eiweiß: 0,8 g\n\nZucker: 10,6 g\n\nFett:  0,3 g\n\nBallast: 1,8 g",
+    "Saison": "Herbst bis Frühjahr",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Traube (Wein-)",
+    "Inhaltsstoffe": "Alle B-Vitamine\nVitamin C\nFolsäure\nKalium\nJod\nResveratrol\nOPC\nFlavonoide\nQuercetin\nFisetin \nPycnogenol",
+    "Beschreibung": "Je nach Rebsorte (weltweit gibt es rund 16.000) unterscheidet man in rote und grüne Trauben. Beide haben einen sehr hohen Zuckergehalt und werden zu Rot-, Rose- oder Weißwein verarbeitet und teils zum direkten Verzehr angeboten. Ihre dünne Haut ist tanninhaltig, ein Gerbstoff, der Schleimhäute angreift. Die roten Trauben sind reich an Anthocyanen und Resveratrol, die positiv auf den Herz-Kreislauf wirken.",
+    "Brennwert": "71",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 14 g\n\nFett: 1 g\n\nBallast: 1 g",
+    "Saison": "August bis November",
+    "Familie": "Weinrebengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Wassermelone",
+    "Inhaltsstoffe": "Kalium\nVitamin C\nVitamin A",
+    "Beschreibung": "Die großen, (meist) runden Melonen mit dem roten, saftigen Fruchtfleisch (mit schwarzen Kernen) bestehen zu 95 % aus Wasser. Botanisch betrachtet ist sie keine Frucht, sondern ein Kürbisgewächs. Sie ist verwandt mit den Gurken und kommt ursprünglich aus Afrika.",
+    "Brennwert": "38",
+    "Nährwerte": "Eiweiß: 1 g\n\nZucker: 8 g\n\nFett: 0 g\n\nBallast: 0 g",
+    "Saison": "Mai bis September",
+    "Familie": null
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Zitrone",
+    "Inhaltsstoffe": "Vitamin C\nFolsäure\nCalcium\nKalium\nMagnesium\nSelen\nBioflavonoide",
+    "Beschreibung": "Jedes Kind weiß, wie sauer eine Zitrone schmeckt. Und alle kennen die Farbe, Größe und Form der Frucht. Was aber kaum einer weiß: Je dünner die Schale, desto mehr Saft gibt sie. Aber auch die Schale wird (in geriebener Form) zum Würzen und Verfeinern verwendet. Die Zitrusfrucht wächst ganzjährig in Italien und Spanien. Sie regt die Produktion von Magensäure an, stärkt Gefäße und Nieren und verbessert die Blutfettwerte. Kalium stärkt Nerven, Herz und Muskeln. Zitronen beugen Erkältungen vor und helfen bei einem Kater.",
+    "Brennwert": "38",
+    "Nährwerte": "Eiweiß: 0,7 g\n\nZucker: 3 g\n\nFett: 0,6 g\n\nBallast: 1,3 g",
+    "Saison": "Ganzjährig, je nach Herkunftsland",
+    "Familie": "Rautengewächs"
+  },
+  {
+    "Category": "fruit",
+    "Obstsorte": "Zwetschgen",
+    "Inhaltsstoffe": "B-Vitamine\nVitamin A\nZink\nKupfer\nCalcium\nBor\nKohlenhydrate",
+    "Beschreibung": "Botanisch ist die Zwetschge zwar eng mit der Pflaume verwandt, dennoch ist sie eine andere Steinfruchtart. Woran erkennt man den Unterschied? Pflaumen sind rundlicher und haben eine längliche „Naht“, während Zwetschgen ovaler sind und eine komplett glatte Haut haben. Auch ihr Stein lässt sich leichter aus dem saftig-süßen, gelben Fruchtfleisch lösen.",
+    "Brennwert": "49",
+    "Nährwerte": "Eiweiß: 0,6 g\n\nZucker: 8 g\n\nFett: 0,2 g\n\nBallast: 1,5 g",
+    "Saison": "Juli bis Oktober",
+    "Familie": "Rosengewächs"
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Alant",
+    "Herkunft": "Von Asien kam die Pflanze über die Mittelmeerländer bis nach Europa.",
+    "Wuchs": "Staude mit bis zu 2 m Höhe",
+    "Merkmale": "Bis zu 50 cm große, ovale Blätter, liebt es sonnig und feucht.",
+    "Verwendung": "Die Wurzeln sind reich an ätherischen Ölen; in Süßspeisen und Tee."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Anis",
+    "Herkunft": "Seit 3000 Jahren beliebtes Gewürz aus dem Mittelmeerraum.",
+    "Wuchs": "Strauch wird bis zu 70 cm hoch",
+    "Merkmale": "Drei verschiedene Blattformen; weiße Blüten im Hochsommer.",
+    "Verwendung": "In Broten, Suppen, Soßen, Salaten, Schnaps und Weihnachtsplätzchen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Arnika",
+    "Herkunft": "Aus europäischen Gebirgen, aber auch aus Mooren und Heiden.",
+    "Wuchs": "Bis zu 60 cm aufrechte, dünne Stängel.",
+    "Merkmale": "Nach Harz duftenden, gelben Blüten in voller Sonne.",
+    "Verwendung": "Ist zwar giftig, wirkt aber als Salbe und Kosmetik gegen Entzündungen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Baldrian",
+    "Herkunft": "Wächst weltweit. Seit dem Mittelalter auch als Katzenkraut bekannt.",
+    "Wuchs": "Bis zu 2 m hohe Staude.",
+    "Merkmale": "Hellgrüne Fiederblätter mit weißen und rosafarbenen Blüten",
+    "Verwendung": "Wirkt beruhigend und entspannend, hilft bei Stress und Schlaflosigkeit."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Bärlauch",
+    "Herkunft": "Wächst wild an feuchten Stellen in ganz Europa und Nordasien.",
+    "Wuchs": "Wird bis zu 50 cm hoch.",
+    "Merkmale": "Die glatten Blätter erinnern an Maiglöckchen (wird oft verwechselt). Riecht das Kraut stark nach Knoblauch, ist es Bärlauch.",
+    "Verwendung": "Fein gehackt in Butter, Quark und Joghurt. Auch in Salaten und Suppen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Basilikum",
+    "Herkunft": "Vermutlich aus Nordwestindien ist Basilikum heute in Asien und Südeuropa beheimatet. Hierzuland kennt man es (ab dem 12. Jahrhundert) auch als „Königskraut“, benannt nach dem altgriechischen Wort für König (Basileus).",
+    "Wuchs": "Wächst selten höher als 50 cm, in der Regel 20 bis 40 cm hoch.",
+    "Merkmale": "Große, sattgrüne, ovale Blätter. Blütezeit ist von Juni bis September, ab dem Spätsommer trägt er weiße Blüten.",
+    "Verwendung": "Pesto, Caprese, auf Tomaten und Pizza, in Salaten, Gemüse und Dips."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Beifuß",
+    "Herkunft": "Ursprünglich aus Asien, aber schon lange in Europa und Nordamerika zu Hause.",
+    "Wuchs": "Die krautige, schmucklose Pflanze, die oft am Wiesen- und Wegesrand wächst, wird 60 cm bis zu 2 m groß.",
+    "Merkmale": "Behaarte, blaurote, aufrecht wachsende Stängel mit dunkelgrünen Blättern, die auf der Oberseite grün und an der Unterseite weißfilzig sind. Blütezeit ist Juli bis September, danach beginnt die Fruchtreife.",
+    "Verwendung": "Beifuss ist mit dem Estragon und dem Wermut verwandt. Der bittere, herbe Geschmack passt zu Gans, Ente, Schwein und Lamm."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Bohnenkraut",
+    "Herkunft": "Östlicher Mittelmeerraum. Wächst heute in Mitteleuropa, Westasien und Indien.",
+    "Wuchs": "Wächst bis zu 50 cm hoch.",
+    "Merkmale": "Buschiges Gewächs mit langen, schmalen Blättern; Kraut blüht rosa bis lila.",
+    "Verwendung": "Mildert Blähungen und passt gut zu Hülsenfrüchten, Fleisch und Fisch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Borretsch",
+    "Herkunft": "Ursprünglich aus Arabien kam es über Spanien bis nach Nordeuropa.",
+    "Wuchs": "Wächst bis zu 80 cm hoch  .",
+    "Merkmale": "Buschige Pflanze mit borstigem Stängel; blaue, sternförmige Blüten.",
+    "Verwendung": "Gehackte Blätter in Quark, Suppen und eines der 7 Kräuter und Gewürze, die in der Gehört zu den sieben Kräutern, die in der Frankfurter „Grie Soß“ enthalten sind, siehe u.a. bei Kerbel."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Cayenne-Pfeffer",
+    "Herkunft": "Aus Süd- und Mittelamerika. Wächst aus den Früchten der Vogelaugenchilis.",
+    "Wuchs": null,
+    "Merkmale": "Spitz zulaufende, gelbe bis rote Früchte. Beeren werden getrocknet und fein gemahlen.",
+    "Verwendung": "20 mal schärfer als Paprika. Gehört zum Standard in asiatischen Speisen, Eintöpfen und Suppen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Chili",
+    "Herkunft": "Ursprünglich aus Süd- und Mittelamerika kommend, wächst das Chili heute fast überall.",
+    "Wuchs": null,
+    "Merkmale": "Die runden, spitz zulaufenden Chilischoten sind entweder grün (unreif), gelb oder rot. Sie gehören zur Pflanzengattung „Paprika“ und die wiederum zur Familie der Nachtschattengewächse.",
+    "Verwendung": "Chili ist ein echter Scharfmacher. Es wird als Chilipulver oder Schote in den asiatischen Küchen, aber auch in lateinamerikanischen Speisen verwendet. Der Schärfegrad (in Scoville-Grad gemessen) reicht von mild (0 bis 10) bis zur „Mad Dog 357 No. 9 Plutonium“ – der schärfsten Chilisauce der Welt (9.000.000)."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Dill",
+    "Herkunft": "Von Asien durch die Ägypter und Römer kam das Kraut nach Europa.",
+    "Wuchs": "Bis zu 1 Meter",
+    "Merkmale": "Ähnelt dem Fenchel; Hohle Stängel mit gefiederten Blättern; gelbliche Blüten.",
+    "Verwendung": "Frische Blätter würzen Fisch, Gemüse und Salate; zum Einlegen von Gurken."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Engelwurz",
+    "Herkunft": "Wird auch Angelika genannt. Wächst in europäischen Mittelgebirgen bis nach Asien.",
+    "Wuchs": "Bis zu 2 m hoch",
+    "Merkmale": "Dicke, hohle Stängel; wächst auf feuchten Wiesen; im Sommer grün-weiße Blüten.",
+    "Verwendung": "In Salaten, Soßen, Suppen; wirkt als Tee verdauungsfördernd."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Enzian",
+    "Herkunft": "Auf Bergwiesen in süd- und mittel-europäischen Gebirgen.",
+    "Wuchs": "Bis zu 1,40 m hoch auf steinigem Boden.",
+    "Merkmale": "Kräftige Stängel mit im Sommer blauen oder gelben Blüten.",
+    "Verwendung": "Wirkt verdauungsfördernd in Tee, Magenbitter und Kräutergetränken."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Estragon",
+    "Herkunft": "Von Russland bis ans Mittelmeer. Hier auch Schlangenkraut genannt.",
+    "Wuchs": null,
+    "Merkmale": "Schlanke Stängel mit schmalen, länglichen Blättern; in nördlichen Klimazonen blüht er selten.",
+    "Verwendung": "Geflügel- und Fisch; In Salaten, Suppen, Soßen, Gurken; Essig und Öl."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Fenchel",
+    "Herkunft": "Vom Mittelmeer nach Indien, China, Balkan, England und USA.",
+    "Wuchs": "Bis zu 1,50 m hoch. Samen bis 12 mm lang.",
+    "Merkmale": "Blaugrüne Blätter mit im Sommer gelben Blüten.",
+    "Verwendung": "Samen (wie Kümmel) wird für Tee und Brot verwendet; Gemüse und Fisch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Galgant",
+    "Herkunft": "Der „Echte Galgant“ wird vornehmlich auf der chinesischen Insel Hainan, aber auch in Thailand und ganz Südostasien kultiviert.",
+    "Wuchs": "Krautige Pflanze mit einer Wuchshöhe von 1,50 m.",
+    "Merkmale": "Die ganzrandigen Laubblätter wachsen ohne Stiel und werden 20 bis 30 cm lang und 1 bis 2,5 cm breit. Die rundlich rote Kapselfrucht blüht von April bis September und fruchtet von Mai bis November.",
+    "Verwendung": "Galgant ist der kleine Bruder des Ingwer. Er erinnert aromatisch und geschmacklich an ihn und ist – wie sein großer Bruder – Bestandteil asiatischer Gewürzmischungen (z.B. im Curry). Auch zur Herstellung von Kräuterlikören,  Limonaden und Cola."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Gewürznelken",
+    "Herkunft": "Kommt von den indonesischen Molukken (Gewürzinseln) und aus Madagaskar. In Europa sind Gewürznelken seit dem frühen Mittelalter bekannt.",
+    "Wuchs": "Der immergrüne Nelkenbaum wächst wild bis zu 15 m hoch. Angebaut nur 5 bis 10 m.",
+    "Merkmale": "Lorbeerähnliche Blätter mit zuerst gelblich-grünen und später rötlichen Blütenknospen. Die 1–2 cm langen Knospen (Nägel) müssen vor dem Erblühen von Hand gepflückt werden.",
+    "Verwendung": "Getrocknete, scharfe Knospen würzen Fleisch, Wild, Rotkohl und Geflügel."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Ingwer",
+    "Herkunft": "Süd- und mittelasiatische Tropen, aber auch aus Indien, China, Japan und Südamerika.",
+    "Wuchs": "Bis zu 1 m hoch",
+    "Merkmale": "Schilfartiges Gewächs mit langen, schmalen Blättern und gelb-roten Blüten.",
+    "Verwendung": "Geriebene Wurzeln in asiatischen Speisen, Geflügel, Lamm, Fisch und Eintöpfen. Heilpflanze des Jahres 2018."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kamille",
+    "Herkunft": "Früher auch Mutterkraut genannt. Kommt aus Süd-Ost-Europa und Nordasien.",
+    "Wuchs": "Bis 50 cm hoch",
+    "Merkmale": "Niedriges, buschiges Kraut mit weißen Blüten um einen gelben Kopf; stark duftend.",
+    "Verwendung": "Früher bei Frauenleiden. Wirkt antibakteriell im Tee bei Magen- und Darmproblemen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kapern",
+    "Herkunft": "Rund um das Mittelmeer, meistens aus Marseille, Nizza und Sizilien.",
+    "Wuchs": "Dorniger Strauch bis 1 m hoch",
+    "Merkmale": "Runde, glatte Blätter mit weiß-rosa Blüten; wächst oft wild.",
+    "Verwendung": "Blütenknospen in Saucen und Salaten, in Italien zu Kalb (Vitello tonnato)."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kapuziner-kresse",
+    "Herkunft": "Ursprünglich aus den Andenländern Peru, Kolumbien, Bolivien und Ecuador.",
+    "Wuchs": "Kletterpflanze wächst bis zu 3 m hoch.",
+    "Merkmale": "Runde, hell-grüne Blätter mit schönen orange-roten Blüten.",
+    "Verwendung": "Blätter schmecken nach Senf und würzen Quark, Frischkäse und Soßen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kardamom",
+    "Herkunft": "Stammt aus Indien, Ceylon, Malaysia. Heute wächst es u.a. in Vietnam, Tansania und Madagaskar.",
+    "Wuchs": "Ingwerartige Staude bis zu 2-3 m hoch.",
+    "Merkmale": "Lanzenförmige Blätter mit gelben Blüten aus denen kleine, grüne Kapseln reifen.",
+    "Verwendung": "Der grüne Samen aus den Kapseln sind typische Kräuter und Gewürze in der asiatischen und arabischen Küche. Für Masala, Chai Tee, bei uns in Lebkuchen, Glühwein und Spekulatius."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kerbel",
+    "Herkunft": "Vom Kaukasus nach Asien und im Mittelalter zurück in den Norden.",
+    "Wuchs": "Wächst bis zu 70 cm hoch",
+    "Merkmale": "Buschige, weiche und vielfach gefächerte Blätter (wie Petersilie).",
+    "Verwendung": "Als „Suppenkraut“ Teil der 7 Kräuter und Gewürze, die traditionell in der Frankfurter Grüne Soße zu finden sind. Passt gut zu Fisch, Ei und Tomate."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Knoblauch",
+    "Herkunft": "Der Ur-Knoblauch kommt aus Zentralasien (Babylonien) und ging von dort auf die Reise nach Vorderasien, China, Indien, Ägypten und schließlich in die restliche Welt.",
+    "Wuchs": "Die krautige Pflanze  erreicht eine Höhe von 30 bis 90 cm.",
+    "Merkmale": "Knoblauch gehört zu den Lauch-Gewächsen. Seine bläulich grünen, spitzen, kahlen Laubblätter sind bis zu 15–30 mm breit und bis 50–80 cm lang. Als Überdauerungsorgan wird eine 5–7 cm große Zwiebel gebildet, die aus fünf bis zwanzig Zehen besteht.",
+    "Verwendung": "Knoblauch kann roh, gegart, im Ganzen, zerkleinert, angebraten oder gedünstet verwendet werden. Geschmack und Schärfe verändert sich dabei je nach Zubereitung. Sein Aroma entfaltet er am ehesten, wenn man seine Zehen schält, schneidet oder hackt."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Koriander",
+    "Herkunft": "Koriander ist eines der ältesten Gewürze überhaupt. Er wurde schon um 9.000 v. Chr. kultiviert. Die „Chinesische Petersilie“ (wie er früher in Deutschland genannt wurde) hat seine Heimat im östlichen Mittelmeerraum.",
+    "Wuchs": "Seine Wuchshöhe liegt je nach Standort und Sorte zwischen 30 und 90 cm.",
+    "Merkmale": "Der doppeldoldige Blütenstand ist drei- bis fünfstrahlig. Junge Blätter sind rundlich und dreigeteilt eingeschnitten, älteren Blätter sind fein zerteilt. Die Blütezeit (mit weißen Blüten) ist von Juni bis Juli.",
+    "Verwendung": "Von der Wurzel über die Blätter bis zu den Früchten (Körner) kann alles in der Küche verwendet werden. Gehört in Indien, Thailand und der südamerikanischen Küche zu vielen Speisen. Die Blätter sind das i-Tüpfelchen in Currygerichten, Salsas oder Dipps."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kresse",
+    "Herkunft": "Ursprünglich aus Vorderasien und Europa. Kresse war eine Grab-Beigabe bei den Pharaonen.",
+    "Wuchs": "Das „Pfefferkraut“ wird bis zu 50 cm hoch",
+    "Merkmale": "Kleine, ovale, gefiederte Blätter mit weiß-rötlichen Blüten.",
+    "Verwendung": "In Quark, Salat, Suppen, Saucen. Eines der 7 Kräuter und Gewürze, die in der Frankfurter Grünen Soße enthalten sind, siehe u.a. Borretsch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kreuzkümmel",
+    "Herkunft": "Kreuzkümmel wurde schon vor 3.000 bis 4.000 Jahren in Syrien und Ägypten, später auch im Römischen Reich verwendet. Kreuzkümmel gehört zwar wie Kümmel zur Familie der Doldenblütler, es wird aber einer anderen Gattungen zugeordnet. Beide unterscheiden sich stark im Geschmack und in der Verwendung.",
+    "Wuchs": "Die krautige Pflanze wird etwa 40 bis 50 cm hoch.",
+    "Merkmale": "Ihre feinrippigen Stängel sind kahl und leicht verzweigt, aus denen weiße oder rosafarbenen bis rötlichen Blüten wachsen. Die kreuzförmigen Blattstellung gab der Pflanze ihren Namen.",
+    "Verwendung": "Das gemahlene Pulver wird aus den braunen, getrockneten Früchten (kümmelähnlich) gewonnen. Kreuzkümmel ist ein Klassiker in der indischen, türkischen, südamerikanischen und afrikanischen Küche und wird gerne in Chili con Carne und Falafel verwendet."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kümmel",
+    "Herkunft": "Von Europa kommend über das Mittelmeer bis nach Asien.",
+    "Wuchs": "Bis zu 1 m hohe Stängel.",
+    "Merkmale": "Zweijährige Pflanze; im 1. Jahr gefiederte Blätter und weißen Blüten.",
+    "Verwendung": "Den Blütensamen findet man in Brot, Schnaps, Braten, Gulasch und Kraut. Nicht mit Kreuzkümmel vergleichbar."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Kurkuma",
+    "Herkunft": "Südliches Asien wie z.B. Indien und Indonesien. Mittlerweile auch aus Südamerika.",
+    "Wuchs": "Bis zu 3 m hohe Pflanze mit Wurzelknolle.",
+    "Merkmale": "Große, breite, lanzenförmige Blätter mit gelben Blüten.",
+    "Verwendung": "Gemahlenes Wurzelpulver schmeckt zu Reis, Nudeln, Suppen und Fisch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Lavendel",
+    "Herkunft": "Aus allen Mittelmeerländern. Hilft seit Jahrhunderten bei Kopfschmerzen.",
+    "Wuchs": "Strauch bis zu 60 cm hoch.",
+    "Merkmale": "Schmale, aromatische Blätter mit im Sommer lilafarbene Blüten.",
+    "Verwendung": "Gehört zu den beliebten „Kräuter und Gewürze der Provence“. Passt wunderbar zu Fisch, Fleisch und Eintöpfen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Liebstöckel",
+    "Herkunft": "Aus dem Nahen und Mittleren Osten, vermutlich Persien. Von dort über Mittelmeer bis ganz Europa.",
+    "Wuchs": "Wächst bis zu 2,5 m hoch.",
+    "Merkmale": "Pflanze mit verzweigten Stängeln und aromatischem Duft. Der Blütenstand enthält 12-20 Döldchen, diese wiederum je 8-11 gelbliche, hellgrüne kleine Blüten.",
+    "Verwendung": "Beliebtes Küchenkraut, dessen frische Blätter werden als Gewürz für Suppen, Eierspeisen und Pilzgerichte verwendet. Schmeckt etwas schärfer und bitterer als Sellerie."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Löwenzahn",
+    "Herkunft": "Auf der Nordhalbkugel heimische Wild- und Wiesenpflanze.",
+    "Wuchs": "Wird bis zu 40 cm hoch.",
+    "Merkmale": "Glatte Stängel mit nicht giftigem Milchsaft; ab Frühling gelbe, gezackte Blüten.",
+    "Verwendung": "Grüne Blätter in Salat, auf Kartoffeln und Eiern; auch als Gemüse dünsten."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Lorbeer",
+    "Herkunft": "Der Lorbeerbaum stammt aus Kleinasien und fand in der Antike von dort den Weg nach Griechenland, wo er zur Kulturpflanze wurde. Im antiken Griechenland wurde der Lorbeerkranz auch als Würdigung einer Leistung verliehen.",
+    "Wuchs": "Der immergrüne Baum (oder Strauch) erreicht eine Höhe von bis zu 10 m.",
+    "Merkmale": "Die ledrigen Laubblätter (Lorbeerblätter) duften aromatisch und haben leicht gewellte Ränder. Sie wachsen elliptisch in einer Länge von ca. 5 bis 10 cm und sind an beiden Enden zugespitzt.",
+    "Verwendung": "Meist werden die getrockneten Blätter des Lorbeerbaums in Suppen und Eintöpfen beigelegt. Sie würzen aber auch Fleisch- und Fischgerichte. Sie dienen auch dem Würzen von eingelegten Gurken und Heringen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Majoran",
+    "Herkunft": "Von Arabien gelang das Aphrodisiakum ans Mittelmeer.",
+    "Wuchs": "Der krautige Halbstrauch erreicht eine Höhe von bis zu 80 cm.",
+    "Merkmale": "Dünne, rötliche Stängel mit aromatischen, eiförmigen, grau behaarten Blättern und weiß-lilafarbenen Blüten.",
+    "Verwendung": "Ein Gewürz, das gut zu Kartoffeln, Fleisch und Suppen schmeckt."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Meerrettich",
+    "Herkunft": "Von Ost- und Süd-Europa (wo er Kren genannt wird) bis Asien. Seit 800 Jahren in ganz Europa.",
+    "Wuchs": "Die krautige Pflanze wächst 50 bis 120 cm hoch, mancherorts auch bis zu 2 Meter.",
+    "Merkmale": "Kräftige Pflanze mit breiten bis zu 60 cm langen Blättern. Blütezeit ist von Mitte Mai bis Juli. Die stark duftenden Blüten erreichen im Sommer eine Länge von bis zu 1,20 m und haben einen weißen Blütentrieb.",
+    "Verwendung": "Nur die Wurzeln sind essbar und passen perfekt zu Rindfleisch, Eiern oder Lachs."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Melisse",
+    "Herkunft": "Aus dem Orient ans Mittelmeer. Bekannt als Basis zu Melissengeist.",
+    "Wuchs": "Die krautige Pflanze kann 25 bis 30 Jahre alt werden und wächst i.d.R. von 20 bis 90 cm hoch.",
+    "Merkmale": "Dicht verzweigte, vierkantige Stängel wachsen buschig. Ihre Blätter duften intensiv nach Zitrone.",
+    "Verwendung": "Das Zitronenaroma verfeinert Fisch, Salate und Suppen. Tee wirkt belebend."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Minze",
+    "Herkunft": "Die Kreuzung aus Wasserminze und Grüner Minze ist in Europa heimisch. Aber erst 1696 entdeckte der Biologe John Ray in einem englischen Garten die heilkräftige Pfefferminze (Kreuzung von Bachminze und Grüner Minze).",
+    "Wuchs": "Die Pfefferminze ist eine ausdauernde krautige Pflanze, die 30 bis 90 cm hoch wächst.",
+    "Merkmale": "Kantige bis zu 80 cm hohe Stängel mit gezackten Blättern (ähnlich wie Brennnesseln).",
+    "Verwendung": "Das Menthol der Minze wirkt krampflösend und wird deshalb gerne in Tee, Salaten, Gemüse und Fleisch verwendet. Die Pfefferminze ist eine der beliebtesten Heilpflanzen. Übrigens: In arabischen und nordafrikanischen Ländern ist der Pfefferminztee ein Nationalgetränk."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Mohn",
+    "Herkunft": "Türkei, Griechenland und Indien, teilweise auch aus Holland.",
+    "Wuchs": "Dünne, borstige Stängel wachsen bis 1 m hoch.",
+    "Merkmale": "Die blaugrünen Blätter tragen violette Blüten mit Kapseln.",
+    "Verwendung": "Samen aus Kapseln fürs Backen von Brötchen, Brot, Plätzchen und Kuchen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Muskat",
+    "Herkunft": "Muskatbaum wächst in Neuguinea, Indonesien, Madagaskar und Brasilien.",
+    "Wuchs": "Bis zu 100-jähriger, 15 m hoher Baum.",
+    "Merkmale": "Nach 9 Monaten platzt die Frucht auf und gibt eine Nuss frei.",
+    "Verwendung": "Geriebene Nuss würzt Spinat, Kohl, Gemüsen, Saucen, Ei, Fisch, Fleisch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Myrte",
+    "Herkunft": "Rund ums Mittelmeer, aber auch aus Asien und Nordafrika. Ist das Symbol für Liebe.",
+    "Wuchs": "Der immergrüne Strauch wächst bis zu 5 m hoch.",
+    "Merkmale": "Schmale, ölige Blätter mit weißen Blüten und schwarzen Beeren.",
+    "Verwendung": "Ganze oder gemahlene Blätter zu Gegrilltem und Braten, Beeren in Saucen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Oregano",
+    "Herkunft": "Der Name kommt aus dem Griechischen und bedeutet „Freude der Berge“. Im Volksmund wird Oregano auch „Dost“ genannt. Seine Heimat ist der mediterranen Süden.",
+    "Wuchs": "Krautige Pflanze mit einer Wuchshöhe von 20 bis 70 cm.",
+    "Merkmale": "Aufrecht wachsender Stiel (vierkantig) mit gabelig verzweigten Stängel und meist rötlichen Zweigen, an den zwischen Juli und September zahlreiche, rosaviolette Blüten wachsen.",
+    "Verwendung": "Oregano ist ein wichtiges Gewürz in der italienischen, griechischen und spanischen Küche. In der deutschen Küche wird es dagegen kaum verwendet. Es passt gut zu Omeletts, Lamm, italienischen Soßen, Tomatengerichten und Gemüseaufläufen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Paprika",
+    "Herkunft": "Von Kolumbus aus Amerika nach Europa (Spanien, Balkan, Ungarn) gebracht.",
+    "Wuchs": "Bis zu 60 cm hoch.",
+    "Merkmale": "Die Pflanze trägt kräftig grüne Blätter und ca. 10 cm lange, rote Schoten.",
+    "Verwendung": "Samen, getrocknet und gemahlen zum Würzen und Schärfen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Petersilie",
+    "Herkunft": "Von Südeuropa über die Alpen bis in den Norden Europas.",
+    "Wuchs": "Die Petersilie erreicht Wuchshöhen von 30 bis 90 cm.",
+    "Merkmale": "Buschige Blattrosetten mit gelblich grünen Blüten; Wurzeln und Blätter haben hohen Vitamin C Gehalt.",
+    "Verwendung": "Blätter zum Würzen von Suppen, Soßen, Eiern, Kartoffeln und Salate. Eines der 7 Kräuter und Gewürze, die in der Frankfurter „Grie Soß“ enthalten sind."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Pfeffer,\ngrün (reif)",
+    "Herkunft": "Ursprünglich aus den Monsunwäldern Indiens. Heute auch aus Indonesien und Malaysia.",
+    "Wuchs": "Immergrüne Kletterpflanze bis zu 9 m Höhe.",
+    "Merkmale": "Nach 8 Jahren Vollreife wachsen 20 Jahre lang Beeren.",
+    "Verwendung": "Grüne (frische) und schwarze (getrocknete) Beeren; eingelegt (grün) oder gemahlen (schwarz) zum Würzen und Schärfen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Pfeffer, rot/rosa",
+    "Herkunft": "Wächst in ganz Südamerika, vor allem in Brasilien.",
+    "Wuchs": null,
+    "Merkmale": "Pfefferbaum trägt nicht ganz reife, rosafarbene Beeren, weniger scharf mit süßlichem Geschmack.",
+    "Verwendung": "Milder als grüner Pfeffer. Eignet sich perfekt zum Würzen und Schärfen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Piment",
+    "Herkunft": "Mittelamerika, Westindische Inseln und von Jamaika.",
+    "Wuchs": "Immergrüner, schlanker Pimentbaum wird 6-12 m hoch und 100 Jahre alt.",
+    "Merkmale": "Erst im siebten Jahr reifen die ersten Früchte.",
+    "Verwendung": "Fruchtkörner, getrocknet und gemahlen, als Marinade für Wild, Rind und Fisch."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Pimpinelle",
+    "Herkunft": "Wächst von Nordafrika bis Skandinavien und im Osten bis Afghanistan. Wird oft auch Bibernellen genannt.",
+    "Wuchs": null,
+    "Merkmale": "Oft wintergrüne Kräuterpflanze mit aufrechtem Stängel (20-100 cm) und kugel- wie köpfchen-förmigen, rötlichen Blüten.",
+    "Verwendung": "Blätter und Blüten in Salaten oder Kaltgetränken. Eines der sieben Kräuter und Gewürze, die in der Frankfurter „Grie Soß“ enthalten sind."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Rauke",
+    "Herkunft": "Rund ums Mittelmeer, auch als Senfrauke oder Rucola bekannt.",
+    "Wuchs": "Bis zu 50 cm hoch",
+    "Merkmale": "Schnellwachsende Pflanze mit senföligen Blättern und im Sommer weißen Blüten.",
+    "Verwendung": "Junge, zarte Blätter für vitaminreichen Salat oder auf Pizza, Soßen und Quark."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Rhabarber",
+    "Herkunft": "Ursprünglich aus Ostasien, heute in Deutschland und ganz Mitteleuropa.",
+    "Wuchs": "Die sommergrüne krautige Pflanze wächst bis zu 2 m hoch.",
+    "Merkmale": "Staude mit großen, welligen Blättern und grünen oder roten Stilen. Im Mai weiß-gelbliche Blüten.",
+    "Verwendung": "Nur Stiele werden zu Kompott oder Saft verarbeitet. Die Blätter sind ungenießbar."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Rosmarin",
+    "Herkunft": "Aus dem Mittelmeerraum, wild wachsend an Küsten. Name aus dem Lateinischen bedeutet „Tau des Meeres“.",
+    "Wuchs": "Der immergrüner Halbstrauch kann eine Größe von bis zu 2 m haben.",
+    "Merkmale": "Strauch mit nadelartigen, behaarten Blättern, die nach ätherischen Ölen duften. Weiß-rosa Blüten.",
+    "Verwendung": "Nadeln würzen Fleisch, Geflügel und Fisch. Auch auf Kartoffeln und im Eintopf. Heilpflanze des Jahres 2011."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Safran",
+    "Herkunft": "Vom Vorderen Orient brachten die Mauren ihn nach Spanien und Griechenland.",
+    "Wuchs": "Ca. 8 cm hohe Staude",
+    "Merkmale": "Herbstblühender Krokus mit violetten Blüten und roten Blütennarben.",
+    "Verwendung": "Rote Narben, getrocknet und gerieben, für Béchamelsoßen, Suppen und Reis."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Salbei",
+    "Herkunft": "Wächst bevorzugt an Küsten des Mittelmeers, aber auch in Nordeuropa. Der Name kommt aus dem Lateinischen Salvia und  bedeutet „heilen“ bzw. „gesund“.",
+    "Wuchs": null,
+    "Merkmale": "Immergrüner Strauch mit graugrünen, samtigen Blättern. Im Sommer mit violetten Blüten.",
+    "Verwendung": "Blätter passen zu Suppen, Fleisch- und Fischgerichten. Vorsicht! Zu viel davon ist giftig."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Salz",
+    "Herkunft": "Kommt aus dem Meer (enthält 3 % Salz), aus der Erde und dem Himalaya-Gebirge.",
+    "Wuchs": null,
+    "Merkmale": "Weißes Salz ist chemisch gereinigt; Natursalz hat einen gräulichen Schimmer. Früher Zahlungsmittel.",
+    "Verwendung": "Das „weiße Gold“ findet bei fast allen Gerichten Verwendung."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Sauerampfer",
+    "Herkunft": "Kannten schon die Ägypter, Griechen und Römer, später im Mittelalter auch die Briten. War bei Seefahrern ein Mittel gegen Skorbut.",
+    "Wuchs": "Wächst 30 bis 100 cm hoch",
+    "Merkmale": "Große Blätter mit kleinen, roten Blüten (blüht von Mai bis August). Der Blütenschaft selbst ist blattlos.",
+    "Verwendung": "Das Wildgemüse bzw. die Heilpflanze enthält sehr viel Vitamin C und wird in der Küche ähnlich wie Spinat zubereitet. Sie ist eines der 7 Kräuter und Gewürze, die in der Frankfurter Grünen Soße Verwendung finden."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Schafgarbe",
+    "Herkunft": "Von Mitteleuropa bis Mittelasien, auch Nordamerika und Neuseeland.",
+    "Wuchs": "30-80 cm hoch",
+    "Merkmale": "Buschige Staude, im Sommer mit vielgliedrigen, rosa Blüten.",
+    "Verwendung": "Junge, frische Blätter als Brotbelag oder in Salaten, Quark und Gemüse."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Schnittlauch",
+    "Herkunft": "Mitteleuropa, aber auch in den Rocky Mountains und im Himalaya.",
+    "Wuchs": "ca. 30 cm lange Schlotten",
+    "Merkmale": "Mehrjährige Zwiebelpflanze mit langen Röhrenblättern; Enthält viel Vitamin C.",
+    "Verwendung": "Der Lauch würzt Salate, Quark, Eier, Soßen, belegte Brote und Fischgerichte. Schnittlauch gehört zu den 7 Kräuter und Gewürze, die in der Frankfurter „Grie Soss“ genossen werden."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Sellerie",
+    "Herkunft": "Küstenregionen Europas, haupt-sächlich aus dem Mittelmeerraum.",
+    "Wuchs": null,
+    "Merkmale": "Sellerie bildet dünne, verzweigte Pfahlwurzeln mit kräftigen Stängeln und grünen, gefiederten Blättern.",
+    "Verwendung": "Ein Muss im Suppengrün. Stangen mit Dipp, Blätter für Salate, Knollen als Beilage."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Senf",
+    "Herkunft": "Von Ostindien über Vorderasien bis in den Mittelmeerraum. Es wird aus den Samenkörnern des Braunen Senf (aus Asien), Weißen Senf, Gelben Senf und Schwarzen Senf (alle aus dem Mittelmeerraum) hergestellt.",
+    "Wuchs": "Weißer und Gelber Senf wächst bis zu 1,20 m hoch. Schwarzer Senf kann bis zu 2 m wachsen, wobei der Braune Senf meist nur bis zu 1 Meter erreicht.",
+    "Merkmale": "Pflanze mit waagrecht abstehenden Schoten, und Körnern im Innern. Im Sommer gelbe Blüten.",
+    "Verwendung": "Körner schärfen und würzen herzhafte Speisen wie Wurst, Fleisch und Eier."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Spinat",
+    "Herkunft": "Aus Persien von den Arabern nach Spanien bis Mitteleuropa gebracht.",
+    "Wuchs": null,
+    "Merkmale": "Kraut hat lanzett- und pfeilspitzen-förmige kräftig grüne Blätter mit Blütenbildung im Sommer.",
+    "Verwendung": "Blattspinat passt gut zu (Spiegel-)Eiern, Kartoffeln und Pasta. Schmeckt auch als Salat sehr gut."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Tamarinde",
+    "Herkunft": "Aus Äthiopien nach Indien bis ans Mittelmeer und nach Mittelamerika.",
+    "Wuchs": "Bis 25 m hoher, immergrüner Baum.",
+    "Merkmale": "Gefiederte Blätter mit bis zu 20 cm langen, braunen Schoten.",
+    "Verwendung": "Ähnlich wie Zitronensaft oder Essig für Fisch, Fleisch, Gemüse und Reis."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Thymian",
+    "Herkunft": "Ursprünglich aus dem Mittelmeerraum. Heute in allen mittleren Breiten.",
+    "Wuchs": null,
+    "Merkmale": "Immergrüner Halbstrauch mit flaumigen Stängeln, vielen kleinen Blättern und rosa bis violette Blüten.",
+    "Verwendung": "Passt hervorragend zu Fleisch, Kohl, Suppen, Saucen und Salaten. Heilpflanze des Jahres 2001."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Vanille",
+    "Herkunft": "Süd-Mexiko, Guatemala und restlichem Mittelamerika, auch aus Madagaskar.",
+    "Wuchs": null,
+    "Merkmale": "Kletternde Orchidee mit hängenden, schlauchartigen Früchten, in denen Stangen reifen.",
+    "Verwendung": "In Schokolade, Kaffee, Desserts, Gebäck, Cremes, Kompott und Kuchen."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Wacholder",
+    "Herkunft": "Ganz Europa und Mittelasien, überwiegend Mittelmeerregionen.",
+    "Wuchs": "20 cm bis 12 m hoch (je nach Lage)",
+    "Merkmale": "Immergrüne Nadelpflanze mit blau-schwarzen Beeren.",
+    "Verwendung": "Klassisch zu Wild, Reh und Lamm. Auch gut zu Rind, Schwein und Kraut. Kräuter und Gewürze-Basis zur Gin-Herstellung."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Waldmeister",
+    "Herkunft": "Ursprünglich aus den europäischen Wäldern, wächst heute aber auch vom Iran bis Sibirien.",
+    "Wuchs": "Staude mit 30 cm langen Stängel.",
+    "Merkmale": "Sternförmig wachsende, lanzettartige Blätter mit weißen Blüten.",
+    "Verwendung": "Kräuter und Gewürze für Maibowle, Berliner Weiße und Götterspeise, auch gut als Tee."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Zimt",
+    "Herkunft": "Sri Lanka (Ceylon), aber auch aus Mittelamerika, Indonesien und Madagaskar.",
+    "Wuchs": "Der Zimtbaum wird bis zu 20 m hoch.",
+    "Merkmale": "Hat bis zu 2 m langen Schößlinge, deren Rinde abgezogen wird.",
+    "Verwendung": "Zimtrinde (Stangen), gemahlen, für Süßspeisen, Gebäck, Tee und Glühwein."
+  },
+  {
+    "Category": "herbs",
+    "Kräuter & Gwürze": "Zitronengras",
+    "Herkunft": "Kam von Indien über Afrika nach Mittelamerika.",
+    "Wuchs": "Bis zu 1,80 m hohes Gras",
+    "Merkmale": "Die grünen und im unteren Drittel weißen Halme enthalten ätherische Öle.",
+    "Verwendung": "Ein Muss in der asiatischen Küche. Passt gut zu Fisch und Chutneys."
+  }
+]
