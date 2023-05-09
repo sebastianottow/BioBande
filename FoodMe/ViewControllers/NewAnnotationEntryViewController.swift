@@ -18,9 +18,12 @@ class NewAnnotationEntryViewController: UIViewController {
         static let defaultColor = UIColor.systemIndigo
     }
     
-    private var _selectedEntryType: String?
-    
     let realm = try! Realm()
+
+    
+    private let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self).sorted(byKeyPath: "name", ascending: true)
+    
+    @Published var selectedEntryCategory: String?
     
     private let _viewModel = AnnotationViewModel()
     
@@ -124,9 +127,11 @@ class NewAnnotationEntryViewController: UIViewController {
         _dropDownEntryType.$selectedValue
             .receive(on: DispatchQueue.main)
             .sink { value in
-                self._selectedEntryType = value
+                self.selectedEntryCategory = value
             }
             .store(in: &_cancellables)
+        
+        _viewModel.loadEntryCategories()
     }
     
     private func bind(viewModel: AnnotationViewModel) {
@@ -167,7 +172,7 @@ class NewAnnotationEntryViewController: UIViewController {
         
         _dropDownEntryType.createPickerView()
         _formHolderStackView.addArrangedSubview(_dropDownEntryType)
-        _dropDownEntryType.selectionList = _viewModel.entryTypes
+        _dropDownEntryType.selectionList = _entryCategoryList.map { $0.name }
         _dropDownEntryType.placeholder = "Kategorie auswählen"
         _dropDownEntryType.setIcon(icon: Constants.dropDownArrowIcon, color: Constants.defaultColor)
         
@@ -240,7 +245,7 @@ class NewAnnotationEntryViewController: UIViewController {
         let entryID = UUID().uuidString
         
         _viewModel.addNewEntry(
-            entryType: _selectedEntryType ?? "",
+            entryType: selectedEntryCategory ?? "",
             street: _viewModel.street,
             postalCode: _viewModel.postalCode,
             city: _viewModel.city,

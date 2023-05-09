@@ -13,7 +13,7 @@ import UIKit
 
 
 class MapViewController: UIViewController {
-
+    
     private enum Constants {
         static let fruitIcon = UIImage(systemName: "apple.logo")
         static let veggieIcon = UIImage(systemName: "carrot.fill")
@@ -152,7 +152,7 @@ class MapViewController: UIViewController {
                     self.addCustomPin(
                         latCoord: self._latitude,
                         longCoord: self._longitude,
-                        entryType: entryType
+                        entryTtitle: entryType
                     )
                 }
                 else
@@ -166,11 +166,11 @@ class MapViewController: UIViewController {
     private func addCustomPin(
         latCoord: CLLocationDegrees,
         longCoord: CLLocationDegrees,
-        entryType: String
+        entryTtitle: String
     ) {
             let customPin = MKPointAnnotation()
             customPin.coordinate = CLLocationCoordinate2D(latitude: latCoord, longitude: longCoord)
-            customPin.title = entryType
+            customPin.title = entryTtitle
             mapView.addAnnotation(customPin)
     }
     
@@ -246,26 +246,35 @@ extension MapViewController: CLLocationManagerDelegate {
 
 extension MapViewController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        guard !(annotation is MKUserLocation) else {
-            return nil
+        let annotationEntries = _annotationList
+        
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "entry")
+        
+        for entry in annotationEntries {
+            
+            guard !(annotation is MKUserLocation) else {
+                return nil
+            }
+            
+            if annotationView == nil {
+                annotationView = MKAnnotationView(
+                    annotation: annotation,
+                    reuseIdentifier: "entry"
+                )
+                annotationView?.canShowCallout = true
+                switch entry.entryType {
+                case "Obstbaum": annotationView?.image = Constants.fruitIcon
+                case "Gemüse": annotationView?.image = Constants.veggieIcon
+                case "Fleisch": annotationView?.image = Constants.meatIcon
+                default: return nil
+                }
+                //            annotationView?.image = Constants.veggieIcon
+                
+            } else {
+                annotationView?.annotation = annotation
+            }
         }
         
-        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "CustomAnnotation")
-        
-        if annotationView == nil {
-            annotationView = MKAnnotationView(
-                annotation: annotation,
-                reuseIdentifier: "CustomAnnotation"
-            )
-            annotationView?.canShowCallout = true
-            
-            
-        } else {
-            annotationView?.annotation = annotation
-        }
-        
-        annotationView?.image = Constants.veggieIcon
-
         return annotationView
     }
 }

@@ -10,6 +10,10 @@ import Combine
 
 class CustomDropDown: UITextField, UITextFieldDelegate {
     
+    let entryServices = EntryCategoryServices()
+    
+    let pickerView = UIPickerView()
+    
     @Published var selectedValue: String?
     
     var selectionList = [String?]()
@@ -17,7 +21,7 @@ class CustomDropDown: UITextField, UITextFieldDelegate {
     let padding = UIEdgeInsets(top: 10, left: 40, bottom: 10, right: 10)
         
     func createPickerView() {
-        let pickerView = UIPickerView()
+
         pickerView.delegate = self
         inputView = pickerView
         
@@ -63,6 +67,7 @@ extension CustomDropDown: UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+
         return selectionList.count
     }
 }

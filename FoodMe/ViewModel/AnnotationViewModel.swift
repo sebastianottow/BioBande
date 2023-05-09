@@ -14,13 +14,24 @@ class AnnotationViewModel: ObservableObject {
     
     let realm = try! Realm()
     
-    var entries = [AnnotationModel]()
+    let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self)
     
-    let entryTypes = ["Bitte wählen", "Obstbaum", "Gemüse", "Eier", "Fleisch", "Fisch"]
+    var entryServices = EntryCategoryServices()
+    
+    var entries = [AnnotationModel]()
     
     @Published var street: String = ""
     @Published var postalCode: String = ""
     @Published var city: String = ""
+    
+    func loadEntryCategories() {
+        
+        if _entryCategoryList.isEmpty {
+            entryServices.fetchEntryCategories()
+        } else {
+            return
+        }
+    }
     
     func addNewEntry(
         entryType: String,
