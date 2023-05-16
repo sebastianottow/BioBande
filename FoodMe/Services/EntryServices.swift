@@ -14,9 +14,9 @@ class EntryCategoryServices {
     
     let realm = try! Realm()
     
-    let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self).sorted(byKeyPath: "name", ascending: true)
+    private let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self).sorted(byKeyPath: "name", ascending: true)
     
-    let database = Firestore.firestore()
+    private let _database = Firestore.firestore()
         
     // MARK: fetch entry category options from firestore
 //
@@ -41,7 +41,7 @@ class EntryCategoryServices {
 //    }
     
     func fetchEntryCategories() {
-        database.collection("entry_categories").getDocuments() { (querySnapshot, err) in
+        _database.collection("entry_categories").getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents. \(err)")
             } else {
@@ -70,7 +70,7 @@ class EntryCategoryServices {
 //
 //            var entryCategories = [EntryCategoryModel]()
         
-        let entryCategories = self.database.collection("entry_categories")
+        let entryCategories = self._database.collection("entry_categories")
         entryCategories.addSnapshotListener { querySnapshot, error in
                 guard let snapshot = querySnapshot else {
                     print("Error fetching snapshots: \(error!)")

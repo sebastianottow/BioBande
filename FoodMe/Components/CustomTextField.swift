@@ -5,7 +5,9 @@
 //  Created by Sebastian Ottow on 27.03.23.
 //
 
+import Combine
 import UIKit
+
 
 class CustomTextField: UITextField {
 
@@ -20,7 +22,7 @@ class CustomTextField: UITextField {
 
     }
     
-    let padding = UIEdgeInsets(top: 10, left: 40, bottom: 10, right: 10)
+    var padding = UIEdgeInsets(top: 10, left: 40, bottom: 10, right: 10)
 
     private var _textColor: UIColor {
         if text!.isEmpty {
