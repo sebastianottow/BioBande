@@ -6,6 +6,7 @@
 //
 
 import Combine
+import CombineCocoa
 import RealmSwift
 import UIKit
 
@@ -19,7 +20,6 @@ class NewAnnotationEntryViewController: UIViewController {
     }
     
     let realm = try! Realm()
-
     
     private let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self).sorted(byKeyPath: "name", ascending: true)
     
@@ -95,21 +95,19 @@ class NewAnnotationEntryViewController: UIViewController {
     }()
     
     func setupPublishers() {
-        NotificationCenter.default
-            .publisher(for: UITextField.textDidChangeNotification, object: _streetNameTextField)
-            .map { ($0.object as! UITextField).text ?? "" }
-            .assign(to: \.street, on: _viewModel)
+        
+        _streetNameTextField.textPublisher
+            .map { "\($0 ?? "")" }
+            .assign(to: \.street , on: _viewModel)
             .store(in: &_cancellables)
         
-        NotificationCenter.default
-            .publisher(for: UITextField.textDidChangeNotification, object: _postalCodeTextField)
-            .map { ($0.object as! UITextField).text ?? "" }
+        _postalCodeTextField.textPublisher
+            .map { "\($0 ?? "")" }
             .assign(to: \.postalCode, on: _viewModel)
             .store(in: &_cancellables)
         
-        NotificationCenter.default
-            .publisher(for: UITextField.textDidChangeNotification, object: _cityTextField)
-            .map { ($0.object as! UITextField).text ?? "" }
+        _cityTextField.textPublisher
+            .map { "\($0 ?? "")" }
             .assign(to: \.city, on: _viewModel)
             .store(in: &_cancellables)
         
@@ -134,15 +132,15 @@ class NewAnnotationEntryViewController: UIViewController {
         _viewModel.loadEntryCategories()
     }
     
-    private func bind(viewModel: AnnotationViewModel) {
-        
-        viewModel.$street
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] street in
-                self?._streetNameTextField.text = street
-            }
-            .store(in: &_cancellables)
-    }
+//    private func bind(viewModel: AnnotationViewModel) {
+//        
+//        viewModel.$street
+//            .receive(on: DispatchQueue.main)
+//            .sink { [weak self] street in
+//                self?._streetNameTextField.text = street
+//            }
+//            .store(in: &_cancellables)
+//    }
     
     private func setupUI() {
         view.backgroundColor = .white
