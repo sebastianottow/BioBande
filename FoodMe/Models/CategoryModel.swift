@@ -1,5 +1,5 @@
 //
-//  EntryCategoryModel.swift
+//  CategoryModel.swift
 //  FoodMeMVP_SO
 //
 //  Created by Sebastian Ottow on 11.05.23.
@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class EntryCategoryModel: Object, Codable {
+class CategoryModel: Object, Codable {
     
     @Persisted var category: String
     @Persisted var name: String

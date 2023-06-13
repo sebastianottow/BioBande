@@ -10,6 +10,8 @@ import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+    let categoryServices = CategoryServices()
+
     var window: UIWindow?
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -77,6 +79,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {
+
+        categoryServices.fetchCategories()
+
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
     }

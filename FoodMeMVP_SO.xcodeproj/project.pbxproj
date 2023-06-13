@@ -32,8 +32,8 @@
 		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
 		563B419729C10945002059F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419629C10945002059F7 /* MapViewController.swift */; };
 		56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56430D232A0A425500BE2209 /* GoogleService-Info.plist */; };
-		56430D262A0A653100BE2209 /* EntryServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D252A0A653100BE2209 /* EntryServices.swift */; };
-		56430D282A0CD4DC00BE2209 /* EntryCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D272A0CD4DC00BE2209 /* EntryCategoryModel.swift */; };
+		56430D262A0A653100BE2209 /* CategoryServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D252A0A653100BE2209 /* CategoryServices.swift */; };
+		56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D272A0CD4DC00BE2209 /* CategoryModel.swift */; };
 		56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */; };
 		56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56778A9629EEA8820071B687 /* CustomDropDown.swift */; };
 		56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */; };
@@ -77,8 +77,8 @@
 		563B418F29BF3E19002059F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563B419629C10945002059F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		56430D232A0A425500BE2209 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		56430D252A0A653100BE2209 /* EntryServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryServices.swift; sourceTree = "<group>"; };
-		56430D272A0CD4DC00BE2209 /* EntryCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCategoryModel.swift; sourceTree = "<group>"; };
+		56430D252A0A653100BE2209 /* CategoryServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryServices.swift; sourceTree = "<group>"; };
+		56430D272A0CD4DC00BE2209 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorModel.swift; sourceTree = "<group>"; };
 		56778A9629EEA8820071B687 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
 		56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRequest.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				562E2C7229D08AE2005695A2 /* AnnotationModel.swift */,
-				56430D272A0CD4DC00BE2209 /* EntryCategoryModel.swift */,
+				56430D272A0CD4DC00BE2209 /* CategoryModel.swift */,
 				56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */,
 				561D521D2A26804B00CDAB24 /* RegisterUserRequest.swift */,
 				561D52272A28967000CDAB24 /* LoginUserRequest.swift */,
@@ -186,7 +186,7 @@
 		56430D222A0A3F7B00BE2209 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				56430D252A0A653100BE2209 /* EntryServices.swift */,
+				56430D252A0A653100BE2209 /* CategoryServices.swift */,
 				561D521B2A267F3400CDAB24 /* AuthServices.swift */,
 			);
 			path = Services;
@@ -370,7 +370,7 @@
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
 				561D52242A277E5C00CDAB24 /* CustomButton.swift in Sources */,
 				56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */,
-				56430D282A0CD4DC00BE2209 /* EntryCategoryModel.swift in Sources */,
+				56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */,
 				56F5A8372A1249F300013195 /* UserRegistrationViewController.swift in Sources */,
 				561D521E2A26804B00CDAB24 /* RegisterUserRequest.swift in Sources */,
 				561D52342A33B46800CDAB24 /* UserForgotPasswordViewController.swift in Sources */,
@@ -389,7 +389,7 @@
 				561D52362A33B92000CDAB24 /* ForgotPasswordViewModel.swift in Sources */,
 				561D52202A27777100CDAB24 /* CustomActivityIndicator.swift in Sources */,
 				561D52382A33BAC700CDAB24 /* UserModel.swift in Sources */,
-				56430D262A0A653100BE2209 /* EntryServices.swift in Sources */,
+				56430D262A0A653100BE2209 /* CategoryServices.swift in Sources */,
 				563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */,
 				56F5A83E2A125A5B00013195 /* LoginUserViewModel.swift in Sources */,
 				562E2C6F29D0861F005695A2 /* NewAnnotationEntryViewController.swift in Sources */,

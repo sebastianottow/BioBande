@@ -9,9 +9,7 @@ import UIKit
 import Combine
 
 class CustomDropDown: UITextField, UITextFieldDelegate {
-    
-    let entryServices = EntryCategoryServices()
-    
+        
     let pickerView = UIPickerView()
     
     @Published var selectedValue: String?

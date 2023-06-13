@@ -21,7 +21,7 @@ class NewAnnotationEntryViewController: UIViewController {
     
     let realm = try! Realm()
     
-    private let _entryCategoryList = try! Realm().objects(EntryCategoryModel.self).sorted(byKeyPath: "name", ascending: true)
+    private let _categoryList = try! Realm().objects(CategoryModel.self).sorted(byKeyPath: "name", ascending: true)
     
     @Published var selectedEntryCategory: String?
     
@@ -129,7 +129,7 @@ class NewAnnotationEntryViewController: UIViewController {
             }
             .store(in: &_cancellables)
         
-        _viewModel.loadEntryCategories()
+//        _viewModel.loadEntryCategories()
     }
     
 //    private func bind(viewModel: AnnotationViewModel) {
@@ -170,7 +170,7 @@ class NewAnnotationEntryViewController: UIViewController {
         
         _dropDownEntryType.createPickerView()
         _formHolderStackView.addArrangedSubview(_dropDownEntryType)
-        _dropDownEntryType.selectionList = _entryCategoryList.map { $0.name }
+        _dropDownEntryType.selectionList = _categoryList.map { $0.name }
         _dropDownEntryType.placeholder = "Kategorie auswählen"
         _dropDownEntryType.setIcon(icon: Constants.dropDownArrowIcon, color: Constants.defaultColor)
         
