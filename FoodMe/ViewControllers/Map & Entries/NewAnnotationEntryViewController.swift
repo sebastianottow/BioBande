@@ -129,7 +129,7 @@ class NewAnnotationEntryViewController: UIViewController {
             }
             .store(in: &_cancellables)
         
-        _viewModel.loadEntryCategories()
+//        _viewModel.loadEntryCategories()
     }
     
 //    private func bind(viewModel: AnnotationViewModel) {

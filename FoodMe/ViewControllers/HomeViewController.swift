@@ -62,7 +62,7 @@ class HomeViewController: UIViewController {
                     alert.view.alpha = 0.6
                     alert.view.layer.cornerRadius = 15
                     
-                    present(alert, animated: true)
+                    self.present(alert, animated: true)
                     
                     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()) {
                         alert.dismiss(animated: true)
