@@ -42,6 +42,7 @@
 		56F5A83C2A125A4A00013195 /* RegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */; };
 		56F5A83E2A125A5B00013195 /* LoginUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */; };
 		641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADD1F29D1857800F6141E /* CustomTextField.swift */; };
+		645CE5912A45927000231732 /* AnnotationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CE5902A45927000231732 /* AnnotationServices.swift */; };
 		B5C74BA911A48591106062AB /* Pods_FoodMeMVP_SO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewModel.swift; sourceTree = "<group>"; };
 		56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewModel.swift; sourceTree = "<group>"; };
 		641ADD1F29D1857800F6141E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		645CE5902A45927000231732 /* AnnotationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationServices.swift; sourceTree = "<group>"; };
 		D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.debug.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,6 +190,7 @@
 			children = (
 				56430D252A0A653100BE2209 /* CategoryServices.swift */,
 				561D521B2A267F3400CDAB24 /* AuthServices.swift */,
+				645CE5902A45927000231732 /* AnnotationServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				561D522E2A28B4E500CDAB24 /* CustomValidator.swift in Sources */,
 				562E2C7329D08AE2005695A2 /* AnnotationModel.swift in Sources */,
 				56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */,
+				645CE5912A45927000231732 /* AnnotationServices.swift in Sources */,
 				561D52262A2788F400CDAB24 /* CustomAuthTextField.swift in Sources */,
 				641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,

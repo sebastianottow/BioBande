@@ -15,7 +15,7 @@ class AuthServices {
     
     private init() {}
     
-    let db = Firestore.firestore()
+    private let _db = Firestore.firestore()
     
     /// A method to register the user
     /// - Parameters:
@@ -40,7 +40,7 @@ class AuthServices {
                 return
             }
             
-            self.db.collection("users")
+            self._db.collection("users")
                 .document(resultUser.uid)
                 .setData([
                     "username": username,

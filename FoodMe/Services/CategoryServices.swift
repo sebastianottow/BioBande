@@ -16,10 +16,10 @@ class CategoryServices {
     
     private let _categoryList = try! Realm().objects(CategoryModel.self).sorted(byKeyPath: "name", ascending: true)
     
-    private let _database = Firestore.firestore()
+    private let _db = Firestore.firestore()
     
     func fetchCategories() {
-        _database.collection("entry_categories").getDocuments() { (querySnapshot, err) in
+        _db.collection("entry_categories").getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents. \(err)")
             } else {

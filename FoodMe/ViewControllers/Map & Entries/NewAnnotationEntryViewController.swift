@@ -7,8 +7,10 @@
 
 import Combine
 import CombineCocoa
+import FirebaseAuth
 import RealmSwift
 import UIKit
+
 
 class NewAnnotationEntryViewController: UIViewController {
     
@@ -241,14 +243,27 @@ class NewAnnotationEntryViewController: UIViewController {
     
     @objc func saveNewEntry(sender: UIButton) {
         let entryID = UUID().uuidString
+        guard let userID = Auth.auth().currentUser?.uid, let selectedCategory = selectedEntryCategory else { return }
+
+        _viewModel.forwardGeocoding(
+            street: _viewModel.street,
+            postalCode: _viewModel.postalCode,
+            city: _viewModel.city
+        )
         
-        _viewModel.addNewEntry(
-            entryType: selectedEntryCategory ?? "",
+        let newAnnotationEntry = AnnotationModel(
+            userID: userID,
+            isPrivate: true,
+            entryType: selectedCategory,
             street: _viewModel.street,
             postalCode: _viewModel.postalCode,
             city: _viewModel.city,
-            id: entryID
+            id: entryID,
+            longCoord: _viewModel.longCoord,
+            latCoord: _viewModel.latCoord
         )
+
+        _viewModel.annotationServices.saveAnnotationToDB(with: newAnnotationEntry)
         
         _dropDownEntryType.text?.removeAll()
         _streetNameTextField.text?.removeAll()

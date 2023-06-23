@@ -6,13 +6,20 @@
 //
 
 import UIKit
-import RealmSwift
 
 
-class AnnotationModel: Object {
-    @Persisted var entryType: String?
-    @Persisted var street: String?
-    @Persisted var postalCode: String?
-    @Persisted var city: String?
-    @Persisted var id: String?
+struct AnnotationModel {
+
+    var userID: String
+    var isPrivate: Bool
+
+    var entryType: String
+
+    var street: String
+    var postalCode: String
+    var city: String
+    var id: String
+
+    var longCoord: Double
+    var latCoord: Double
 }
