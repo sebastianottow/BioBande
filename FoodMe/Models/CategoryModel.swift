@@ -9,7 +9,7 @@ import Foundation
 import RealmSwift
 
 class CategoryModel: Object, Codable {
-    
+
     @Persisted var category: String
     @Persisted var name: String
     @Persisted var typeDescription: String

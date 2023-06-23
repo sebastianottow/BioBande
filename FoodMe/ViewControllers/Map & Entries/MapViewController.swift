@@ -25,7 +25,7 @@ class MapViewController: UIViewController {
     private var _longitude = CLLocationCoordinate2D().longitude
     private var _latitude = CLLocationCoordinate2D().latitude
     
-    private let _annotationList = try! Realm().objects(AnnotationModel.self)
+    private let _annotationList = [AnnotationModel]()
 
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
     
@@ -145,14 +145,14 @@ class MapViewController: UIViewController {
                     location = placemarks.first?.location
                 }
 
-                if let location = location, let entryType = annotation.entryType {
+                if let location = location {
                     self._longitude = location.coordinate.longitude
                     self._latitude = location.coordinate.latitude
 
                     self.addCustomPin(
                         latCoord: self._latitude,
                         longCoord: self._longitude,
-                        entryTtitle: entryType
+                        entryTtitle: annotation.entryType
                     )
                 }
                 else
