@@ -24,17 +24,18 @@ class AnnotationViewModel: ObservableObject {
     @Published var street: String = ""
     @Published var postalCode: String = ""
     @Published var city: String = ""
-    @Published var longCoord: Double = 0.0
+    @Published var longCoord: Double = 0
     @Published var latCoord: Double = 0.0
 
-    func forwardGeocoding(street: String, postalCode: String, city: String) {
+    func forwardGeocoding(street: String, postalCode: String, city: String, completion: @escaping (Bool, Error?) -> Void) {
 
         let address = "\(street) \(postalCode) \(city)"
 
         let geocoder = CLGeocoder()
-        geocoder.geocodeAddressString(address, completionHandler: { (placemarks, error) in
-            if error != nil {
-                print("Failed to retrieve location")
+        geocoder.geocodeAddressString(address) { (placemarks, error) in
+            if let error = error {
+                print("Failed to retrieve location: \(error)")
+                completion(false, error)
                 return
             }
 
@@ -48,12 +49,15 @@ class AnnotationViewModel: ObservableObject {
                 self.longCoord = location.coordinate.longitude
                 self.latCoord = location.coordinate.latitude
 
+                completion(true, nil)
             }
             else
             {
-                print("No Matching Location Found")
+                guard let error = error else { return }
+                print("No matching location found: \(error)")
+                completion(false, error)
             }
-        })
+        }
     }
 }
 

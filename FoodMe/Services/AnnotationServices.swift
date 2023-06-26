@@ -15,7 +15,7 @@ class AnnotationServices {
 
     func saveAnnotationToDB(with annotationRequest: AnnotationModel) {
 
-        _db.collection("customAnnoations").addDocument(data: [
+        _db.collection("customAnnotations").addDocument(data: [
             "userID":  annotationRequest.userID,
             "isPrivate": annotationRequest.isPrivate,
             "entryType": annotationRequest.entryType,

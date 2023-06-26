@@ -11,6 +11,9 @@ import FirebaseAuth
 import RealmSwift
 import UIKit
 
+import CoreLocation
+
+
 
 class NewAnnotationEntryViewController: UIViewController {
     
@@ -245,34 +248,44 @@ class NewAnnotationEntryViewController: UIViewController {
         let entryID = UUID().uuidString
         guard let userID = Auth.auth().currentUser?.uid, let selectedCategory = selectedEntryCategory else { return }
 
-        _viewModel.forwardGeocoding(
-            street: _viewModel.street,
-            postalCode: _viewModel.postalCode,
-            city: _viewModel.city
-        )
-        
-        let newAnnotationEntry = AnnotationModel(
-            userID: userID,
-            isPrivate: true,
-            entryType: selectedCategory,
-            street: _viewModel.street,
-            postalCode: _viewModel.postalCode,
-            city: _viewModel.city,
-            id: entryID,
-            longCoord: _viewModel.longCoord,
-            latCoord: _viewModel.latCoord
-        )
+            _viewModel.forwardGeocoding(
+                        street: _viewModel.street,
+                        postalCode: _viewModel.postalCode,
+                        city: _viewModel.city) { [weak self] wasConverted, error in
 
-        _viewModel.annotationServices.saveAnnotationToDB(with: newAnnotationEntry)
-        
-        _dropDownEntryType.text?.removeAll()
-        _streetNameTextField.text?.removeAll()
-        _postalCodeTextField.text?.removeAll()
-        _cityTextField.text?.removeAll()
-        
-        showToast(controller: self, message: "Entry successfully added!", seconds: 3)
-        
-        print("\(_viewModel.entries)")
+                            if let error = error {
+                                print("\(error)")
+                                return
+                            }
+
+                            if wasConverted {
+
+                                let newAnnotationEntry = AnnotationModel(
+                                    userID: userID,
+                                    isPrivate: true,
+                                    entryType: selectedCategory,
+                                    street: self?._viewModel.street ?? "",
+                                    postalCode: self?._viewModel.postalCode ?? "",
+                                    city: self?._viewModel.city ?? "",
+                                    id: entryID,
+                                    longCoord: self?._viewModel.longCoord ?? 0.0,
+                                    latCoord: self?._viewModel.latCoord ?? 0.0
+                                )
+
+                                self?._viewModel.annotationServices.saveAnnotationToDB(with: newAnnotationEntry)
+
+                                self?._dropDownEntryType.text?.removeAll()
+                                self?._streetNameTextField.text?.removeAll()
+                                self?._postalCodeTextField.text?.removeAll()
+                                self?._cityTextField.text?.removeAll()
+
+//                                showToast(controller: self, message: "Entry successfully added!", seconds: 3)
+
+                            } else {
+                                print("irgendwas lief falsch!")
+                            }
+
+                        }
     }
     
     @objc func hideMapDetailViewController(sender: UIButton) {
