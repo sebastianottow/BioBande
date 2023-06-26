@@ -11,6 +11,9 @@ import FirebaseAuth
 import RealmSwift
 import UIKit
 
+import CoreLocation
+
+
 
 class NewAnnotationEntryViewController: UIViewController {
     
