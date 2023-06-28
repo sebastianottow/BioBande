@@ -29,7 +29,6 @@
 		562E2C7329D08AE2005695A2 /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C7229D08AE2005695A2 /* AnnotationModel.swift */; };
 		563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418129BF3E18002059F7 /* AppDelegate.swift */; };
 		563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418329BF3E18002059F7 /* SceneDelegate.swift */; };
-		563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563B418A29BF3E19002059F7 /* Assets.xcassets */; };
 		563B419729C10945002059F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419629C10945002059F7 /* MapViewController.swift */; };
 		56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56430D232A0A425500BE2209 /* GoogleService-Info.plist */; };
 		56430D262A0A653100BE2209 /* CategoryServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D252A0A653100BE2209 /* CategoryServices.swift */; };
@@ -37,6 +36,8 @@
 		56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */; };
 		56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56778A9629EEA8820071B687 /* CustomDropDown.swift */; };
 		56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */; };
+		56C1A8472A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */; };
+		56C1A8492A4CD17A00404855 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A8482A4CD17A00404855 /* Assets.swift */; };
 		56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */; };
 		56F5A8352A1249E800013195 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8342A1249E800013195 /* UserLoginViewController.swift */; };
 		56F5A8372A1249F300013195 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8362A1249F300013195 /* UserRegistrationViewController.swift */; };
@@ -70,7 +71,6 @@
 		563B417E29BF3E18002059F7 /* PickAFoodMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAFoodMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		563B418A29BF3E19002059F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		563B418F29BF3E19002059F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563B419629C10945002059F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		56430D232A0A425500BE2209 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -79,6 +79,8 @@
 		56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorModel.swift; sourceTree = "<group>"; };
 		56778A9629EEA8820071B687 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
 		56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationServices.swift; sourceTree = "<group>"; };
+		56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PickAFoodMVP_Bee_Logo.svg; path = ../../../../PickAFoodMVP_Bee_Logo.svg; sourceTree = "<group>"; };
+		56C1A8482A4CD17A00404855 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRequest.swift; sourceTree = "<group>"; };
 		56F5A8342A1249E800013195 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		56F5A8362A1249F300013195 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,9 @@
 		563B418029BF3E18002059F7 /* PickAFoodMVP */ = {
 			isa = PBXGroup;
 			children = (
+				56C1A8402A4CC7F800404855 /* Assets.xcassets */,
+				56C1A83F2A4CC7AA00404855 /* Colors.xcassets */,
+				56C1A83E2A4CC78200404855 /* Generated */,
 				56430D232A0A425500BE2209 /* GoogleService-Info.plist */,
 				56430D222A0A3F7B00BE2209 /* Services */,
 				641ADD1E29D1856900F6141E /* Components */,
@@ -158,7 +163,6 @@
 				563B418129BF3E18002059F7 /* AppDelegate.swift */,
 				563B418329BF3E18002059F7 /* SceneDelegate.swift */,
 				561D522B2A289C8C00CDAB24 /* LaunchScreen.storyboard */,
-				563B418A29BF3E19002059F7 /* Assets.xcassets */,
 				563B418F29BF3E19002059F7 /* Info.plist */,
 			);
 			path = PickAFoodMVP;
@@ -191,6 +195,29 @@
 				56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		56C1A83E2A4CC78200404855 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				56C1A8482A4CD17A00404855 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		56C1A83F2A4CC7AA00404855 /* Colors.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors.xcassets;
+			sourceTree = "<group>";
+		};
+		56C1A8402A4CC7F800404855 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */,
+			);
+			path = Assets.xcassets;
 			sourceTree = "<group>";
 		};
 		56F5A8332A1249CD00013195 /* Login & Signup */ = {
@@ -253,6 +280,7 @@
 			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "PickAFoodMVP" */;
 			buildPhases = (
 				A0D53C84115D3788198113D4 /* [CP] Check Pods Manifest.lock */,
+				56C1A8412A4CC81400404855 /* SwiftGen */,
 				563B417A29BF3E18002059F7 /* Sources */,
 				563B417B29BF3E18002059F7 /* Frameworks */,
 				563B417C29BF3E18002059F7 /* Resources */,
@@ -306,14 +334,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				561D522C2A289C8C00CDAB24 /* LaunchScreen.storyboard in Resources */,
-				563B418B29BF3E19002059F7 /* Assets.xcassets in Resources */,
 				56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */,
+				56C1A8472A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		56C1A8412A4CC81400404855 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
 		8F09A6B885483E4652795FE9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +414,7 @@
 				641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
 				561D52242A277E5C00CDAB24 /* CustomButton.swift in Sources */,
+				56C1A8492A4CD17A00404855 /* Assets.swift in Sources */,
 				56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */,
 				56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */,
 				56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */,

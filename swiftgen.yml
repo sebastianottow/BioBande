@@ -1,4 +1,19 @@
 # 1
-input_dir: FoodMeMVP_SO/
+input_dir: PickAFoodMVP/
 # 2
-output_dir: FoodMeMVP_SO/Generated/
+output_dir: PickAFoodMVP/Generated/
+
+## XCAssets
+xcassets:
+  inputs:
+    - Assets.xcassets
+    - Colors.xcassets
+  outputs:
+    templateName: swift5
+    # 1
+    params:
+       # 2
+       forceProvidesNamespaces: true
+       # 3
+       forceFileNameEnum: true
+    output: Assets.swift

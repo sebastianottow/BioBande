@@ -27,12 +27,17 @@ class CategoryServices {
                 for document in querySnapshot.documents {
 
                     let category = CategoryModel()
+                    category.categoryID = document.documentID
                     category.category = document.data()["category"] as! String
                     category.name = document.data()["name"] as! String
                     category.typeDescription = document.data()["description"] as! String
 
-                    try! self.realm.write {
-                        self.realm.add(category)
+                    if self._categoryList.contains(where: { $0.categoryID == category.categoryID }) {
+                        continue
+                    } else {
+                        try! self.realm.write {
+                            self.realm.add(category)
+                        }
                     }
                 }
             }
