@@ -24,6 +24,8 @@ pod 'FirebaseFirestore'
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 
+pod 'FirebaseAppCheck'
+
 # Add CombineCocoa to provide publishers for common UIKit controls
 pod 'CombineCocoa'
 

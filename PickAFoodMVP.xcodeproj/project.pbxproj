@@ -36,7 +36,6 @@
 		56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */; };
 		56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56778A9629EEA8820071B687 /* CustomDropDown.swift */; };
 		56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */; };
-		56C1A8472A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */; };
 		56C1A8492A4CD17A00404855 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A8482A4CD17A00404855 /* Assets.swift */; };
 		56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */; };
 		56F5A8352A1249E800013195 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8342A1249E800013195 /* UserLoginViewController.swift */; };
@@ -44,6 +43,8 @@
 		56F5A83C2A125A4A00013195 /* RegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */; };
 		56F5A83E2A125A5B00013195 /* LoginUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */; };
 		641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADD1F29D1857800F6141E /* CustomTextField.swift */; };
+		64ADB3E72A4D759200166DB9 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 64ADB3E62A4D759200166DB9 /* swiftgen.yml */; };
+		64ADB3EA2A4D763100166DB9 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 64ADB3E92A4D763100166DB9 /* UI */; };
 		855956CB9834BBB33A5F3AD4 /* Pods_PickAFoodMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +80,6 @@
 		56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorModel.swift; sourceTree = "<group>"; };
 		56778A9629EEA8820071B687 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
 		56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationServices.swift; sourceTree = "<group>"; };
-		56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PickAFoodMVP_Bee_Logo.svg; path = ../../../../PickAFoodMVP_Bee_Logo.svg; sourceTree = "<group>"; };
 		56C1A8482A4CD17A00404855 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRequest.swift; sourceTree = "<group>"; };
 		56F5A8342A1249E800013195 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +87,8 @@
 		56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewModel.swift; sourceTree = "<group>"; };
 		56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewModel.swift; sourceTree = "<group>"; };
 		641ADD1F29D1857800F6141E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		64ADB3E62A4D759200166DB9 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		64ADB3E92A4D763100166DB9 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 		9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAFoodMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.debug.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.debug.xcconfig"; sourceTree = "<group>"; };
 		C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.release.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		563B417529BF3E18002059F7 = {
 			isa = PBXGroup;
 			children = (
+				64ADB3E62A4D759200166DB9 /* swiftgen.yml */,
 				563B418029BF3E18002059F7 /* PickAFoodMVP */,
 				563B417F29BF3E18002059F7 /* Products */,
 				D63AFE316AF2BB9536B3B434 /* Pods */,
@@ -150,8 +153,7 @@
 		563B418029BF3E18002059F7 /* PickAFoodMVP */ = {
 			isa = PBXGroup;
 			children = (
-				56C1A8402A4CC7F800404855 /* Assets.xcassets */,
-				56C1A83F2A4CC7AA00404855 /* Colors.xcassets */,
+				64ADB3E92A4D763100166DB9 /* UI */,
 				56C1A83E2A4CC78200404855 /* Generated */,
 				56430D232A0A425500BE2209 /* GoogleService-Info.plist */,
 				56430D222A0A3F7B00BE2209 /* Services */,
@@ -203,21 +205,6 @@
 				56C1A8482A4CD17A00404855 /* Assets.swift */,
 			);
 			path = Generated;
-			sourceTree = "<group>";
-		};
-		56C1A83F2A4CC7AA00404855 /* Colors.xcassets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Colors.xcassets;
-			sourceTree = "<group>";
-		};
-		56C1A8402A4CC7F800404855 /* Assets.xcassets */ = {
-			isa = PBXGroup;
-			children = (
-				56C1A8462A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg */,
-			);
-			path = Assets.xcassets;
 			sourceTree = "<group>";
 		};
 		56F5A8332A1249CD00013195 /* Login & Signup */ = {
@@ -333,9 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64ADB3EA2A4D763100166DB9 /* UI in Resources */,
 				561D522C2A289C8C00CDAB24 /* LaunchScreen.storyboard in Resources */,
 				56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */,
-				56C1A8472A4CCF8500404855 /* PickAFoodMVP_Bee_Logo.svg in Resources */,
+				64ADB3E72A4D759200166DB9 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

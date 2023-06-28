@@ -20,9 +20,9 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
-  internal enum Assets {
+  internal enum Color {
   }
-  internal enum Colors {
+  internal enum Image {
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
