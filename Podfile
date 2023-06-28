@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '16.0'
 
 target 'FoodMeMVP_SO' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -26,5 +26,8 @@ pod 'Firebase/Database'
 
 # Add CombineCocoa to provide publishers for common UIKit controls
 pod 'CombineCocoa'
+
+# Add Assets automatically from dropped images
+pod 'SwiftGen'
 
 end
