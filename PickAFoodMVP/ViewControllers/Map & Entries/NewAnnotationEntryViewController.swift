@@ -7,8 +7,11 @@
 
 import Combine
 import CombineCocoa
+import FirebaseAuth
+import MapKit
 import RealmSwift
 import UIKit
+
 
 class NewAnnotationEntryViewController: UIViewController {
     
@@ -33,6 +36,14 @@ class NewAnnotationEntryViewController: UIViewController {
     private let _addNewEntryButton = UIButton()
     
     private let _dropDownEntryType = CustomDropDown()
+
+    private lazy var _searchCompleter: MKLocalSearchCompleter = {
+        let searchCompleter = MKLocalSearchCompleter()
+        searchCompleter.delegate = self
+        return searchCompleter
+    }()
+
+    private var _searchDataList: [String]?
     
     private let _streetNameTextField: CustomTextField = {
         let textField = CustomTextField()
@@ -133,7 +144,7 @@ class NewAnnotationEntryViewController: UIViewController {
     }
     
 //    private func bind(viewModel: AnnotationViewModel) {
-//        
+//
 //        viewModel.$street
 //            .receive(on: DispatchQueue.main)
 //            .sink { [weak self] street in
@@ -241,26 +252,72 @@ class NewAnnotationEntryViewController: UIViewController {
     
     @objc func saveNewEntry(sender: UIButton) {
         let entryID = UUID().uuidString
-        
-        _viewModel.addNewEntry(
-            entryType: selectedEntryCategory ?? "",
-            street: _viewModel.street,
-            postalCode: _viewModel.postalCode,
-            city: _viewModel.city,
-            id: entryID
-        )
-        
+        guard let userID = Auth.auth().currentUser?.uid, let selectedCategory = selectedEntryCategory else { return }
+
+            _viewModel.forwardGeocoding(
+                        street: _viewModel.street,
+                        postalCode: _viewModel.postalCode,
+                        city: _viewModel.city) { [weak self] wasConverted, error in
+
+                            if let error = error {
+                                print("\(error)")
+
+                                self?.showToast(controller: self!, message: "Wir konnten deine Adresse leider nicht finden!", seconds: 3)
+
+                                return
+                            }
+
+                            if wasConverted {
+
+                                let newAnnotationEntry = AnnotationModel(
+                                    userID: userID,
+                                    isPrivate: true,
+                                    entryType: selectedCategory,
+                                    street: self?._viewModel.street ?? "",
+                                    postalCode: self?._viewModel.postalCode ?? "",
+                                    city: self?._viewModel.city ?? "",
+                                    id: entryID,
+                                    longCoord: self?._viewModel.longCoord ?? 0.0,
+                                    latCoord: self?._viewModel.latCoord ?? 0.0
+                                )
+
+                                self?._viewModel.annotationServices.saveAnnotationToDB(with: newAnnotationEntry)
+
+                                self?.resetInputFields()
+
+                                self?.showToast(controller: self!, message: "Entry successfully added!", seconds: 3)
+
+                            } else {
+                                print("irgendwas lief falsch!")
+                            }
+
+                        }
+    }
+
+    private func resetInputFields() {
+
         _dropDownEntryType.text?.removeAll()
         _streetNameTextField.text?.removeAll()
         _postalCodeTextField.text?.removeAll()
         _cityTextField.text?.removeAll()
-        
-        showToast(controller: self, message: "Entry successfully added!", seconds: 3)
-        
-        print("\(_viewModel.entries)")
+
     }
     
     @objc func hideMapDetailViewController(sender: UIButton) {
         self.dismiss(animated: true)
     }
+}
+
+extension NewAnnotationEntryViewController: MKLocalSearchCompleterDelegate {
+    func completerDidUpdateResults(_ completer: MKLocalSearchCompleter) {
+        self._searchDataList = completer.results.map { $0.title }
+        DispatchQueue.main.async {
+//            self.tableView.reloadData()
+        }
+    }
+
+    func completer(_ completer: MKLocalSearchCompleter, didFailWithError error: Error) {
+        print(error.localizedDescription)
+    }
+
 }

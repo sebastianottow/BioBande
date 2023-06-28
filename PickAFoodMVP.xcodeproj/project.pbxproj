@@ -36,20 +36,17 @@
 		56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D272A0CD4DC00BE2209 /* CategoryModel.swift */; };
 		56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */; };
 		56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56778A9629EEA8820071B687 /* CustomDropDown.swift */; };
+		56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */; };
 		56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */; };
 		56F5A8352A1249E800013195 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8342A1249E800013195 /* UserLoginViewController.swift */; };
 		56F5A8372A1249F300013195 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8362A1249F300013195 /* UserRegistrationViewController.swift */; };
 		56F5A83C2A125A4A00013195 /* RegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */; };
 		56F5A83E2A125A5B00013195 /* LoginUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */; };
 		641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADD1F29D1857800F6141E /* CustomTextField.swift */; };
-		B5C74BA911A48591106062AB /* Pods_FoodMeMVP_SO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */; };
+		855956CB9834BBB33A5F3AD4 /* Pods_PickAFoodMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMeMVP_SO.release.xcconfig"; path = "Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO.release.xcconfig"; sourceTree = "<group>"; };
-		3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMeMVP_SO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMeMVP_SO.debug.xcconfig"; path = "Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO.debug.xcconfig"; sourceTree = "<group>"; };
-		4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.release.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.release.xcconfig"; sourceTree = "<group>"; };
 		561D521B2A267F3400CDAB24 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		561D521D2A26804B00CDAB24 /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
 		561D521F2A27777100CDAB24 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
@@ -70,7 +67,7 @@
 		562E2C6C29D084C4005695A2 /* AnnotationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewModel.swift; sourceTree = "<group>"; };
 		562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnotationEntryViewController.swift; sourceTree = "<group>"; };
 		562E2C7229D08AE2005695A2 /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = "<group>"; };
-		563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMeMVP_SO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563B417E29BF3E18002059F7 /* PickAFoodMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAFoodMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		563B418A29BF3E19002059F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,13 +78,16 @@
 		56430D272A0CD4DC00BE2209 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorModel.swift; sourceTree = "<group>"; };
 		56778A9629EEA8820071B687 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
+		56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationServices.swift; sourceTree = "<group>"; };
 		56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRequest.swift; sourceTree = "<group>"; };
 		56F5A8342A1249E800013195 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		56F5A8362A1249F300013195 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
 		56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewModel.swift; sourceTree = "<group>"; };
 		56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewModel.swift; sourceTree = "<group>"; };
 		641ADD1F29D1857800F6141E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMe.debug.xcconfig"; path = "Target Support Files/Pods-FoodMe/Pods-FoodMe.debug.xcconfig"; sourceTree = "<group>"; };
+		9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAFoodMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.debug.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.release.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C74BA911A48591106062AB /* Pods_FoodMeMVP_SO.framework in Frameworks */,
+				855956CB9834BBB33A5F3AD4 /* Pods_PickAFoodMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,22 +130,22 @@
 		563B417529BF3E18002059F7 = {
 			isa = PBXGroup;
 			children = (
-				563B418029BF3E18002059F7 /* FoodMe */,
+				563B418029BF3E18002059F7 /* PickAFoodMVP */,
 				563B417F29BF3E18002059F7 /* Products */,
 				D63AFE316AF2BB9536B3B434 /* Pods */,
-				B95F1AD82EF880117D84F755 /* Frameworks */,
+				58ECD1D07E35517060181429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		563B417F29BF3E18002059F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */,
+				563B417E29BF3E18002059F7 /* PickAFoodMVP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		563B418029BF3E18002059F7 /* FoodMe */ = {
+		563B418029BF3E18002059F7 /* PickAFoodMVP */ = {
 			isa = PBXGroup;
 			children = (
 				56430D232A0A425500BE2209 /* GoogleService-Info.plist */,
@@ -161,16 +161,16 @@
 				563B418A29BF3E19002059F7 /* Assets.xcassets */,
 				563B418F29BF3E19002059F7 /* Info.plist */,
 			);
-			path = FoodMe;
+			path = PickAFoodMVP;
 			sourceTree = "<group>";
 		};
 		563B419529C1091F002059F7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				562E2C5D29C85404005695A2 /* HomeViewController.swift */,
+				561D52312A28BF3A00CDAB24 /* WebViewController.swift */,
 				56F5A8332A1249CD00013195 /* Login & Signup */,
 				56F5A8382A124AE600013195 /* Map & Entries */,
-				561D52312A28BF3A00CDAB24 /* WebViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -188,6 +188,7 @@
 			children = (
 				56430D252A0A653100BE2209 /* CategoryServices.swift */,
 				561D521B2A267F3400CDAB24 /* AuthServices.swift */,
+				56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -213,6 +214,14 @@
 			path = "Map & Entries";
 			sourceTree = "<group>";
 		};
+		58ECD1D07E35517060181429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		641ADD1E29D1856900F6141E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,21 +236,11 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		B95F1AD82EF880117D84F755 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A158F8F448FDC0CA6870F7D /* Pods_FoodMeMVP_SO.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D63AFE316AF2BB9536B3B434 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D51AFF51E51C9CAD2DBDDC97 /* Pods-FoodMe.debug.xcconfig */,
-				4F1DCB3B1288168543084C17 /* Pods-FoodMe.release.xcconfig */,
-				3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */,
-				35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */,
+				9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */,
+				C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -249,23 +248,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		563B417D29BF3E18002059F7 /* FoodMeMVP_SO */ = {
+		563B417D29BF3E18002059F7 /* PickAFoodMVP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMeMVP_SO" */;
+			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "PickAFoodMVP" */;
 			buildPhases = (
-				0B097EC2AF6B246C81EE8EEC /* [CP] Check Pods Manifest.lock */,
+				A0D53C84115D3788198113D4 /* [CP] Check Pods Manifest.lock */,
 				563B417A29BF3E18002059F7 /* Sources */,
 				563B417B29BF3E18002059F7 /* Frameworks */,
 				563B417C29BF3E18002059F7 /* Resources */,
-				DD0198F2CD9FAD9D939B1472 /* [CP] Embed Pods Frameworks */,
+				8F09A6B885483E4652795FE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FoodMeMVP_SO;
+			name = PickAFoodMVP;
 			productName = FoodMe;
-			productReference = 563B417E29BF3E18002059F7 /* FoodMeMVP_SO.app */;
+			productReference = 563B417E29BF3E18002059F7 /* PickAFoodMVP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMeMVP_SO" */;
+			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "PickAFoodMVP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -296,7 +295,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563B417D29BF3E18002059F7 /* FoodMeMVP_SO */,
+				563B417D29BF3E18002059F7 /* PickAFoodMVP */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +314,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B097EC2AF6B246C81EE8EEC /* [CP] Check Pods Manifest.lock */ = {
+		8F09A6B885483E4652795FE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D53C84115D3788198113D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,28 +346,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FoodMeMVP_SO-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PickAFoodMVP-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD0198F2CD9FAD9D939B1472 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMeMVP_SO/Pods-FoodMeMVP_SO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -369,6 +368,7 @@
 				641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
 				561D52242A277E5C00CDAB24 /* CustomButton.swift in Sources */,
+				56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */,
 				56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */,
 				56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */,
 				56F5A8372A1249F300013195 /* UserRegistrationViewController.swift in Sources */,
@@ -517,7 +517,7 @@
 		};
 		563B419329BF3E19002059F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CCE7B688B6B30C8DE59D6C2 /* Pods-FoodMeMVP_SO.debug.xcconfig */;
+			baseConfigurationReference = 9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -525,7 +525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodMe/Info.plist;
+				INFOPLIST_FILE = PickAFoodMVP/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = foodMe;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -537,8 +537,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sebastianottow.com.ug.FoodMe;
-				PRODUCT_NAME = "${TARGETNAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianottow.PickAFoodMVP;
+				PRODUCT_NAME = PickAFoodMVP;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,7 +547,7 @@
 		};
 		563B419429BF3E19002059F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35B2A79137F3BED0915E877E /* Pods-FoodMeMVP_SO.release.xcconfig */;
+			baseConfigurationReference = C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -555,7 +555,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodMe/Info.plist;
+				INFOPLIST_FILE = PickAFoodMVP/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = foodMe;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -567,8 +567,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sebastianottow.com.ug.FoodMe;
-				PRODUCT_NAME = "${TARGETNAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianottow.PickAFoodMVP;
+				PRODUCT_NAME = PickAFoodMVP;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "FoodMeMVP_SO" */ = {
+		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "PickAFoodMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419029BF3E19002059F7 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "FoodMeMVP_SO" */ = {
+		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "PickAFoodMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419329BF3E19002059F7 /* Debug */,

@@ -6,6 +6,7 @@
 //
 
 import Combine
+import CoreLocation
 import UIKit
 import RealmSwift
 
@@ -15,32 +16,47 @@ class AnnotationViewModel: ObservableObject {
     let realm = try! Realm()
     
     let _categoryList = try! Realm().objects(CategoryModel.self)
+
+    let annotationServices = AnnotationServices()
         
     var entries = [AnnotationModel]()
     
     @Published var street: String = ""
     @Published var postalCode: String = ""
     @Published var city: String = ""
+    @Published var longCoord: Double = 0
+    @Published var latCoord: Double = 0.0
 
-    func addNewEntry(
-        entryType: String,
-        street: String,
-        postalCode: String,
-        city: String,
-        id: String
-    ) {
-        let entry = AnnotationModel()
-        
-        entry.entryType = entryType
-        entry.street = street
-        entry.postalCode = postalCode
-        entry.city = city
-        entry.id = id
-        
-        self.entries.append(entry)
-        
-        try! realm.write {
-            realm.add(entry)
+    func forwardGeocoding(street: String, postalCode: String, city: String, completion: @escaping (Bool, Error?) -> Void) {
+
+        let address = "\(street) \(postalCode) \(city)"
+
+        let geocoder = CLGeocoder()
+        geocoder.geocodeAddressString(address) { (placemarks, error) in
+            if let error = error {
+                print("Failed to retrieve location: \(error)")
+                completion(false, error)
+                return
+            }
+
+            var location: CLLocation?
+
+            if let placemarks = placemarks, placemarks.count > 0 {
+                location = placemarks.first?.location
+            }
+
+            if let location = location {
+                self.longCoord = location.coordinate.longitude
+                self.latCoord = location.coordinate.latitude
+
+                completion(true, nil)
+            }
+            else
+            {
+                guard let error = error else { return }
+                print("No matching location found: \(error)")
+                completion(false, error)
+            }
         }
     }
 }
