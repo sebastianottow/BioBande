@@ -10,6 +10,7 @@ import RealmSwift
 
 class CategoryModel: Object, Codable {
     
+    @Persisted var categoryID: String
     @Persisted var category: String
     @Persisted var name: String
     @Persisted var typeDescription: String
