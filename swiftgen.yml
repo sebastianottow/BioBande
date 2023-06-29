@@ -7,7 +7,7 @@ output_dir: PickAFoodMVP/Generated/
 xcassets:
   inputs:
     - UI/Image.xcassets
-    - UI/Color.xcassets
+#    - UI/Color.xcassets
   outputs:
     templateName: swift5
     # 1
