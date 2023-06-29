@@ -26,6 +26,7 @@ class AnnotationViewModel: ObservableObject {
     @Published var city: String = ""
     @Published var longCoord: Double = 0
     @Published var latCoord: Double = 0.0
+    @Published var isPrivate: Bool = false
 
     func forwardGeocoding(street: String, postalCode: String, city: String, completion: @escaping (Bool, Error?) -> Void) {
 

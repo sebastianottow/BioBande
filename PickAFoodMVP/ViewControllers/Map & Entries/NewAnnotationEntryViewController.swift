@@ -34,6 +34,16 @@ class NewAnnotationEntryViewController: UIViewController {
     
     private let _dismissButton = UIButton()
     private let _addNewEntryButton = UIButton()
+
+    private let _isPrivateSwitch = UISwitch()
+
+    private let _isPrivateSwitchLabel: UILabel = {
+        let label = UILabel()
+
+        label.text = "für alle Nutzer anzeigen"
+
+        return label
+    }()
     
     private let _dropDownEntryType = CustomDropDown()
 
@@ -139,20 +149,11 @@ class NewAnnotationEntryViewController: UIViewController {
                 self.selectedEntryCategory = value
             }
             .store(in: &_cancellables)
-        
-//        _viewModel.loadEntryCategories()
+
+        _isPrivateSwitch.addTarget(self, action: #selector(onToggleIsPrivateSwitch), for: .valueChanged)
+        _isPrivateSwitch.setOn(false, animated: false)
     }
-    
-//    private func bind(viewModel: AnnotationViewModel) {
-//
-//        viewModel.$street
-//            .receive(on: DispatchQueue.main)
-//            .sink { [weak self] street in
-//                self?._streetNameTextField.text = street
-//            }
-//            .store(in: &_cancellables)
-//    }
-    
+
     private func setupUI() {
         view.backgroundColor = .white
         
@@ -189,7 +190,19 @@ class NewAnnotationEntryViewController: UIViewController {
         
         _formHolderStackView.addArrangedSubview(_postalCodeTextField)
         _formHolderStackView.addArrangedSubview(_cityTextField)
-        
+
+        let switchHolderView = UIView()
+        switchHolderView.layer.cornerRadius = 5
+        switchHolderView.layer.borderWidth = 1
+        switchHolderView.layer.borderColor = UIColor.lightGray.cgColor
+
+        switchHolderView.addSubview(_isPrivateSwitchLabel)
+        _isPrivateSwitchLabel.edgesToSuperview(excluding: .right, insets: .init(top: 8, left: 15, bottom: 8, right: 0))
+        switchHolderView.addSubview(_isPrivateSwitch)
+        _isPrivateSwitch.edgesToSuperview(excluding: .left, insets: .init(top: 8, left: 0, bottom: 8, right: 10))
+
+        _formHolderStackView.addArrangedSubview(switchHolderView)
+
         addAddNewEntryButton()
         _scrollView.addSubview(_addNewEntryButton)
         _addNewEntryButton.bottomToSuperview(offset: -25, usingSafeArea: true)
@@ -271,7 +284,7 @@ class NewAnnotationEntryViewController: UIViewController {
 
                                 let newAnnotationEntry = AnnotationModel(
                                     userID: userID,
-                                    isPrivate: true,
+                                    isPrivate: self?._viewModel.isPrivate ?? false,
                                     entryType: selectedCategory,
                                     street: self?._viewModel.street ?? "",
                                     postalCode: self?._viewModel.postalCode ?? "",
@@ -299,8 +312,17 @@ class NewAnnotationEntryViewController: UIViewController {
         _dropDownEntryType.text?.removeAll()
         _streetNameTextField.text?.removeAll()
         _postalCodeTextField.text?.removeAll()
+        _isPrivateSwitch.isOn = false
         _cityTextField.text?.removeAll()
 
+    }
+
+    @objc func onToggleIsPrivateSwitch(_ sender: UISwitch) {
+        if sender.isOn == true {
+            _viewModel.isPrivate = true
+        } else {
+            _viewModel.isPrivate = false
+        }
     }
     
     @objc func hideMapDetailViewController(sender: UIButton) {
