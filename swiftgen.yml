@@ -1,7 +1,7 @@
 # 1
-input_dir: PickAFoodMVP/
+input_dir: BioBande/
 # 2
-output_dir: PickAFoodMVP/Generated/
+output_dir: BioBande/Generated/
 
 ## XCAssets
 xcassets:

@@ -5,8 +5,10 @@
 //  Created by Sebastian Ottow on 14.03.23.
 //
 
+import Combine
 import CoreLocation
 import MapKit
+import FloatingPanel
 import RealmSwift
 import TinyConstraints
 import UIKit
@@ -19,18 +21,21 @@ class MapViewController: UIViewController {
         static let veggieIcon = UIImage(systemName: "carrot.fill")
         static let meatIcon = UIImage(systemName: "hare.fill")
     }
-    
+
     let mapView = MKMapView()
 
     private var _longitude = CLLocationCoordinate2D().longitude
     private var _latitude = CLLocationCoordinate2D().latitude
     
-    private let _annotationList = [AnnotationModel]()
+    private let _annotationList = [LocationModel]()
+    private let _viewModel = LocationViewModel()
 
     fileprivate let locationManager: CLLocationManager = CLLocationManager()
     
     private let _openMapDetailViewControllerButton = UIButton()
     private let _addNewEntryDetailViewControllerButton = UIButton()
+
+    private var _cancellables: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,68 +51,52 @@ class MapViewController: UIViewController {
         setupUI()
         
         mapView.delegate = self
-        
+
         forwardGeocoding()
+
+        let panel = FloatingPanelController()
+        panel.set(contentViewController: LocationSearchViewController())
+        panel.addPanel(toParent: self)
+
+        navigationItem.title = "BioBande"
+
+        let navigationBar = navigationController?.navigationBar
+        let navigationBarAppearance = UINavigationBarAppearance()
+        navigationBarAppearance.backgroundColor = .white
+        navigationBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.systemGreen]
+        navigationBar?.scrollEdgeAppearance = navigationBarAppearance
+
+        bind(viewModel: _viewModel)
     }
+
+    private func bind(viewModel: LocationViewModel) {
+
+        viewModel.$locationSearchResultCoordinates
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] coordinates in
+                guard let self = self, let coordinates = coordinates else { return }
+
+                self.mapView.removeAnnotations(self.mapView.annotations)
+
+                let pin = MKPointAnnotation()
+                pin.coordinate = coordinates
+                self.mapView.addAnnotation(pin)
+
+                self.mapView.setRegion(MKCoordinateRegion(
+                    center: coordinates,
+                    span: MKCoordinateSpan(
+                        latitudeDelta: 0.7,
+                        longitudeDelta: 0.7
+                    )
+                ), animated: true)
+            }
+            .store(in: &_cancellables)
+    }
+
 
     private func setupUI() {
         view.addSubview(mapView)
         mapView.frame = view.bounds
-        
-        view.addSubview(_addNewEntryDetailViewControllerButton)
-        configureAddNewEntryDetailViewControllerButton()
-        _addNewEntryDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 100, right: 40))
-
-        
-        view.addSubview(_openMapDetailViewControllerButton)
-        configureOpenMapDetailViewControllerButton()
-        _openMapDetailViewControllerButton.edgesToSuperview(excluding: [.top, .left], insets: .init(top: 0, left: 0, bottom: 40, right: 40))
-    }
-
-    private func configureOpenMapDetailViewControllerButton() {
-        _openMapDetailViewControllerButton.configuration = .filled()
-        _openMapDetailViewControllerButton.configuration?.buttonSize = .large
-        _openMapDetailViewControllerButton.configuration?.baseForegroundColor = .systemGreen
-        _openMapDetailViewControllerButton.configuration?.baseBackgroundColor = .systemIndigo
-        _openMapDetailViewControllerButton.configuration?.image = UIImage(
-            systemName: "magnifyingglass",
-            withConfiguration: UIImage.SymbolConfiguration(
-                pointSize: 20,
-                weight: .bold
-            )
-        )
-        _openMapDetailViewControllerButton.configuration?.cornerStyle = .capsule
-
-        _openMapDetailViewControllerButton.isEnabled = true
-
-        _openMapDetailViewControllerButton.addTarget(
-            self,
-            action: #selector(presentSearchAnnotationsViewController),
-            for: .touchUpInside
-        )
-    }
-    
-    private func configureAddNewEntryDetailViewControllerButton() {
-        _addNewEntryDetailViewControllerButton.configuration = .filled()
-        _addNewEntryDetailViewControllerButton.configuration?.buttonSize = .large
-        _addNewEntryDetailViewControllerButton.configuration?.baseForegroundColor = .systemGreen
-        _addNewEntryDetailViewControllerButton.configuration?.baseBackgroundColor = .systemIndigo
-        _addNewEntryDetailViewControllerButton.configuration?.image = UIImage(
-            systemName: "plus",
-            withConfiguration: UIImage.SymbolConfiguration(
-                pointSize: 20,
-                weight: .bold
-            )
-        )
-        _addNewEntryDetailViewControllerButton.configuration?.cornerStyle = .capsule
-
-        _addNewEntryDetailViewControllerButton.isEnabled = true
-
-        _addNewEntryDetailViewControllerButton.addTarget(
-            self,
-            action: #selector(presentNewAnnotationEntryViewController),
-            for: .touchUpInside
-        )
     }
     
     private func checkLocationAuthorization() {
@@ -130,7 +119,7 @@ class MapViewController: UIViewController {
         let annotations = _annotationList
 
         for annotation in annotations {
-            let annotationCoordinate = "\(annotation.street ?? "") \(annotation.postalCode ?? "") \(annotation.city ?? "")"
+            let annotationCoordinate = "\(annotation.street) \(annotation.postalCode) \(annotation.city)"
 
             let geocoder = CLGeocoder()
             geocoder.geocodeAddressString(annotationCoordinate, completionHandler: { (placemarks, error) in
@@ -172,42 +161,6 @@ class MapViewController: UIViewController {
             customPin.coordinate = CLLocationCoordinate2D(latitude: latCoord, longitude: longCoord)
             customPin.title = entryTtitle
             mapView.addAnnotation(customPin)
-    }
-    
-    @objc func presentNewAnnotationEntryViewController() {
-        let newAnnotationEntryViewController = NewAnnotationEntryViewController()
-        let nav = UINavigationController(rootViewController: newAnnotationEntryViewController)
-        
-        //1
-        nav.modalPresentationStyle = .pageSheet
-        
-        //2
-        if let sheet = nav.sheetPresentationController {
-            
-            //3
-            sheet.detents = [.medium(), .large()]
-        }
-        
-        //4
-        present(nav, animated: true, completion: nil)
-    }
-    
-    @objc func presentSearchAnnotationsViewController() {
-        let searchAnnotationsViewController = SearchAnnotationsViewController()
-        let nav = UINavigationController(rootViewController: searchAnnotationsViewController)
-        
-        //1
-        nav.modalPresentationStyle = .pageSheet
-        
-        //2
-        if let sheet = nav.sheetPresentationController {
-            
-            //3
-            sheet.detents = [.medium(), .large()]
-        }
-        
-        //4
-        present(nav, animated: true, completion: nil)
     }
 }
 
@@ -278,3 +231,23 @@ extension MapViewController: MKMapViewDelegate {
         return annotationView
     }
 }
+
+//extension MapViewController: LocationSearchViewDelegate {
+//    func didSelectSearchResult(didSelectLocationWith coordinates: CLLocationCoordinate2D?) {
+//        guard let coordinates = coordinates else { return }
+//
+//        mapView.removeAnnotations(mapView.annotations)
+//
+//        let pin = MKPointAnnotation()
+//        pin.coordinate = coordinates
+//        mapView.addAnnotation(pin)
+//
+//        mapView.setRegion(MKCoordinateRegion(
+//            center: coordinates,
+//            span: MKCoordinateSpan(
+//                latitudeDelta: 0.7,
+//                longitudeDelta: 0.7
+//            )
+//        ), animated: true)
+//    }
+//}

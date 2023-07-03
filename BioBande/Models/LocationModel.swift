@@ -1,5 +1,5 @@
 //
-//  AnnotationModel.swift
+//  LocationModel.swift
 //  FoodMeMVP_SO
 //
 //  Created by Sebastian Ottow on 26.03.23.
@@ -9,7 +9,7 @@ import UIKit
 import RealmSwift
 
 
-struct AnnotationModel {
+struct LocationModel {
 
     var userID: String
     var isPrivate: Bool

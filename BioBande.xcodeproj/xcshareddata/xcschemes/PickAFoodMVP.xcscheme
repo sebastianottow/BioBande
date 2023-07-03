@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "563B417D29BF3E18002059F7"
-               BuildableName = "PickAFoodMVP.app"
-               BlueprintName = "PickAFoodMVP"
-               ReferencedContainer = "container:PickAFoodMVP.xcodeproj">
+               BuildableName = "BioBande.app"
+               BlueprintName = "BioBande"
+               ReferencedContainer = "container:BioBande.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "563B417D29BF3E18002059F7"
-            BuildableName = "PickAFoodMVP.app"
-            BlueprintName = "PickAFoodMVP"
-            ReferencedContainer = "container:PickAFoodMVP.xcodeproj">
+            BuildableName = "BioBande.app"
+            BlueprintName = "BioBande"
+            ReferencedContainer = "container:BioBande.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "563B417D29BF3E18002059F7"
-            BuildableName = "PickAFoodMVP.app"
-            BlueprintName = "PickAFoodMVP"
-            ReferencedContainer = "container:PickAFoodMVP.xcodeproj">
+            BuildableName = "BioBande.app"
+            BlueprintName = "BioBande"
+            ReferencedContainer = "container:BioBande.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

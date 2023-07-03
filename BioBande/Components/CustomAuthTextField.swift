@@ -13,6 +13,7 @@ class CustomAuthTextField: UITextField {
         case username
         case email
         case password
+        case search
     }
     
     private let authFieldType: CustomAuthTextFieldType
@@ -43,6 +44,10 @@ class CustomAuthTextField: UITextField {
             self.placeholder = "Password"
             self.textContentType = .oneTimeCode
             self.isSecureTextEntry = true
+
+        case .search:
+            self.placeholder = "Enter destination"
+            self.leftViewMode = .always
         }
     }
     

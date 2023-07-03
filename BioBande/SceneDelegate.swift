@@ -39,7 +39,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
         } else {
             
-            self.goToController(with: HomeViewController())
+            self.goToController(with: MapViewController())
 
         }
     }

@@ -23,19 +23,18 @@
 		561D52382A33BAC700CDAB24 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D52372A33BAC700CDAB24 /* UserModel.swift */; };
 		562E2C5E29C85404005695A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5D29C85404005695A2 /* HomeViewController.swift */; };
 		562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */; };
-		562E2C6429CD930D005695A2 /* SearchAnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */; };
-		562E2C6D29D084C4005695A2 /* AnnotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6C29D084C4005695A2 /* AnnotationViewModel.swift */; };
+		562E2C6D29D084C4005695A2 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6C29D084C4005695A2 /* LocationViewModel.swift */; };
 		562E2C6F29D0861F005695A2 /* NewAnnotationEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */; };
-		562E2C7329D08AE2005695A2 /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C7229D08AE2005695A2 /* AnnotationModel.swift */; };
+		562E2C7329D08AE2005695A2 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E2C7229D08AE2005695A2 /* LocationModel.swift */; };
 		563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418129BF3E18002059F7 /* AppDelegate.swift */; };
 		563B418429BF3E18002059F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B418329BF3E18002059F7 /* SceneDelegate.swift */; };
 		563B419729C10945002059F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B419629C10945002059F7 /* MapViewController.swift */; };
-		56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56430D232A0A425500BE2209 /* GoogleService-Info.plist */; };
 		56430D262A0A653100BE2209 /* CategoryServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D252A0A653100BE2209 /* CategoryServices.swift */; };
 		56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D272A0CD4DC00BE2209 /* CategoryModel.swift */; };
 		56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */; };
+		56700B662A52E38C00BCF3A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56700B652A52E38C00BCF3A4 /* GoogleService-Info.plist */; };
 		56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56778A9629EEA8820071B687 /* CustomDropDown.swift */; };
-		56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */; };
+		56C1A83D2A4CBDFD00404855 /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A83C2A4CBDFD00404855 /* LocationServices.swift */; };
 		56C1A8492A4CD17A00404855 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1A8482A4CD17A00404855 /* Assets.swift */; };
 		56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */; };
 		56F5A8352A1249E800013195 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A8342A1249E800013195 /* UserLoginViewController.swift */; };
@@ -43,9 +42,13 @@
 		56F5A83C2A125A4A00013195 /* RegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */; };
 		56F5A83E2A125A5B00013195 /* LoginUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */; };
 		641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADD1F29D1857800F6141E /* CustomTextField.swift */; };
+		6428E8902A5BEDEF00BD4734 /* LocationSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428E88F2A5BEDEF00BD4734 /* LocationSearchRequest.swift */; };
+		647F5CED2A52EA6000A9C3E8 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F5CEC2A52EA6000A9C3E8 /* CustomLocationManager.swift */; };
+		647F5CEF2A52F14B00A9C3E8 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F5CEE2A52F14B00A9C3E8 /* LocationSearchViewController.swift */; };
+		647F5CF12A52FC8900A9C3E8 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F5CF02A52FC8900A9C3E8 /* LocationSearchView.swift */; };
 		64ADB3E72A4D759200166DB9 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 64ADB3E62A4D759200166DB9 /* swiftgen.yml */; };
 		64ADB3EA2A4D763100166DB9 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 64ADB3E92A4D763100166DB9 /* UI */; };
-		855956CB9834BBB33A5F3AD4 /* Pods_PickAFoodMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */; };
+		75517CBD960F1E4D58FAB480 /* Pods_BioBande.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6527F541FD62A196F0B4DA7F /* Pods_BioBande.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,21 +68,20 @@
 		561D52372A33BAC700CDAB24 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		562E2C5D29C85404005695A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoctionSearchTableViewController.swift; sourceTree = "<group>"; };
-		562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAnnotationsViewController.swift; sourceTree = "<group>"; };
-		562E2C6C29D084C4005695A2 /* AnnotationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewModel.swift; sourceTree = "<group>"; };
+		562E2C6C29D084C4005695A2 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnotationEntryViewController.swift; sourceTree = "<group>"; };
-		562E2C7229D08AE2005695A2 /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = "<group>"; };
-		563B417E29BF3E18002059F7 /* PickAFoodMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAFoodMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E2C7229D08AE2005695A2 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		563B417E29BF3E18002059F7 /* BioBande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBande.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563B418129BF3E18002059F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563B418329BF3E18002059F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		563B418F29BF3E19002059F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563B419629C10945002059F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		56430D232A0A425500BE2209 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56430D252A0A653100BE2209 /* CategoryServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryServices.swift; sourceTree = "<group>"; };
 		56430D272A0CD4DC00BE2209 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorModel.swift; sourceTree = "<group>"; };
+		56700B652A52E38C00BCF3A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56778A9629EEA8820071B687 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
-		56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationServices.swift; sourceTree = "<group>"; };
+		56C1A83C2A4CBDFD00404855 /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
 		56C1A8482A4CD17A00404855 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRequest.swift; sourceTree = "<group>"; };
 		56F5A8342A1249E800013195 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
@@ -87,11 +89,15 @@
 		56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewModel.swift; sourceTree = "<group>"; };
 		56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewModel.swift; sourceTree = "<group>"; };
 		641ADD1F29D1857800F6141E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6428E88F2A5BEDEF00BD4734 /* LocationSearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchRequest.swift; sourceTree = "<group>"; };
+		647F5CEC2A52EA6000A9C3E8 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
+		647F5CEE2A52F14B00A9C3E8 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		647F5CF02A52FC8900A9C3E8 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		64ADB3E62A4D759200166DB9 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		64ADB3E92A4D763100166DB9 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
-		9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAFoodMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.debug.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.debug.xcconfig"; sourceTree = "<group>"; };
-		C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAFoodMVP.release.xcconfig"; path = "Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP.release.xcconfig"; sourceTree = "<group>"; };
+		6527F541FD62A196F0B4DA7F /* Pods_BioBande.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBande.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE40485FD37A00FD797EBD4F /* Pods-BioBande.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBande.release.xcconfig"; path = "Target Support Files/Pods-BioBande/Pods-BioBande.release.xcconfig"; sourceTree = "<group>"; };
+		B958E0250B61B93F532CAB8E /* Pods-BioBande.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBande.debug.xcconfig"; path = "Target Support Files/Pods-BioBande/Pods-BioBande.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,17 +105,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				855956CB9834BBB33A5F3AD4 /* Pods_PickAFoodMVP.framework in Frameworks */,
+				75517CBD960F1E4D58FAB480 /* Pods_BioBande.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032C541D097C24DB9E9748E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6527F541FD62A196F0B4DA7F /* Pods_BioBande.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		562E2C6B29D084B0005695A2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				562E2C6C29D084C4005695A2 /* AnnotationViewModel.swift */,
+				562E2C6C29D084C4005695A2 /* LocationViewModel.swift */,
 				56F5A83B2A125A4A00013195 /* RegisterUserViewModel.swift */,
 				56F5A83D2A125A5B00013195 /* LoginUserViewModel.swift */,
 				561D52352A33B92000CDAB24 /* ForgotPasswordViewModel.swift */,
@@ -120,13 +134,14 @@
 		562E2C7429D08AFE005695A2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				562E2C7229D08AE2005695A2 /* AnnotationModel.swift */,
+				562E2C7229D08AE2005695A2 /* LocationModel.swift */,
 				56430D272A0CD4DC00BE2209 /* CategoryModel.swift */,
 				56430D292A0CE3EE00BE2209 /* FirebaseErrorModel.swift */,
 				561D521D2A26804B00CDAB24 /* RegisterUserRequest.swift */,
 				561D52272A28967000CDAB24 /* LoginUserRequest.swift */,
 				561D52372A33BAC700CDAB24 /* UserModel.swift */,
 				56F423CA2A36474A00EAB955 /* ForgotPasswordRequest.swift */,
+				6428E88F2A5BEDEF00BD4734 /* LocationSearchRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,27 +150,27 @@
 			isa = PBXGroup;
 			children = (
 				64ADB3E62A4D759200166DB9 /* swiftgen.yml */,
-				563B418029BF3E18002059F7 /* PickAFoodMVP */,
+				563B418029BF3E18002059F7 /* BioBande */,
 				563B417F29BF3E18002059F7 /* Products */,
 				D63AFE316AF2BB9536B3B434 /* Pods */,
-				58ECD1D07E35517060181429 /* Frameworks */,
+				032C541D097C24DB9E9748E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		563B417F29BF3E18002059F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				563B417E29BF3E18002059F7 /* PickAFoodMVP.app */,
+				563B417E29BF3E18002059F7 /* BioBande.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		563B418029BF3E18002059F7 /* PickAFoodMVP */ = {
+		563B418029BF3E18002059F7 /* BioBande */ = {
 			isa = PBXGroup;
 			children = (
+				56700B652A52E38C00BCF3A4 /* GoogleService-Info.plist */,
 				64ADB3E92A4D763100166DB9 /* UI */,
 				56C1A83E2A4CC78200404855 /* Generated */,
-				56430D232A0A425500BE2209 /* GoogleService-Info.plist */,
 				56430D222A0A3F7B00BE2209 /* Services */,
 				641ADD1E29D1856900F6141E /* Components */,
 				562E2C7429D08AFE005695A2 /* Models */,
@@ -167,7 +182,7 @@
 				561D522B2A289C8C00CDAB24 /* LaunchScreen.storyboard */,
 				563B418F29BF3E19002059F7 /* Info.plist */,
 			);
-			path = PickAFoodMVP;
+			path = BioBande;
 			sourceTree = "<group>";
 		};
 		563B419529C1091F002059F7 /* ViewControllers */ = {
@@ -185,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				561D52212A277AE200CDAB24 /* AuthHeaderView.swift */,
+				647F5CF02A52FC8900A9C3E8 /* LocationSearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,7 +210,7 @@
 			children = (
 				56430D252A0A653100BE2209 /* CategoryServices.swift */,
 				561D521B2A267F3400CDAB24 /* AuthServices.swift */,
-				56C1A83C2A4CBDFD00404855 /* AnnotationServices.swift */,
+				56C1A83C2A4CBDFD00404855 /* LocationServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -220,20 +236,12 @@
 		56F5A8382A124AE600013195 /* Map & Entries */ = {
 			isa = PBXGroup;
 			children = (
-				562E2C6329CD930D005695A2 /* SearchAnnotationsViewController.swift */,
 				562E2C6E29D0861F005695A2 /* NewAnnotationEntryViewController.swift */,
 				562E2C5F29C85B7B005695A2 /* LoctionSearchTableViewController.swift */,
 				563B419629C10945002059F7 /* MapViewController.swift */,
+				647F5CEE2A52F14B00A9C3E8 /* LocationSearchViewController.swift */,
 			);
 			path = "Map & Entries";
-			sourceTree = "<group>";
-		};
-		58ECD1D07E35517060181429 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9323450A83CCF7B878FACE13 /* Pods_PickAFoodMVP.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		641ADD1E29D1856900F6141E /* Components */ = {
@@ -246,6 +254,7 @@
 				561D52252A2788F400CDAB24 /* CustomAuthTextField.swift */,
 				561D522D2A28B4E500CDAB24 /* CustomValidator.swift */,
 				561D522F2A28B57700CDAB24 /* CustomAlertManager.swift */,
+				647F5CEC2A52EA6000A9C3E8 /* CustomLocationManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -253,8 +262,8 @@
 		D63AFE316AF2BB9536B3B434 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */,
-				C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */,
+				B958E0250B61B93F532CAB8E /* Pods-BioBande.debug.xcconfig */,
+				AE40485FD37A00FD797EBD4F /* Pods-BioBande.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -262,24 +271,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		563B417D29BF3E18002059F7 /* PickAFoodMVP */ = {
+		563B417D29BF3E18002059F7 /* BioBande */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "PickAFoodMVP" */;
+			buildConfigurationList = 563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "BioBande" */;
 			buildPhases = (
-				A0D53C84115D3788198113D4 /* [CP] Check Pods Manifest.lock */,
+				09CF4ACAB6FA3CF29F9DBA89 /* [CP] Check Pods Manifest.lock */,
 				56C1A8412A4CC81400404855 /* SwiftGen */,
 				563B417A29BF3E18002059F7 /* Sources */,
 				563B417B29BF3E18002059F7 /* Frameworks */,
 				563B417C29BF3E18002059F7 /* Resources */,
-				8F09A6B885483E4652795FE9 /* [CP] Embed Pods Frameworks */,
+				C42A5E9132E7293BC12BA692 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PickAFoodMVP;
+			name = BioBande;
 			productName = FoodMe;
-			productReference = 563B417E29BF3E18002059F7 /* PickAFoodMVP.app */;
+			productReference = 563B417E29BF3E18002059F7 /* BioBande.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "PickAFoodMVP" */;
+			buildConfigurationList = 563B417929BF3E18002059F7 /* Build configuration list for PBXProject "BioBande" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,7 +319,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563B417D29BF3E18002059F7 /* PickAFoodMVP */,
+				563B417D29BF3E18002059F7 /* BioBande */,
 			);
 		};
 /* End PBXProject section */
@@ -321,8 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64ADB3EA2A4D763100166DB9 /* UI in Resources */,
+				56700B662A52E38C00BCF3A4 /* GoogleService-Info.plist in Resources */,
 				561D522C2A289C8C00CDAB24 /* LaunchScreen.storyboard in Resources */,
-				56430D242A0A425500BE2209 /* GoogleService-Info.plist in Resources */,
 				64ADB3E72A4D759200166DB9 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +339,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09CF4ACAB6FA3CF29F9DBA89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BioBande-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56C1A8412A4CC81400404855 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,43 +379,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
 		};
-		8F09A6B885483E4652795FE9 /* [CP] Embed Pods Frameworks */ = {
+		C42A5E9132E7293BC12BA692 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BioBande/Pods-BioBande-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BioBande/Pods-BioBande-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickAFoodMVP/Pods-PickAFoodMVP-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0D53C84115D3788198113D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PickAFoodMVP-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBande/Pods-BioBande-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -396,32 +405,35 @@
 			files = (
 				56F5A83C2A125A4A00013195 /* RegisterUserViewModel.swift in Sources */,
 				561D522E2A28B4E500CDAB24 /* CustomValidator.swift in Sources */,
-				562E2C7329D08AE2005695A2 /* AnnotationModel.swift in Sources */,
+				562E2C7329D08AE2005695A2 /* LocationModel.swift in Sources */,
 				56F423CB2A36474A00EAB955 /* ForgotPasswordRequest.swift in Sources */,
 				561D52262A2788F400CDAB24 /* CustomAuthTextField.swift in Sources */,
 				641ADD2029D1857800F6141E /* CustomTextField.swift in Sources */,
 				563B418229BF3E18002059F7 /* AppDelegate.swift in Sources */,
+				647F5CEF2A52F14B00A9C3E8 /* LocationSearchViewController.swift in Sources */,
+				647F5CED2A52EA6000A9C3E8 /* CustomLocationManager.swift in Sources */,
 				561D52242A277E5C00CDAB24 /* CustomButton.swift in Sources */,
 				56C1A8492A4CD17A00404855 /* Assets.swift in Sources */,
-				56C1A83D2A4CBDFD00404855 /* AnnotationServices.swift in Sources */,
+				56C1A83D2A4CBDFD00404855 /* LocationServices.swift in Sources */,
 				56778A9729EEA8820071B687 /* CustomDropDown.swift in Sources */,
 				56430D282A0CD4DC00BE2209 /* CategoryModel.swift in Sources */,
 				56F5A8372A1249F300013195 /* UserRegistrationViewController.swift in Sources */,
 				561D521E2A26804B00CDAB24 /* RegisterUserRequest.swift in Sources */,
 				561D52342A33B46800CDAB24 /* UserForgotPasswordViewController.swift in Sources */,
 				561D52282A28967000CDAB24 /* LoginUserRequest.swift in Sources */,
-				562E2C6D29D084C4005695A2 /* AnnotationViewModel.swift in Sources */,
+				562E2C6D29D084C4005695A2 /* LocationViewModel.swift in Sources */,
 				563B419729C10945002059F7 /* MapViewController.swift in Sources */,
 				561D521C2A267F3400CDAB24 /* AuthServices.swift in Sources */,
 				562E2C6029C85B7B005695A2 /* LoctionSearchTableViewController.swift in Sources */,
 				56430D2A2A0CE3EE00BE2209 /* FirebaseErrorModel.swift in Sources */,
 				561D52302A28B57700CDAB24 /* CustomAlertManager.swift in Sources */,
 				561D52222A277AE200CDAB24 /* AuthHeaderView.swift in Sources */,
-				562E2C6429CD930D005695A2 /* SearchAnnotationsViewController.swift in Sources */,
+				647F5CF12A52FC8900A9C3E8 /* LocationSearchView.swift in Sources */,
 				561D52322A28BF3A00CDAB24 /* WebViewController.swift in Sources */,
 				562E2C5E29C85404005695A2 /* HomeViewController.swift in Sources */,
 				56F5A8352A1249E800013195 /* UserLoginViewController.swift in Sources */,
 				561D52362A33B92000CDAB24 /* ForgotPasswordViewModel.swift in Sources */,
+				6428E8902A5BEDEF00BD4734 /* LocationSearchRequest.swift in Sources */,
 				561D52202A27777100CDAB24 /* CustomActivityIndicator.swift in Sources */,
 				561D52382A33BAC700CDAB24 /* UserModel.swift in Sources */,
 				56430D262A0A653100BE2209 /* CategoryServices.swift in Sources */,
@@ -552,7 +564,7 @@
 		};
 		563B419329BF3E19002059F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD1CCB1C8896ED498949F63 /* Pods-PickAFoodMVP.debug.xcconfig */;
+			baseConfigurationReference = B958E0250B61B93F532CAB8E /* Pods-BioBande.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,9 +572,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickAFoodMVP/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PickAFoodMVP;
+				INFOPLIST_FILE = BioBande/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BioBande;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "let's track your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -572,8 +585,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianottow.PickAFoodMVP;
-				PRODUCT_NAME = PickAFoodMVP;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biobande.biobande;
+				PRODUCT_NAME = BioBande;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,7 +595,7 @@
 		};
 		563B419429BF3E19002059F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0290E108B6073249308551F /* Pods-PickAFoodMVP.release.xcconfig */;
+			baseConfigurationReference = AE40485FD37A00FD797EBD4F /* Pods-BioBande.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -590,9 +603,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MRE2AY865;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickAFoodMVP/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PickAFoodMVP;
+				INFOPLIST_FILE = BioBande/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BioBande;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "let's track your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -602,8 +616,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianottow.PickAFoodMVP;
-				PRODUCT_NAME = PickAFoodMVP;
+				PRODUCT_BUNDLE_IDENTIFIER = io.biobande.biobande;
+				PRODUCT_NAME = BioBande;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,7 +627,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "PickAFoodMVP" */ = {
+		563B417929BF3E18002059F7 /* Build configuration list for PBXProject "BioBande" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419029BF3E19002059F7 /* Debug */,
@@ -622,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "PickAFoodMVP" */ = {
+		563B419229BF3E19002059F7 /* Build configuration list for PBXNativeTarget "BioBande" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563B419329BF3E19002059F7 /* Debug */,

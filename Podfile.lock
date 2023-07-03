@@ -699,6 +699,7 @@ PODS:
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
+  - FloatingPanel (2.6.3)
   - GoogleAppMeasurement (10.11.0):
     - GoogleAppMeasurement/AdIdSupport (= 10.11.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
@@ -823,6 +824,7 @@ DEPENDENCIES:
   - FirebaseAppCheck
   - FirebaseAuth
   - FirebaseFirestore
+  - FloatingPanel
   - IQKeyboardManager
   - RealmSwift
   - SwiftGen
@@ -843,6 +845,7 @@ SPEC REPOS:
     - FirebaseDatabase
     - FirebaseFirestore
     - FirebaseInstallations
+    - FloatingPanel
     - GoogleAppMeasurement
     - GoogleUtilities
     - "gRPC-C++"
@@ -871,6 +874,7 @@ SPEC CHECKSUMS:
   FirebaseDatabase: 4e1cb7f44ce6ffa553033913dd0d634b2310ce65
   FirebaseFirestore: 09be82b113fbcb225b9797d2c525ae8886abc7a3
   FirebaseInstallations: 2a2c6859354cbec0a228a863d4daf6de7c74ced4
+  FloatingPanel: ff837f4a65b2a81716bf9bfb9e43c280627db993
   GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
   GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
   "gRPC-C++": 0968bace703459fd3e5dcb0b2bed4c573dbff046
@@ -885,6 +889,6 @@ SPEC CHECKSUMS:
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: e05f62fc586c5b3c7d5bcb2d34091d9cc4e93f42
+PODFILE CHECKSUM: e114f698e3ec6d085b3339f28da364eda611cf52
 
 COCOAPODS: 1.12.0

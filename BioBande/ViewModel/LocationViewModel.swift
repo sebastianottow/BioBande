@@ -11,15 +11,15 @@ import UIKit
 import RealmSwift
 
 
-class AnnotationViewModel: ObservableObject {
+class LocationViewModel: ObservableObject {
     
     let realm = try! Realm()
     
     let _categoryList = try! Realm().objects(CategoryModel.self)
 
-    let annotationServices = AnnotationServices()
+    let annotationServices = LocationServices()
         
-    var entries = [AnnotationModel]()
+    var entries = [LocationModel]()
     
     @Published var street: String = ""
     @Published var postalCode: String = ""
@@ -27,6 +27,8 @@ class AnnotationViewModel: ObservableObject {
     @Published var longCoord: Double = 0
     @Published var latCoord: Double = 0.0
     @Published var isPrivate: Bool = false
+
+    @Published var locationSearchResultCoordinates: CLLocationCoordinate2D?
 
     func forwardGeocoding(street: String, postalCode: String, city: String, completion: @escaping (Bool, Error?) -> Void) {
 
@@ -62,7 +64,7 @@ class AnnotationViewModel: ObservableObject {
     }
 }
 
-extension AnnotationViewModel {
+extension LocationViewModel {
     
     var isValidStreetPublisher: AnyPublisher<Bool, Never> {
         $street

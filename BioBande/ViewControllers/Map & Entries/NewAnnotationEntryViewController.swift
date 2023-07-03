@@ -28,7 +28,7 @@ class NewAnnotationEntryViewController: UIViewController {
     
     @Published var selectedEntryCategory: String?
     
-    private let _viewModel = AnnotationViewModel()
+    private let _viewModel = LocationViewModel()
     
     private var _cancellables: Set<AnyCancellable> = []
     
@@ -282,7 +282,7 @@ class NewAnnotationEntryViewController: UIViewController {
 
                             if wasConverted {
 
-                                let newAnnotationEntry = AnnotationModel(
+                                let newAnnotationEntry = LocationModel(
                                     userID: userID,
                                     isPrivate: self?._viewModel.isPrivate ?? false,
                                     entryType: selectedCategory,
